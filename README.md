@@ -1,5 +1,8 @@
 # PEP
-## CS 383 Project
+### Players Enjoying Playing (CS 383 Project)
+
+## I-90
+#### Post-Apocalyptic RPG Set in the Inland Northwest
 
 *Note: Only users within the UIdaho network can view shared files*
 
