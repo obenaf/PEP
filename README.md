@@ -1,9 +1,8 @@
 ### CS 383 Project
-<p align="center">
-  <img src="https://i.imgur.com/MoOnEW9.png" width="128">
+
+<img src="https://i.imgur.com/MoOnEW9.png" width="256">
   
-  # PEP (Players Enjoying Playing)
-</p>
+# PEP (Players Enjoying Playing)
 
 
 
