@@ -1,5 +1,8 @@
-# PEP
-## CS 383 Project
+### CS 383 Project
+<p align="center">
+  <img src="https://i.imgur.com/MoOnEW9.png" width="128">
+</p>
+# PEP (Players Enjoying Playing)
 
 *Note: Only users within the UIdaho network can view shared files*
 
