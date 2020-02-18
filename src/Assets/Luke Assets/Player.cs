@@ -6,11 +6,12 @@ public class Player : MonoBehaviour
 {
     [SerializeField]
     public float speed;
+    public bool PlayerTurn;
 
     private float moveX, moveY, changeTurn;
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
-    public bool PlayerTurn;
+    
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -49,22 +50,31 @@ public class Player : MonoBehaviour
         
         if (directionX == 1)
         {
-            velocity = new Vector2(.5f, -.5f);
-            myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
+            //float newpositionX, newpositionY;
+            //newpositionX = myRigidbody.position.x +.5f;
+            //newpositionY = myRigidbody.position.y -.25f;
+            //for (int i = 0; i <= 1; i++){
+                velocity = new Vector2(.5f, -.25f);
+                myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
+            //    i--;
+            //    if (myRigidbody.position.x == newpositionX){
+            //        i = 1;
+            //    }                
+           // }
         }
         if (directionX == -1)
         {
-            velocity = new Vector2(-.5f, .5f);
+            velocity = new Vector2(-.5f, .25f);
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
         }
         if (directionY == 1)
         {
-            velocity = new Vector2(.5f, .5f);
+            velocity = new Vector2(.5f, .25f);
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
         }
         if (directionY == -1)
         {
-            velocity = new Vector2(-.5f, -.5f);
+            velocity = new Vector2(-.5f, -.25f);
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
         }
         //PlayerTurn = false;
