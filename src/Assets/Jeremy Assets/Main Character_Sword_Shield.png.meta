@@ -1,0 +1,4951 @@
+fileFormatVersion: 2
+guid: 486a40e9c5b77b84f95d1a8250dede67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2160264636632683021
+    second: Main Character_Sword_Shield_0
+  - first:
+      213: -3654798109555957727
+    second: Main Character_Sword_Shield_1
+  - first:
+      213: -711833576847124824
+    second: Main Character_Sword_Shield_2
+  - first:
+      213: -4284316732471690852
+    second: Main Character_Sword_Shield_3
+  - first:
+      213: -617410665113515648
+    second: Main Character_Sword_Shield_4
+  - first:
+      213: 3787940431101482222
+    second: Main Character_Sword_Shield_5
+  - first:
+      213: 6401484186019725140
+    second: Main Character_Sword_Shield_6
+  - first:
+      213: 1630187830295969991
+    second: Main Character_Sword_Shield_7
+  - first:
+      213: 4429161830430710427
+    second: Main Character_Sword_Shield_8
+  - first:
+      213: 1517216650452453034
+    second: Main Character_Sword_Shield_9
+  - first:
+      213: -6330127439522648229
+    second: Main Character_Sword_Shield_10
+  - first:
+      213: 4041241128047021891
+    second: Main Character_Sword_Shield_11
+  - first:
+      213: -8837509901924335730
+    second: Main Character_Sword_Shield_12
+  - first:
+      213: -9218835416667742592
+    second: Main Character_Sword_Shield_13
+  - first:
+      213: -4962632417781105588
+    second: Main Character_Sword_Shield_14
+  - first:
+      213: 4551309398261765694
+    second: Main Character_Sword_Shield_15
+  - first:
+      213: 546857832553149359
+    second: Main Character_Sword_Shield_16
+  - first:
+      213: -5159256237909766093
+    second: Main Character_Sword_Shield_17
+  - first:
+      213: -4495084627651048024
+    second: Main Character_Sword_Shield_18
+  - first:
+      213: 2396459220347102285
+    second: Main Character_Sword_Shield_19
+  - first:
+      213: 5305425180550515413
+    second: Main Character_Sword_Shield_20
+  - first:
+      213: -7262686625194841813
+    second: Main Character_Sword_Shield_21
+  - first:
+      213: 1868826580637191524
+    second: Main Character_Sword_Shield_22
+  - first:
+      213: 7425175882496487023
+    second: Main Character_Sword_Shield_23
+  - first:
+      213: 1210282319998233328
+    second: Main Character_Sword_Shield_24
+  - first:
+      213: 5847530899563334137
+    second: Main Character_Sword_Shield_25
+  - first:
+      213: 4413961086924218832
+    second: Main Character_Sword_Shield_26
+  - first:
+      213: 4468662061298818299
+    second: Main Character_Sword_Shield_27
+  - first:
+      213: -1331291458804838906
+    second: Main Character_Sword_Shield_28
+  - first:
+      213: 2443658720053275478
+    second: Main Character_Sword_Shield_29
+  - first:
+      213: 4150647051213119589
+    second: Main Character_Sword_Shield_30
+  - first:
+      213: 7680957906294217128
+    second: Main Character_Sword_Shield_31
+  - first:
+      213: -4503278624006548840
+    second: Main Character_Sword_Shield_32
+  - first:
+      213: -2415901476304549079
+    second: Main Character_Sword_Shield_33
+  - first:
+      213: -806510592334723413
+    second: Main Character_Sword_Shield_34
+  - first:
+      213: 7874613234763668297
+    second: Main Character_Sword_Shield_35
+  - first:
+      213: -2262895603361420373
+    second: Main Character_Sword_Shield_36
+  - first:
+      213: 535089728491541925
+    second: Main Character_Sword_Shield_37
+  - first:
+      213: 3248883021762083552
+    second: Main Character_Sword_Shield_38
+  - first:
+      213: 5580937692993778872
+    second: Main Character_Sword_Shield_39
+  - first:
+      213: 2006004864290119884
+    second: Main Character_Sword_Shield_40
+  - first:
+      213: 3971915240467424437
+    second: Main Character_Sword_Shield_41
+  - first:
+      213: -6470928301342219293
+    second: Main Character_Sword_Shield_42
+  - first:
+      213: 4406550419072642412
+    second: Main Character_Sword_Shield_43
+  - first:
+      213: 4151849482948549014
+    second: Main Character_Sword_Shield_44
+  - first:
+      213: -367205554532712119
+    second: Main Character_Sword_Shield_45
+  - first:
+      213: 5831913452286927865
+    second: Main Character_Sword_Shield_46
+  - first:
+      213: 7780644395916268319
+    second: Main Character_Sword_Shield_47
+  - first:
+      213: -5153716885858025586
+    second: Main Character_Sword_Shield_48
+  - first:
+      213: -8647445784890345716
+    second: Main Character_Sword_Shield_49
+  - first:
+      213: -4128255693428526364
+    second: Main Character_Sword_Shield_50
+  - first:
+      213: 1133106653784020793
+    second: Main Character_Sword_Shield_51
+  - first:
+      213: -3106283385534566754
+    second: Main Character_Sword_Shield_52
+  - first:
+      213: -3537569294304598095
+    second: Main Character_Sword_Shield_53
+  - first:
+      213: -5547587075161801608
+    second: Main Character_Sword_Shield_54
+  - first:
+      213: 3277926552238697466
+    second: Main Character_Sword_Shield_55
+  - first:
+      213: 3983037472682910042
+    second: Main Character_Sword_Shield_56
+  - first:
+      213: -5863651974265487764
+    second: Main Character_Sword_Shield_57
+  - first:
+      213: -5930212902141709587
+    second: Main Character_Sword_Shield_58
+  - first:
+      213: 2935282032775160477
+    second: Main Character_Sword_Shield_59
+  - first:
+      213: 3624244993054965406
+    second: Main Character_Sword_Shield_60
+  - first:
+      213: -6003563190055130495
+    second: Main Character_Sword_Shield_61
+  - first:
+      213: 5764273506219153699
+    second: Main Character_Sword_Shield_62
+  - first:
+      213: 7680341895579251528
+    second: Main Character_Sword_Shield_63
+  - first:
+      213: 5479502779956085807
+    second: Main Character_Sword_Shield_64
+  - first:
+      213: 6681832803070751664
+    second: Main Character_Sword_Shield_65
+  - first:
+      213: -3344640153848526564
+    second: Main Character_Sword_Shield_66
+  - first:
+      213: -6845181305714884977
+    second: Main Character_Sword_Shield_67
+  - first:
+      213: 7550357099731383684
+    second: Main Character_Sword_Shield_68
+  - first:
+      213: 2703696449346520821
+    second: Main Character_Sword_Shield_69
+  - first:
+      213: 3825796928155413831
+    second: Main Character_Sword_Shield_70
+  - first:
+      213: 6832640163646914407
+    second: Main Character_Sword_Shield_71
+  - first:
+      213: 4229962463792561529
+    second: Main Character_Sword_Shield_72
+  - first:
+      213: 6223598918429584413
+    second: Main Character_Sword_Shield_73
+  - first:
+      213: 8202591392677151300
+    second: Main Character_Sword_Shield_74
+  - first:
+      213: 547654067991266939
+    second: Main Character_Sword_Shield_75
+  - first:
+      213: -5283485454772159989
+    second: Main Character_Sword_Shield_76
+  - first:
+      213: 895127411559931595
+    second: Main Character_Sword_Shield_77
+  - first:
+      213: 4966130200110355698
+    second: Main Character_Sword_Shield_78
+  - first:
+      213: -5086444547124305402
+    second: Main Character_Sword_Shield_79
+  - first:
+      213: -6556031620010551282
+    second: Main Character_Sword_Shield_80
+  - first:
+      213: 1845309306713456774
+    second: Main Character_Sword_Shield_81
+  - first:
+      213: -3535866785013561641
+    second: Main Character_Sword_Shield_82
+  - first:
+      213: -7682184673721392128
+    second: Main Character_Sword_Shield_83
+  - first:
+      213: 4649886913387753370
+    second: Main Character_Sword_Shield_84
+  - first:
+      213: -471099972918004668
+    second: Main Character_Sword_Shield_85
+  - first:
+      213: -4730463547651505487
+    second: Main Character_Sword_Shield_86
+  - first:
+      213: -6461575714756004244
+    second: Main Character_Sword_Shield_87
+  - first:
+      213: 5137697649504115304
+    second: Main Character_Sword_Shield_88
+  - first:
+      213: 2629043637091178109
+    second: Main Character_Sword_Shield_89
+  - first:
+      213: -1756666696178974016
+    second: Main Character_Sword_Shield_90
+  - first:
+      213: 4934632580078355830
+    second: Main Character_Sword_Shield_91
+  - first:
+      213: -5603191048481145605
+    second: Main Character_Sword_Shield_92
+  - first:
+      213: 7241455021311435419
+    second: Main Character_Sword_Shield_93
+  - first:
+      213: -7612707708807636299
+    second: Main Character_Sword_Shield_94
+  - first:
+      213: -5850834944945342506
+    second: Main Character_Sword_Shield_95
+  - first:
+      213: 6430550918696891307
+    second: Main Character_Sword_Shield_96
+  - first:
+      213: -1545625953719486808
+    second: Main Character_Sword_Shield_97
+  - first:
+      213: 8259096796894240684
+    second: Main Character_Sword_Shield_98
+  - first:
+      213: 5472793426511066450
+    second: Main Character_Sword_Shield_99
+  - first:
+      213: 5428891573001223266
+    second: Main Character_Sword_Shield_100
+  - first:
+      213: 7529738370824211139
+    second: Main Character_Sword_Shield_101
+  - first:
+      213: 8606067647468286726
+    second: Main Character_Sword_Shield_102
+  - first:
+      213: 2586764078104247702
+    second: Main Character_Sword_Shield_103
+  - first:
+      213: -6883569789200886736
+    second: Main Character_Sword_Shield_104
+  - first:
+      213: 1102240254423777867
+    second: Main Character_Sword_Shield_105
+  - first:
+      213: -567690990707567133
+    second: Main Character_Sword_Shield_106
+  - first:
+      213: -8659427118559472403
+    second: Main Character_Sword_Shield_107
+  - first:
+      213: -8537513541011641300
+    second: Main Character_Sword_Shield_108
+  - first:
+      213: 8506767775798404129
+    second: Main Character_Sword_Shield_109
+  - first:
+      213: 3748162143778797854
+    second: Main Character_Sword_Shield_110
+  - first:
+      213: 8782168297957881456
+    second: Main Character_Sword_Shield_111
+  - first:
+      213: 4500873046913725606
+    second: Main Character_Sword_Shield_112
+  - first:
+      213: -1597633117642477057
+    second: Main Character_Sword_Shield_113
+  - first:
+      213: -6080569325706751994
+    second: Main Character_Sword_Shield_114
+  - first:
+      213: 2469091871792970195
+    second: Main Character_Sword_Shield_115
+  - first:
+      213: 1309559367806550751
+    second: Main Character_Sword_Shield_116
+  - first:
+      213: -1723893817856418298
+    second: Main Character_Sword_Shield_117
+  - first:
+      213: 8148776248328680559
+    second: Main Character_Sword_Shield_118
+  - first:
+      213: -5234903662612006858
+    second: Main Character_Sword_Shield_119
+  - first:
+      213: -1910835670426168291
+    second: Main Character_Sword_Shield_120
+  - first:
+      213: 8417341235127787665
+    second: Main Character_Sword_Shield_121
+  - first:
+      213: 5411919359367027992
+    second: Main Character_Sword_Shield_122
+  - first:
+      213: 6479495911002187657
+    second: Main Character_Sword_Shield_123
+  - first:
+      213: -7832581836142580892
+    second: Main Character_Sword_Shield_124
+  - first:
+      213: 6724207190568622635
+    second: Main Character_Sword_Shield_125
+  - first:
+      213: -115055684953633904
+    second: Main Character_Sword_Shield_126
+  - first:
+      213: -2800886781558419921
+    second: Main Character_Sword_Shield_127
+  - first:
+      213: 4774910005309888658
+    second: Main Character_Sword_Shield_128
+  - first:
+      213: 3911272462207923151
+    second: Main Character_Sword_Shield_129
+  - first:
+      213: -3162668743028986881
+    second: Main Character_Sword_Shield_130
+  - first:
+      213: 1627262777297879813
+    second: Main Character_Sword_Shield_131
+  - first:
+      213: -8968058562125733260
+    second: Main Character_Sword_Shield_132
+  - first:
+      213: 7776797136378052567
+    second: Main Character_Sword_Shield_133
+  - first:
+      213: 3688077699961010350
+    second: Main Character_Sword_Shield_134
+  - first:
+      213: -8247178028339425767
+    second: Main Character_Sword_Shield_135
+  - first:
+      213: -2335809871652781768
+    second: Main Character_Sword_Shield_136
+  - first:
+      213: -1142678674807629742
+    second: Main Character_Sword_Shield_137
+  - first:
+      213: -6725363013811347670
+    second: Main Character_Sword_Shield_138
+  - first:
+      213: -4841294264168881450
+    second: Main Character_Sword_Shield_139
+  - first:
+      213: -2348696801998736558
+    second: Main Character_Sword_Shield_140
+  - first:
+      213: -5149365556147332210
+    second: Main Character_Sword_Shield_141
+  - first:
+      213: -139067988506337345
+    second: Main Character_Sword_Shield_142
+  - first:
+      213: -5064056377144534862
+    second: Main Character_Sword_Shield_143
+  - first:
+      213: 3114631603646992328
+    second: Main Character_Sword_Shield_144
+  - first:
+      213: 8634991577776137792
+    second: Main Character_Sword_Shield_145
+  - first:
+      213: 1794525018425808470
+    second: Main Character_Sword_Shield_146
+  - first:
+      213: -1419096590370631729
+    second: Main Character_Sword_Shield_147
+  - first:
+      213: 5909940606695797392
+    second: Main Character_Sword_Shield_148
+  - first:
+      213: -1882028262636113
+    second: Main Character_Sword_Shield_149
+  - first:
+      213: -1302003513229138604
+    second: Main Character_Sword_Shield_150
+  - first:
+      213: 5044993200137304069
+    second: Main Character_Sword_Shield_151
+  - first:
+      213: 7657918935621116985
+    second: Main Character_Sword_Shield_152
+  - first:
+      213: 4828499492854375963
+    second: Main Character_Sword_Shield_153
+  - first:
+      213: -7543013628111328999
+    second: Main Character_Sword_Shield_154
+  - first:
+      213: 995168915558245617
+    second: Main Character_Sword_Shield_155
+  - first:
+      213: -5633953556840802286
+    second: Main Character_Sword_Shield_156
+  - first:
+      213: 3220157946326908407
+    second: Main Character_Sword_Shield_157
+  - first:
+      213: -8106967848334316087
+    second: Main Character_Sword_Shield_158
+  - first:
+      213: 1220610555198770321
+    second: Main Character_Sword_Shield_159
+  - first:
+      213: -6261576888352053968
+    second: Main Character_Sword_Shield_160
+  - first:
+      213: 756926700317840002
+    second: Main Character_Sword_Shield_161
+  - first:
+      213: -1236335766233258592
+    second: Main Character_Sword_Shield_162
+  - first:
+      213: -2928214935369411246
+    second: Main Character_Sword_Shield_163
+  - first:
+      213: 4005358906275380617
+    second: Main Character_Sword_Shield_164
+  - first:
+      213: -4146646444287974233
+    second: Main Character_Sword_Shield_165
+  - first:
+      213: 7267486755205374331
+    second: Main Character_Sword_Shield_166
+  - first:
+      213: 2836297083547416643
+    second: Main Character_Sword_Shield_167
+  - first:
+      213: -6711520232792346620
+    second: Main Character_Sword_Shield_168
+  - first:
+      213: -7939550174821889478
+    second: Main Character_Sword_Shield_169
+  - first:
+      213: -8830399683743248955
+    second: Main Character_Sword_Shield_170
+  - first:
+      213: 6981267360849939045
+    second: Main Character_Sword_Shield_171
+  - first:
+      213: -8133122639339117933
+    second: Main Character_Sword_Shield_172
+  - first:
+      213: -5984517386389487453
+    second: Main Character_Sword_Shield_173
+  - first:
+      213: 6762843709910084783
+    second: Main Character_Sword_Shield_174
+  - first:
+      213: -3736440031983571764
+    second: Main Character_Sword_Shield_175
+  - first:
+      213: -2936762223559886188
+    second: Main Character_Sword_Shield_176
+  - first:
+      213: 5174372181880523065
+    second: Main Character_Sword_Shield_177
+  - first:
+      213: -2109186467874499100
+    second: Main Character_Sword_Shield_178
+  - first:
+      213: -2961932934057136241
+    second: Main Character_Sword_Shield_179
+  - first:
+      213: 8549425464659506691
+    second: Main Character_Sword_Shield_180
+  - first:
+      213: -153511462077795006
+    second: Main Character_Sword_Shield_181
+  - first:
+      213: 2267235473507113650
+    second: Main Character_Sword_Shield_182
+  - first:
+      213: 8480508679728839824
+    second: Main Character_Sword_Shield_183
+  - first:
+      213: -6805878022091328451
+    second: Main Character_Sword_Shield_184
+  - first:
+      213: -3460627066589686552
+    second: Main Character_Sword_Shield_185
+  - first:
+      213: -8869889316262287640
+    second: Main Character_Sword_Shield_186
+  - first:
+      213: 9189920557309443367
+    second: Main Character_Sword_Shield_187
+  - first:
+      213: -4007005261083742356
+    second: Main Character_Sword_Shield_188
+  - first:
+      213: -2591183173914609893
+    second: Main Character_Sword_Shield_189
+  - first:
+      213: -4966013802072212335
+    second: Main Character_Sword_Shield_190
+  - first:
+      213: 7324125789838340805
+    second: Main Character_Sword_Shield_191
+  - first:
+      213: 1487428394070418473
+    second: Main Character_Sword_Shield_192
+  - first:
+      213: 5925709526840509295
+    second: Main Character_Sword_Shield_193
+  - first:
+      213: -6554169532547129012
+    second: Main Character_Sword_Shield_194
+  - first:
+      213: 2346906749547642566
+    second: Main Character_Sword_Shield_195
+  - first:
+      213: 4144366810513093866
+    second: Main Character_Sword_Shield_196
+  - first:
+      213: 6343179490129260812
+    second: Main Character_Sword_Shield_197
+  - first:
+      213: -7101266725304630974
+    second: Main Character_Sword_Shield_198
+  - first:
+      213: -5361253559398837658
+    second: Main Character_Sword_Shield_199
+  - first:
+      213: -4160867029906809436
+    second: Main Character_Sword_Shield_200
+  - first:
+      213: -1129787000593877814
+    second: Main Character_Sword_Shield_201
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2049
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdaba032c23502e0800000000000000
+      internalID: -2160264636632683021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120e52abb7c874dc0800000000000000
+      internalID: -3654798109555957727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d4d0222f0f16f0800000000000000
+      internalID: -711833576847124824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9933cf81ac0b84c0800000000000000
+      internalID: -4284316732471690852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890f5175448e67f0800000000000000
+      internalID: -617410665113515648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4d422b0c7719430800000000000000
+      internalID: 3787940431101482222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f7cfe53f3a6d850800000000000000
+      internalID: 6401484186019725140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1985
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0c4fdc1379f9610800000000000000
+      internalID: 1630187830295969991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1985
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a9a83d73b877d30800000000000000
+      internalID: 4429161830430710427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1985
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c689418c3e0510800000000000000
+      internalID: 1517216650452453034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1985
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fac48d1aed628a0800000000000000
+      internalID: -6330127439522648229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f01f0056f551830800000000000000
+      internalID: 4041241128047021891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7dcc319bda5580800000000000000
+      internalID: -8837509901924335730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1985
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e9ab2380e101080800000000000000
+      internalID: -9218835416667742592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1921
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cb153fb10312bb0800000000000000
+      internalID: -4962632417781105588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e361a4aa8cf792f30800000000000000
+      internalID: 4551309398261765694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa378f32d44d69700800000000000000
+      internalID: 546857832553149359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3309b2a59c3a668b0800000000000000
+      internalID: -5159256237909766093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad4a8dd8504e91c0800000000000000
+      internalID: -4495084627651048024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44af73c6fee14120800000000000000
+      internalID: 2396459220347102285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da4025a718a0a940800000000000000
+      internalID: 5305425180550515413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29e7466ef0c53b90800000000000000
+      internalID: -7262686625194841813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1857
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d00b5afd76fe910800000000000000
+      internalID: 1868826580637191524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1857
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e2007ff168b0760800000000000000
+      internalID: 7425175882496487023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1857
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2e619b59cbc010800000000000000
+      internalID: 1210282319998233328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9c7912f5a962150800000000000000
+      internalID: 5847530899563334137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1e38ee83a814d30800000000000000
+      internalID: 4413961086924218832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc1bf00870e30e30800000000000000
+      internalID: 4468662061298818299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1793
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e0d61c87d468de0800000000000000
+      internalID: -1331291458804838906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1791
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65baf09a8ae99e120800000000000000
+      internalID: 2443658720053275478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1791
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560a493808f0a9930800000000000000
+      internalID: 4150647051213119589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91563358e389a60800000000000000
+      internalID: 7680957906294217128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1791
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892da7b63f32181c0800000000000000
+      internalID: -4503278624006548840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1791
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b8684486ef87ed0800000000000000
+      internalID: -2415901476304549079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1791
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba68c4ca3e2bec4f0800000000000000
+      internalID: -806510592334723413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b9da9f30f384d60800000000000000
+      internalID: 7874613234763668297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1729
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab69d520749890e0800000000000000
+      internalID: -2262895603361420373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1729
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d2b5e5450d6700800000000000000
+      internalID: 535089728491541925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1729
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3dec15e9561d20800000000000000
+      internalID: 3248883021762083552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1729
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b47b704349737d40800000000000000
+      internalID: 5580937692993778872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1729
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e7b9bbc2c6db10800000000000000
+      internalID: 2006004864290119884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4650afdd31f1730800000000000000
+      internalID: 3971915240467424437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1729
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a97f8ef4a236a0800000000000000
+      internalID: -6470928301342219293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1729
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6cad5246372d30800000000000000
+      internalID: 4406550419072642412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1665
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69999087b155e9930800000000000000
+      internalID: 4151849482948549014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1666
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94107826e7c67eaf0800000000000000
+      internalID: -367205554532712119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1666
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f36264d26e1fe050800000000000000
+      internalID: 5831913452286927865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1666
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13193ebad66afb60800000000000000
+      internalID: 7780644395916268319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1666
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fff714cc15a78b0800000000000000
+      internalID: -5153716885858025586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1666
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c077921ffd91ef780800000000000000
+      internalID: -8647445784890345716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1666
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2753bb15d75b6c0800000000000000
+      internalID: -4128255693428526364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1666
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9379d678f7a99bf00800000000000000
+      internalID: 1133106653784020793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1601
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ea389f7b344e4d0800000000000000
+      internalID: -3106283385534566754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_53
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1601
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b725ac387708eec0800000000000000
+      internalID: -3537569294304598095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1601
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbe6092f20303b0800000000000000
+      internalID: -5547587075161801608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_55
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1601
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb220205d88d7d20800000000000000
+      internalID: 3277926552238697466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1601
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51a5567a77964730800000000000000
+      internalID: 3983037472682910042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1601
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e336ba89f10aea0800000000000000
+      internalID: -5863651974265487764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_58
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1601
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2b76df8c6a3bda0800000000000000
+      internalID: -5930212902141709587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_59
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1601
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92662ff4773cb820800000000000000
+      internalID: 2935282032775160477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1538
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e770e7e97eb4230800000000000000
+      internalID: 3624244993054965406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_61
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1538
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a272e361f0faca0800000000000000
+      internalID: -6003563190055130495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_62
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1537
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3295366a630deff40800000000000000
+      internalID: 5764273506219153699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_63
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1536
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8433d87034e069a60800000000000000
+      internalID: 7680341895579251528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1537
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f244c092fba1b0c40800000000000000
+      internalID: 5479502779956085807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_65
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1538
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b5935883aabc50800000000000000
+      internalID: 6681832803070751664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_66
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1537
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c95030837591d0800000000000000
+      internalID: -3344640153848526564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_67
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1536
+        width: 37
+        height: 52
+      alignment: 9
+      pivot: {x: 0.62089497, y: 0.3948599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e38b9aed70101a0800000000000000
+      internalID: -6845181305714884977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_68
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1537
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48576d857c148c860800000000000000
+      internalID: 7550357099731383684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1473
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6c8cb8895758520800000000000000
+      internalID: 2703696449346520821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1473
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74deb754906f71530800000000000000
+      internalID: 3825796928155413831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1474
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fbd38270a62de50800000000000000
+      internalID: 6832640163646914407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1474
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d77931378d3ba30800000000000000
+      internalID: 4229962463792561529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1473
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c20850e3aae5650800000000000000
+      internalID: 6223598918429584413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1473
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442c236996575d170800000000000000
+      internalID: 8202591392677151300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1473
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ca662978a99700800000000000000
+      internalID: 547654067991266939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1473
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0abc54d8f94da6b0800000000000000
+      internalID: -5283485454772159989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1473
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce9eb263a12c6c00800000000000000
+      internalID: 895127411559931595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1409
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4dae5fa1d3be440800000000000000
+      internalID: 4966130200110355698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1409
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602eeee22a15969b0800000000000000
+      internalID: -5086444547124305402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1408
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08da091afb4405a0800000000000000
+      internalID: -6556031620010551282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1408
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c06f990bdb9910800000000000000
+      internalID: 1845309306713456774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1408
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d60a2294e31eeec0800000000000000
+      internalID: -3535866785013561641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1409
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004e2efbdb5636590800000000000000
+      internalID: -7682184673721392128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fe636f287b78040800000000000000
+      internalID: 4649886913387753370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1408
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444b68412115679f0800000000000000
+      internalID: -471099972918004668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1408
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b24c4b67740a5eb0800000000000000
+      internalID: -4730463547651505487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_87
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1345
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c667da05f1fd356a0800000000000000
+      internalID: -6461575714756004244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1345
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a5d02aac4cc4740800000000000000
+      internalID: 5137697649504115304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_89
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1346
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7612d7324d3c7420800000000000000
+      internalID: 2629043637091178109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_90
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1346
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c24e7172f01f97e0800000000000000
+      internalID: -1756666696178974016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_91
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1345
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c3a0df265b7440800000000000000
+      internalID: 4934632580078355830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_92
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1345
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf1aaad677d32b0800000000000000
+      internalID: -5603191048481145605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1345
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92ac3a99f0de7460800000000000000
+      internalID: 7241455021311435419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_94
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1345
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba94a53caa3a5690800000000000000
+      internalID: -7612707708807636299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_95
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1345
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7371bdd98adcea0800000000000000
+      internalID: -5850834944945342506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1281
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba37df27df7ed3950800000000000000
+      internalID: 6430550918696891307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1280
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6fce85265dc8ae0800000000000000
+      internalID: -1545625953719486808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_98
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1280
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf927837c43e9270800000000000000
+      internalID: 8259096796894240684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1280
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f84410a443fb40800000000000000
+      internalID: 5472793426511066450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1280
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c79d44f1c475b40800000000000000
+      internalID: 5428891573001223266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1280
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca0b9c67210f7860800000000000000
+      internalID: 7529738370824211139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1216
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6033450bde4ee6770800000000000000
+      internalID: 8606067647468286726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1216
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69df429493806e320800000000000000
+      internalID: 2586764078104247702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1216
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03412185fb5a870a0800000000000000
+      internalID: -6883569789200886736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1216
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c016eba1fb4f00800000000000000
+      internalID: 1102240254423777867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1216
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e59fac3d082f18f0800000000000000
+      internalID: -567690990707567133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1216
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4d0ef4ae883d780800000000000000
+      internalID: -8659427118559472403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1152
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ce9ea0ba8a48980800000000000000
+      internalID: -8537513541011641300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1152
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1242437a83c1e0670800000000000000
+      internalID: 8506767775798404129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1152
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1970847c95240430800000000000000
+      internalID: 3748162143778797854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1152
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f97d798780e970800000000000000
+      internalID: 8782168297957881456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1152
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a43c648030567e30800000000000000
+      internalID: 4500873046913725606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1152
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13585e42114d9e0800000000000000
+      internalID: -1597633117642477057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1089
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600dc1d1a6a7d9ba0800000000000000
+      internalID: -6080569325706751994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1089
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d93600c9f9f34220800000000000000
+      internalID: 2469091871792970195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd205628e4d7c2210800000000000000
+      internalID: 1309559367806550751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1089
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1d2cc4bf7318e0800000000000000
+      internalID: -1723893817856418298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6475c3e2d4461170800000000000000
+      internalID: 8148776248328680559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638be94cad2e957b0800000000000000
+      internalID: -5234903662612006858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d145a10f4195b75e0800000000000000
+      internalID: -1910835670426168291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1023
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1902a01a14760d470800000000000000
+      internalID: 8417341235127787665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d9128dbfffa1b40800000000000000
+      internalID: 5411919359367027992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_123
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987a1e2833bcbe950800000000000000
+      internalID: 6479495911002187657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_124
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6b8e91541d4390800000000000000
+      internalID: -7832581836142580892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_125
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a58fd30de215d50800000000000000
+      internalID: 6724207190568622635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_126
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b03f0d67d376ef0800000000000000
+      internalID: -115055684953633904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_127
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8f19df404129d0800000000000000
+      internalID: -2800886781558419921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_128
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29854fce953e34240800000000000000
+      internalID: 4774910005309888658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_129
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3bba1e491a74630800000000000000
+      internalID: 3911272462207923151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_130
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba685e881fb14d0800000000000000
+      internalID: -3162668743028986881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_131
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034e05dfd2359610800000000000000
+      internalID: 1627262777297879813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_132
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4726897a04e0b8380800000000000000
+      internalID: -8968058562125733260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 961
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb614dacbbceb60800000000000000
+      internalID: 7776797136378052567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 961
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8373ab02fae2330800000000000000
+      internalID: 3688077699961010350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e0c6557432c8d80800000000000000
+      internalID: -8247178028339425767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 961
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83109412c49859fd0800000000000000
+      internalID: -2335809871652781768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 961
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585da7acc36420f0800000000000000
+      internalID: -1142678674807629742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f5930b8f5baa2a0800000000000000
+      internalID: -6725363013811347670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 961
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e31b548440dcb0800000000000000
+      internalID: -4841294264168881450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 961
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f4c7d3b0c76fd0800000000000000
+      internalID: -2348696801998736558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 961
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bd4372f47c988b0800000000000000
+      internalID: -5149365556147332210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_142
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 961
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf9379b66ee11ef0800000000000000
+      internalID: -139067988506337345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 961
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b89fb53e8bd8b9b0800000000000000
+      internalID: -5064056377144534862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 961
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf859501f4693b20800000000000000
+      internalID: 3114631603646992328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 961
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04626dff617a5d770800000000000000
+      internalID: 8634991577776137792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65652d71ffe67e810800000000000000
+      internalID: 1794525018425808470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 898
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf8df47b2b5e4ce0800000000000000
+      internalID: -1419096590370631729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 898
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09272c96ba3540250800000000000000
+      internalID: 5909940606695797392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5c2f52e4059fff0800000000000000
+      internalID: -1882028262636113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455aaa9f3ba5eede0800000000000000
+      internalID: -1302003513229138604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f174069a630640800000000000000
+      internalID: 5044993200137304069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9342f64d2b4664a60800000000000000
+      internalID: 7657918935621116985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b162dbdc4b6420340800000000000000
+      internalID: 4828499492854375963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9196e70e115d15790800000000000000
+      internalID: -7543013628111328999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f42c572bdc8fcd00800000000000000
+      internalID: 995168915558245617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218947b071d20d1b0800000000000000
+      internalID: -5633953556840802286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_157
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd777f479c40bc20800000000000000
+      internalID: 3220157946326908407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd258ac1b34e7f80800000000000000
+      internalID: -8106967848334316087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c07b735da70f010800000000000000
+      internalID: 1220610555198770321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 833
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035eafbcef86a19a0800000000000000
+      internalID: -6261576888352053968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 833
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2821475d2d4218a00800000000000000
+      internalID: 756926700317840002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a56e86cb27a7dee0800000000000000
+      internalID: -1236335766233258592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2551057d704ec57d0800000000000000
+      internalID: -2928214935369411246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dbd7634b4e59730800000000000000
+      internalID: 4005358906275380617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 833
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4241f57072476c0800000000000000
+      internalID: -4146646444287974233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b716fd5f2bc4bd460800000000000000
+      internalID: 7267486755205374331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348f15e8b2d8c5720800000000000000
+      internalID: 2836297083547416643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b09d48e3ebd2a0800000000000000
+      internalID: -6711520232792346620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 833
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ac9597e2d01d190800000000000000
+      internalID: -7939550174821889478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 833
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd03c9e54e147580800000000000000
+      internalID: -8830399683743248955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 833
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a4d752da172e060800000000000000
+      internalID: 6981267360849939045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 769
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922187fc08512f80800000000000000
+      internalID: -8133122639339117933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a00b18f429b2fca0800000000000000
+      internalID: -5984517386389487453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 769
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faceca8e5827add50800000000000000
+      internalID: 6762843709910084783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 770
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccce111669f752cc0800000000000000
+      internalID: -3736440031983571764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a3dea31568e37d0800000000000000
+      internalID: -2936762223559886188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939c6ac95101fc740800000000000000
+      internalID: 5174372181880523065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_178
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 641
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e59749151aaab2e0800000000000000
+      internalID: -2109186467874499100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_179
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 640
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6ef080b915e6d0800000000000000
+      internalID: -2961932934057136241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_180
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 640
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30675bec929a5a670800000000000000
+      internalID: 8549425464659506691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_181
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 640
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245f6e9732e9eddf0800000000000000
+      internalID: -153511462077795006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_182
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 640
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba5e8c96a6d67f10800000000000000
+      internalID: 2267235473507113650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_183
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 640
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cbad966b1d0b570800000000000000
+      internalID: 8480508679728839824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_184
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 447
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34bb9c7ff9ac81a0800000000000000
+      internalID: -6805878022091328451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_185
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 449
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d1d3a40269ffc0800000000000000
+      internalID: -3460627066589686552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_186
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 449
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6672b59a2d7e480800000000000000
+      internalID: -8869889316262287640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_187
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 449
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d3d7c7e08298f70800000000000000
+      internalID: 9189920557309443367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_188
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 449
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f6bffe1f14468c0800000000000000
+      internalID: -4007005261083742356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_189
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 449
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17b9dac1a44a0cd0800000000000000
+      internalID: -2591183173914609893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_190
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 254
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7cc112cc251bb0800000000000000
+      internalID: -4966013802072212335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_191
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 257
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27799d99584a560800000000000000
+      internalID: 7324125789838340805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_192
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924a5616e3864a410800000000000000
+      internalID: 1487428394070418473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_193
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 257
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f630a7d3b695c3250800000000000000
+      internalID: 5925709526840509295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_194
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 238
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4127de1989ea05a0800000000000000
+      internalID: -6554169532547129012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_195
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 241
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cef0c71143e19020800000000000000
+      internalID: 2346906749547642566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_196
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 62
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae43d8708afb38930800000000000000
+      internalID: 4144366810513093866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_197
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 64
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01b2bf7320870850800000000000000
+      internalID: 6343179490129260812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_198
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 64
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2418ae6998b337d90800000000000000
+      internalID: -7101266725304630974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_199
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662db39fa400995b0800000000000000
+      internalID: -5361253559398837658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_200
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 64
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad15c44b71a146c0800000000000000
+      internalID: -4160867029906809436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character_Sword_Shield_201
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 64
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac47fb575b03250f0800000000000000
+      internalID: -1129787000593877814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
