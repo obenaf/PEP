@@ -11,23 +11,30 @@ public class Player : MonoBehaviour
     private float moveX, moveY, changeTurn;
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
+    private bool moving;
+    private float newpositionX, newpositionY;
     
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         PlayerTurn = true;
-
     }
 
 
     void Update()
     {
-        moveX = Input.GetAxisRaw("Horizontal");
-        moveY = Input.GetAxisRaw("Vertical");
+        
         changeTurn = Input.GetAxisRaw("ChangeTurn");
-
+        if(moving == false){
+                moveX = Input.GetAxisRaw("Horizontal");
+                moveY = Input.GetAxisRaw("Vertical");
+                
+                newpositionX = myRigidbody.position.x +.5f;
+                newpositionY = myRigidbody.position.y -.25f;
+        }
         if (PlayerTurn == true)
         {
+            
             if (moveX != 0)
             {
                 movePlayer(moveX, 0);
@@ -50,17 +57,12 @@ public class Player : MonoBehaviour
         
         if (directionX == 1)
         {
-            //float newpositionX, newpositionY;
-            //newpositionX = myRigidbody.position.x +.5f;
-            //newpositionY = myRigidbody.position.y -.25f;
-            //for (int i = 0; i <= 1; i++){
-                velocity = new Vector2(.5f, -.25f);
-                myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
-            //    i--;
-            //    if (myRigidbody.position.x == newpositionX){
-            //        i = 1;
-            //    }                
-           // }
+            velocity = new Vector2(.5f, -.25f);
+            myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
+            if (myRigidbody.position.x == newpositionX){
+                moving = false;
+                PlayerTurn = false;
+            }                
         }
         if (directionX == -1)
         {
@@ -77,7 +79,8 @@ public class Player : MonoBehaviour
             velocity = new Vector2(-.5f, -.25f);
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
         }
-        //PlayerTurn = false;
+        
+        moving = true;
     }
     
 }
