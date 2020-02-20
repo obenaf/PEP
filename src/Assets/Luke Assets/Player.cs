@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         PlayerTurn = true;
     }
-
+//
 
     void Update()
     {
