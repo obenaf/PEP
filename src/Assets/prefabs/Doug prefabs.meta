@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:src/Assets/prefabs/Doug prefabs.meta
 guid: 4f637a7ab74c7ab4ca02a299411725e6
 folderAsset: yes
 DefaultImporter:
+=======
+guid: 701364f66f42266438d0fae558240a90
+NativeFormatImporter:
+>>>>>>> 7c33ab059a337cc0a5a651168880ad23f694551f:src/Assets/Jeremy Assets/Animations/Player move down.anim.meta
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

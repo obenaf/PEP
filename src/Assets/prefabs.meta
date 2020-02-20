@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:src/Assets/prefabs.meta
 guid: 257127233431fbb40b25bb60f6f565af
+=======
+guid: 5317384307c1a0b45a185d8e85b2007c
+>>>>>>> 7c33ab059a337cc0a5a651168880ad23f694551f:src/Assets/Jeremy Assets/Animations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
