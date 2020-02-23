@@ -17,11 +17,15 @@ public class Player : MonoBehaviour
     
     public bool moving;
     private float newpositionX, newpositionY;
-    
+
+    private Animator Mainanim;//animation variable for the name of the animator
+
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         PlayerTurn = true;
+
+        Mainanim = GetComponent<Animator>();//set the variable to the name of the animator controller
     }
 //
 
@@ -67,7 +71,8 @@ public class Player : MonoBehaviour
         {
             PlayerTurn = true;
         }
-        
+        Mainanim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));//sets the MoveX for animation
+        Mainanim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));//sets the MoveX for animation
 
     }
     //move Player = Direction needs to be a 
