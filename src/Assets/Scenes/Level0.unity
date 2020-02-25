@@ -2560,6 +2560,7 @@ GameObject:
   - component: {fileID: 683220628}
   - component: {fileID: 683220626}
   - component: {fileID: 683220629}
+  - component: {fileID: 683220630}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2693,12 +2694,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.1
   PlayerTurn: 1
-  newposition: {x: 0, y: 0}
-  oldposition: {x: 0, y: 0}
+  movement: 0
+  travelledX: 0
+  travelledY: 0
+  travelledtotal: 0
   moveX: 0
   moveY: 0
   changeTurn: 0
-  moving: 0
 --- !u!95 &683220629
 Animator:
   serializedVersion: 3
@@ -2718,6 +2720,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &683220630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683220623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c47fe11f67b45f419a94212e240c330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &683990211
 GameObject:
   m_ObjectHideFlags: 0

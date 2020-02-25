@@ -13,14 +13,14 @@ public class Movement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
     private float oldpositionX, oldpositionY;
-    private Animator Mainanim;//animation variable for the name of the animator
+    //private Animator Mainanim;//animation variable for the name of the animator
     
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         PlayerTurn = true;
         movement = 3f;
-        Mainanim = GetComponent<Animator>();//set the variable to the name of the animator controller
+       // Mainanim = GetComponent<Animator>();//set the variable to the name of the animator controller
     }
 
 
@@ -49,8 +49,8 @@ public class Movement : MonoBehaviour
         oldpositionX = myRigidbody.position.x;
         oldpositionY = myRigidbody.position.y;
 
-        Mainanim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));//sets the MoveX for animation
-        Mainanim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));//sets the MoveX for animation
+       // Mainanim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));//sets the MoveX for animation
+       // Mainanim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));//sets the MoveX for animation
 
     }
     
