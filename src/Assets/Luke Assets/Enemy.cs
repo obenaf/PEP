@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField]
     public int health;
     public int attack;
-    public float movement;
-    void Start()
+    public float movement = 3;
+    void Awake()
     {
         health = 10;
         attack = 2;
-        movement = 2;
+        movement = 3;
+    }
+    void Start()
+    {
+
     }
 
    

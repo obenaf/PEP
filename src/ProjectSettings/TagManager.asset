@@ -8,6 +8,7 @@ TagManager:
   - level0Manager
   - Enemy
   - Attacks
+  - EnemyBush
   layers:
   - Default
   - TransparentFX

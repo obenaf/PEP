@@ -33,13 +33,13 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        float enemyMoveX, enemyMoveY;
+        float MoveX, MoveY;
         
         if (levelManagerScripts.turnManager() == false)
         {
-                enemyMoveX = Input.GetAxisRaw("Horizontal");
-                enemyMoveY = Input.GetAxisRaw("Vertical");
-                moveEnemy(enemyMoveX, enemyMoveY);
+                MoveX = Input.GetAxisRaw("Horizontal");
+                MoveY = Input.GetAxisRaw("Vertical");
+                moveEnemy(MoveX, MoveY);
         }
 
 

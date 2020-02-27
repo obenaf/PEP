@@ -9,7 +9,7 @@ public class BushMovement : MonoBehaviour
     public bool EnemyTurn;
     public int direction = 1;
     public float movement, travelledX, travelledY, travelledtotal;
-    public float moveX, moveY, changeTurn;
+    public float moveX, moveY;
 
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
@@ -19,13 +19,13 @@ public class BushMovement : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         EnemyTurn = true;
-        //movement = 5f;
+        movement = 5f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        changeTurn = Input.GetAxisRaw("ChangeTurn");
+        //changeTurn = Input.GetAxisRaw("ChangeTurn");
         
         if (EnemyTurn == true)
         {
@@ -59,10 +59,10 @@ public class BushMovement : MonoBehaviour
             {
                 moveEnemy(moveX, moveY);
             }
-            if (changeTurn == 1)
+            /*if (changeTurn == 1)
             {
                 EnemyTurn = true;
-            }
+            }*/
         
 
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
