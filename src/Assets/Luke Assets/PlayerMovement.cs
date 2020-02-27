@@ -12,20 +12,23 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     public float speed;
-    public float movement, travelledX, travelledY, travelledtotal;
+    public float movement, travelledX, travelledY, travelledTotal;
 
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
     private float oldpositionX, oldpositionY;
     
+    
+
     void Start()
-    {
+    {   
+        /////////////// Create Object to call from Level0Manager
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
-        
+        /////////////// Create Object to call from Player
         player = GameObject.FindGameObjectWithTag("Player");
         playerScripts = player.GetComponent<Player>();
-        
+        ///////////////
         myRigidbody = GetComponent<Rigidbody2D>();
         movement = playerScripts.getMovement();
     }
@@ -33,29 +36,26 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float moveX, moveY, changeTurn;
-        changeTurn = Input.GetAxisRaw("ChangeTurn");
+        float moveX, moveY;
         
-        if (levelManagerScripts.turnManager() == true)
+        if (levelManagerScripts.turnManager() == true)//Check if it is player turn
         {
                 moveX = Input.GetAxisRaw("Horizontal");
                 moveY = Input.GetAxisRaw("Vertical");
                 movePlayer(moveX, moveY);
         }
-        if (changeTurn == 1)
-        {
-            levelManagerScripts.changeTurn();
-        }
-
+        ////Calculate the distance moved per frame and keep a total in travelledtotal
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
         travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);
-        travelledtotal = travelledY + travelledX + travelledtotal;
+        travelledTotal = travelledY + travelledX + travelledTotal;
 
-        if (travelledtotal >= movement){
+        ////If travelledTotal becomes larger than player's movment, end the player's turn
+        if (travelledTotal >= movement){
             levelManagerScripts.changeTurn();
-            travelledtotal = 0;
+            travelledTotal = 0;
         }
-
+        
+        ///Sets current postion in oldposition so that oldposition can be used next frame when the current position has changed
         oldpositionX = myRigidbody.position.x;
         oldpositionY = myRigidbody.position.y;
 

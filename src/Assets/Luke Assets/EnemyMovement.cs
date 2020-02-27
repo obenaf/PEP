@@ -33,26 +33,22 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        float moveX, moveY, changeTurn;
-        changeTurn = Input.GetAxisRaw("ChangeTurn");
+        float enemyMoveX, enemyMoveY;
         
-        if (levelManagerScripts.turnManager() == true)
+        if (levelManagerScripts.turnManager() == false)
         {
-                moveX = Input.GetAxisRaw("Horizontal");
-                moveY = Input.GetAxisRaw("Vertical");
-                moveEnemy(moveX, moveY);
+                enemyMoveX = Input.GetAxisRaw("Horizontal");
+                enemyMoveY = Input.GetAxisRaw("Vertical");
+                moveEnemy(enemyMoveX, enemyMoveY);
         }
-        if (changeTurn == 1)
-        {
-            //levelManagerScripts.changeTurn();
-        }
+
 
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
         travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);
         travelledtotal = travelledY + travelledX + travelledtotal;
 
         if (travelledtotal >= movement){
-            //levelManagerScripts.changeTurn();
+            levelManagerScripts.changeTurn();
             travelledtotal = 0;
         }
 

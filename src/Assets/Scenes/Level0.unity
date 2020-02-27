@@ -2697,7 +2697,7 @@ MonoBehaviour:
   movement: 0
   travelledX: 0
   travelledY: 0
-  travelledtotal: 0
+  travelledTotal: 0
 --- !u!95 &683220629
 Animator:
   serializedVersion: 3
@@ -2741,6 +2741,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48b82b0f8693c9041b39203adcf33730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  attack: 0
+  movement: 0
 --- !u!1 &683990211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,6 +4352,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301580937}
   m_CullTransparentMesh: 0
+--- !u!1 &1377621863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1377621864}
+  m_Layer: 0
+  m_Name: Attacks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1377621864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377621863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1093755, y: -0.13779016, z: -6.982422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398318113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,7 +6932,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12048185, y: 0.2585342}
+  m_Offset: {x: 0.0016006827, y: 0.04488969}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.62048185, y: 0.24146582}
@@ -6910,7 +6943,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.3590666, y: 0.11490154}
   m_EdgeRadius: 0
 --- !u!50 &2115839715
 Rigidbody2D:
@@ -6945,6 +6978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4b375045ec17bb488fb600728b24315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  attack: 0
+  movement: 0
 --- !u!114 &2115839717
 MonoBehaviour:
   m_ObjectHideFlags: 0

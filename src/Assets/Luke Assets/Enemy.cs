@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    int health;
-    int attack;
-    float movement;
+    public int health;
+    public int attack;
+    public float movement;
     void Start()
     {
+        health = 10;
+        attack = 2;
         movement = 2;
     }
 
@@ -19,5 +21,8 @@ public class Enemy : MonoBehaviour
     }
     public float getMovement(){
         return movement;
+    }
+    public void damageEnemy(int damage){
+        health = health - damage;
     }
 }
