@@ -12,10 +12,17 @@ public class Player : MonoBehaviour
 
     GameObject enemy;
     Enemy enemyScripts; 
+
+    GameObject playerMovement;
+    PlayerMovement playerMovementScripts;
+
+    GameObject enemyMovement;
+    EnemyMovement enemyMovementScripts;
     
 
     public int health;
     public int attack;
+    float range;
     public float movement;
     
     private float attackInput;
@@ -26,6 +33,7 @@ public class Player : MonoBehaviour
         health = 10;
         attack = 1;
         movement = 2;
+        range = 1;
     }
     void Start()
     {
@@ -37,24 +45,52 @@ public class Player : MonoBehaviour
         
         enemy = GameObject.FindGameObjectWithTag("Enemy");
         enemyScripts = enemy.GetComponent<Enemy>();
+
+        playerMovement = GameObject.FindGameObjectWithTag("Player");
+        playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+
+        enemyMovement = GameObject.FindGameObjectWithTag("Enemy");
+        enemyMovementScripts = enemyMovement.GetComponent<EnemyMovement>();
     }
 
     
     void Update()
     {
-        
+    
         attackInput = Input.GetAxisRaw("Fire1");
+
         if (levelManagerScripts.turnManager() == true){
             if (attackInput == 1){
-                int damage;
-                damage = attackScripts.getMeleeDamage(attack);
-                enemyScripts.damageEnemy(damage);
-                levelManagerScripts.changeTurn();
+                if (attackPossible(range) == true){
+                    int damage;
+                    damage = attackScripts.getMeleeDamage(attack);
+                    enemyScripts.damageEnemy(damage);
+                    levelManagerScripts.changeTurn();
+                }
             }
         }
     }
 
     public float getMovement(){
         return movement;
+    }
+    public bool attackPossible(float range){
+        float enemyX, enemyY, playerX, playerY, distance;
+        playerX = playerMovementScripts.getPositionX();
+        playerY = playerMovementScripts.getPositionY();
+        enemyX = enemyMovementScripts.getPositionX();
+        enemyY = enemyMovementScripts.getPositionY();
+
+        float a, b, c; //pythagorean variables
+        a = Mathf.Abs(playerX - enemyX);
+        b = Mathf.Abs(playerY - enemyY);
+        c = Mathf.Sqrt((a*a)+(b*b));
+
+        if(c <= range){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }

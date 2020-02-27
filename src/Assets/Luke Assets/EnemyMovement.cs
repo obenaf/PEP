@@ -56,9 +56,20 @@ public class EnemyMovement : MonoBehaviour
         oldpositionY = myRigidbody.position.y;
 
     }
+    
     void moveEnemy(float directionX, float directionY)
     {
             velocity = new Vector2(directionX, directionY);
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
+    }
+
+    public float getPositionX(){
+        float myPositionX = myRigidbody.position.x;
+        return myPositionX;
+    }
+
+    public float getPositionY(){
+        float myPositionY = myRigidbody.position.y;
+        return myPositionY;
     }
 }
