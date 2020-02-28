@@ -35,15 +35,12 @@ public class EnemyMovement : MonoBehaviour
     {
         float MoveX, MoveY;
         
-        /*if (levelManagerScripts.turnManager() == false)
+        if (levelManagerScripts.turnManager() == false)
         {
                 MoveX = Input.GetAxisRaw("Horizontal");
                 MoveY = Input.GetAxisRaw("Vertical");
                 moveEnemy(MoveX, MoveY);
-        }*/
-        // This part is commented out for Nikolai. His AI script will manage the movement
-        // using the function below. If you want to test things and the AI movement isn't working yet, just uncomment 
-        // the above section
+        }
 
 
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
