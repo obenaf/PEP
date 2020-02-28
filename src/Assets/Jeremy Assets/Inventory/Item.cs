@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//[CreateAssetMenu(fileName="NewItem",menuName = "/Assets/Jeremy Assets/Inventory")]
+[CreateAssetMenu(fileName="NewItem",menuName = "Item")]
 
 public class Item : ScriptableObject
 {
