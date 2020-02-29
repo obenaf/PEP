@@ -17,8 +17,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector2 velocity;
     private float oldpositionX, oldpositionY;
-    
-    
+    float cost;
+
+
 
     void Start()
     {   
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         float moveX, moveY;
         
@@ -62,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         ///Sets current postion in oldposition so that oldposition can be used next frame when the current position has changed
         oldpositionX = myRigidbody.position.x;
         oldpositionY = myRigidbody.position.y;
-
+        cost = 0;
     }
     
     void movePlayer(float directionX, float directionY)
@@ -80,4 +81,5 @@ public class PlayerMovement : MonoBehaviour
         float myPositionY = myRigidbody.position.y;
         return myPositionY;
     }
+    
 }

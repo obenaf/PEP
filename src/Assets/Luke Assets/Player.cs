@@ -22,17 +22,21 @@ public class Player : MonoBehaviour
 
     public int health;
     public int attack;
+    public int accuracy;
     float range;
     public float movement;
+    public int level;
+    public int experience;
     
-    private float attackInput;
+    
     
     
     void Awake()
     {
         health = 10;
-        attack = 1;
-        movement = 2;
+        attack = 5;
+        accuracy = 50;
+        movement = 1000;
         range = 1;
     }
     void Start()
@@ -54,18 +58,17 @@ public class Player : MonoBehaviour
     }
 
     
-    void Update()
+    void FixedUpdate()
     {
-    
+        float attackInput;
         attackInput = Input.GetAxisRaw("Fire1");
 
         if (levelManagerScripts.turnManager() == true){
             if (attackInput == 1){
                 if (attackPossible(range) == true){
                     int damage;
-                    damage = attackScripts.getMeleeDamage(attack);
+                    damage = attackScripts.getMeleeDamage(attack, accuracy);
                     enemyScripts.damageEnemy(damage);
-                    levelManagerScripts.changeTurn();
                 }
             }
         }
@@ -75,7 +78,7 @@ public class Player : MonoBehaviour
         return movement;
     }
     public bool attackPossible(float range){
-        float enemyX, enemyY, playerX, playerY, distance;
+        float enemyX, enemyY, playerX, playerY;
         playerX = playerMovementScripts.getPositionX();
         playerY = playerMovementScripts.getPositionY();
         enemyX = enemyMovementScripts.getPositionX();
@@ -92,5 +95,13 @@ public class Player : MonoBehaviour
         else{
             return false;
         }
+    }
+    public void gainExperience(int newExp)
+    {
+        experience = experience + newExp;
+    }
+    public void gainLevel()
+    {
+
     }
 }

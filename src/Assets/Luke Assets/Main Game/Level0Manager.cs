@@ -23,7 +23,7 @@ public class Level0Manager : MonoBehaviour
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
         
     }

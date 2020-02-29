@@ -23,7 +23,7 @@ public class BushMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //changeTurn = Input.GetAxisRaw("ChangeTurn");
         

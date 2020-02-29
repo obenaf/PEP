@@ -31,7 +31,7 @@ public class EnemyMovement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         float MoveX, MoveY;
         

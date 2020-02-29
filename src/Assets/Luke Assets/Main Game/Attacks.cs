@@ -11,14 +11,23 @@ public class Attacks : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         
     }
 
-    public int getMeleeDamage(int attack){//Returns a damage int based off the players attack
+    public int getMeleeDamage(int attack, int accuracy){//Returns a damage int based off the players attack
         int damage;
-        damage = attack;
+        int hitOrMiss = Random.Range(1, 100);
+        
+        if (hitOrMiss <= accuracy)
+        {
+            damage = Random.Range(1, attack);
+        }
+        else
+        {
+            damage = 0;
+        }
         return damage;
     }
 
