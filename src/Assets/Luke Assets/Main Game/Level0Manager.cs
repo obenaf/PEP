@@ -8,14 +8,19 @@ public class Level0Manager : MonoBehaviour
     PlayerMovement playerScripts;
 
     [SerializeField]
-    public bool playerTurn;//True is player's turn, false is enemy's turn
+    public bool playerTurn = true;//True is player's turn, false is enemy's turn
+
+    void Awake()
+    {
+        
+    }
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerScripts = player.GetComponent<PlayerMovement>();
 
-        playerTurn = true;
+        
     }
 
     void Update()

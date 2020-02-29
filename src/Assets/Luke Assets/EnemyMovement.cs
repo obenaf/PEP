@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     Level0Manager levelManagerScripts;
 
     GameObject enemy;//Call methods from the Player.cs
-    Enemy enemyScripts;
+    Enemy enemyScripts; 
 
     [SerializeField]
     public float speed;
@@ -41,7 +41,10 @@ public class EnemyMovement : MonoBehaviour
                 MoveY = Input.GetAxisRaw("Vertical");
                 moveEnemy(MoveX, MoveY);
         }
-
+        if (levelManagerScripts.turnManager() == true)//If not players turn, don't move. This prevents other characters from pushing this character
+        {
+            moveEnemy(0, 0);
+        }
 
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
         travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);

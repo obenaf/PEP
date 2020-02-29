@@ -44,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
                 moveY = Input.GetAxisRaw("Vertical");
                 movePlayer(moveX, moveY);
         }
+        if (levelManagerScripts.turnManager() == false)//If not players turn, don't move. This prevents other characters from pushing this character
+        {
+            movePlayer(0, 0);
+        }
         ////Calculate the distance moved per frame and keep a total in travelledtotal
         travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
         travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);
