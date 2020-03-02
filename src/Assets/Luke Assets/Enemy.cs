@@ -2,19 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Character
 {
-    [SerializeField]
-    public int health;
-    public int attack;
-    public float movement = 3;
-    public int experience;
-
-
-    GameObject player;//Call methods from the Player.cs
-    Player playerScripts;
-
-
     void Awake()
     {
         health = 10;

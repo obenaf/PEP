@@ -2,33 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Character
 {
-    GameObject levelManager;//Call methods from the Level0Manager.cs
-    Level0Manager levelManagerScripts;
 
-    GameObject attackOptions;//Call methods from the Level0Manager.cs
-    Attacks attackScripts;
-
-    GameObject enemy;
-    Enemy enemyScripts; 
-
-    GameObject playerMovement;
-    PlayerMovement playerMovementScripts;
-
-    GameObject enemyMovement;
-    EnemyMovement enemyMovementScripts;
-    
-
-    public int health;
-    public int attack;
-    public int accuracy;
-    float range;
-    public float movement;
-    public int level;
-    public int experience;
-    
-    
     
     
     void Awake()
@@ -36,7 +12,7 @@ public class Player : MonoBehaviour
         health = 10;
         attack = 5;
         accuracy = 50;
-        movement = 1000;
+        movement = 5;
         range = 1;
     }
     void Start()
@@ -61,14 +37,16 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         float attackInput;
-        attackInput = Input.GetAxisRaw("Fire1");
 
         if (levelManagerScripts.turnManager() == true){
+            attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
                 if (attackPossible(range) == true){
                     int damage;
                     damage = attackScripts.getMeleeDamage(attack, accuracy);
                     enemyScripts.damageEnemy(damage);
+                    attackInput = 0;
+                    levelManagerScripts.changeTurn();
                 }
             }
         }
@@ -77,24 +55,9 @@ public class Player : MonoBehaviour
     public float getMovement(){
         return movement;
     }
-    public bool attackPossible(float range){
-        float enemyX, enemyY, playerX, playerY;
-        playerX = playerMovementScripts.getPositionX();
-        playerY = playerMovementScripts.getPositionY();
-        enemyX = enemyMovementScripts.getPositionX();
-        enemyY = enemyMovementScripts.getPositionY();
-
-        float a, b, c; //pythagorean variables
-        a = Mathf.Abs(playerX - enemyX);
-        b = Mathf.Abs(playerY - enemyY);
-        c = Mathf.Sqrt((a*a)+(b*b));
-
-        if(c <= range){
-            return true;
-        }
-        else{
-            return false;
-        }
+    protected override bool attackPossible(float range){
+        return base.attackPossible(range);
+    
     }
     public void gainExperience(int newExp)
     {

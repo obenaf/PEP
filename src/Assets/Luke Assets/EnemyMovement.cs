@@ -2,21 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : Movement
 {
-    GameObject levelManager;//Call methods from the Level0Manager.cs
-    Level0Manager levelManagerScripts;
+    
 
-    GameObject enemy;//Call methods from the Player.cs
-    Enemy enemyScripts; 
 
-    [SerializeField]
-    public float speed;
-    public float movement, travelledX, travelledY, travelledtotal;
 
-    private Rigidbody2D myRigidbody;
-    private Vector2 velocity;
-    private float oldpositionX, oldpositionY;
+   
     
     void Start()
     {
@@ -46,17 +38,12 @@ public class EnemyMovement : MonoBehaviour
             moveEnemy(0, 0);
         }
 
-        travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
-        travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);
-        travelledtotal = travelledY + travelledX + travelledtotal;
+        travelledTotal = getMovement(travelledTotal);
 
-        if (travelledtotal >= movement){
+        if (travelledTotal >= movement){
             levelManagerScripts.changeTurn();
-            travelledtotal = 0;
+            travelledTotal = 0;
         }
-
-        oldpositionX = myRigidbody.position.x;
-        oldpositionY = myRigidbody.position.y;
 
     }
     
@@ -74,5 +61,10 @@ public class EnemyMovement : MonoBehaviour
     public float getPositionY(){
         float myPositionY = myRigidbody.position.y;
         return myPositionY;
+    }
+
+    protected override float getMovement(float travelledTotal)
+    {
+        return base.getMovement(travelledTotal);
     }
 }
