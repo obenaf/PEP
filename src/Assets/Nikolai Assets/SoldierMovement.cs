@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SoldierMovement : Movement
 {
+    //public GameObject PlayerMovement;
+    public GameObject playerMovement;
+    public PlayerMovement playerMovementScripts;
     //private NavMeshAgent _nav;
     public int direction;
     private int moveCounter = 1;
@@ -11,6 +14,11 @@ public class SoldierMovement : Movement
     {
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
+
+        //playerScript = Player.GetComponent<>;
+        playerMovement = GameObject.FindGameObjectWithTag("Player");
+        //PlayerMovement = GameObject.FindGameObjectWithTag("Player");
+        playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
 
         enemy = GameObject.FindGameObjectWithTag("Enemy");
         enemyScripts = enemy.GetComponent<Enemy>();
@@ -23,7 +31,12 @@ public class SoldierMovement : Movement
     void FixedUpdate()
     {
         float MoveX, MoveY;
-        
+
+        float playerPosX = playerMovementScripts.getPositionX();
+        float playerPosY = playerMovementScripts.getPositionY();
+        float currentPosX = getPositionX();
+        float currentPosY = getPositionY();
+
         if (levelManagerScripts.turnManager() == false)
         {
             
@@ -67,7 +80,8 @@ public class SoldierMovement : Movement
                 // }
                 //MoveX = Input.GetAxisRaw("Horizontal");
                 //MoveY = Input.GetAxisRaw("Vertical");
-                moveEnemy(MoveX, MoveY);
+                //moveEnemy(MoveX, MoveY);
+                moveEnemy(playerPosX - currentPosX, playerPosY - currentPosY);
                 moveCounter = 1;
             }
             else

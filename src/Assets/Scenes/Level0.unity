@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  player: {fileID: 0}
+  PlayerMovement: {fileID: 0}
   playerScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
@@ -1985,6 +1985,8 @@ MonoBehaviour:
   velocity: {x: 0, y: 0}
   oldpositionX: 0
   oldpositionY: 0
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
   direction: 0
 --- !u!50 &352736917
 Rigidbody2D:
@@ -2855,7 +2857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  player: {fileID: 0}
+  PlayerMovement: {fileID: 0}
   playerScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
@@ -7049,7 +7051,7 @@ GameObject:
   - component: {fileID: 2115839714}
   - component: {fileID: 2115839718}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemySoldierBottom
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7212,7 +7214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  player: {fileID: 0}
+  PlayerMovement: {fileID: 0}
   playerScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
@@ -7239,7 +7241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  player: {fileID: 0}
+  PlayerMovement: {fileID: 0}
   playerScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
@@ -7252,6 +7254,8 @@ MonoBehaviour:
   velocity: {x: 0, y: 0}
   oldpositionX: 0
   oldpositionY: 0
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
   direction: 0
 --- !u!1 &2132182520
 GameObject:
