@@ -1896,10 +1896,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 352736919}
+  - component: {fileID: 352736920}
+  - component: {fileID: 352736916}
   - component: {fileID: 352736918}
   - component: {fileID: 352736917}
   - component: {fileID: 352736915}
-  - component: {fileID: 352736916}
   m_Layer: 0
   m_Name: EnemySoldierTop
   m_TagString: EnemySoldier
@@ -2047,8 +2048,39 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352736920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352736914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0721539a0eb4194d951f893043feb77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  attackOptions: {fileID: 0}
+  attackScripts: {fileID: 0}
+  enemy: {fileID: 0}
+  enemyScripts: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
+  SoldierMovement: {fileID: 0}
+  enemyMovementScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  health: 0
+  attack: 0
+  accuracy: 0
+  range: 0
+  movement: 0
+  level: 0
+  experience: 0
 --- !u!1 &417315459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +3204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &931687721
 GameObject:
@@ -4569,7 +4601,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1377621865
 MonoBehaviour:
@@ -6867,7 +6899,7 @@ RectTransform:
   - {fileID: 1977032086}
   - {fileID: 1655920446}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7044,12 +7076,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115839713}
-  - component: {fileID: 2115839717}
   - component: {fileID: 2115839716}
+  - component: {fileID: 2115839718}
   - component: {fileID: 2115839712}
   - component: {fileID: 2115839715}
   - component: {fileID: 2115839714}
-  - component: {fileID: 2115839718}
   m_Layer: 0
   m_Name: EnemySoldierBottom
   m_TagString: Enemy
@@ -7200,33 +7231,6 @@ MonoBehaviour:
   movement: 0
   level: 0
   experience: 0
---- !u!114 &2115839717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115839711}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7df91e77f18ea34a9ae9375ec051caf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
-  levelManagerScripts: {fileID: 0}
-  PlayerMovement: {fileID: 0}
-  playerScripts: {fileID: 0}
-  enemy: {fileID: 0}
-  enemyScripts: {fileID: 0}
-  speed: 0.1
-  movement: 20
-  travelledX: 0
-  travelledY: 0
-  travelledTotal: 0
-  myRigidbody: {fileID: 0}
-  velocity: {x: 0, y: 0}
-  oldpositionX: 0
-  oldpositionY: 0
 --- !u!114 &2115839718
 MonoBehaviour:
   m_ObjectHideFlags: 0
