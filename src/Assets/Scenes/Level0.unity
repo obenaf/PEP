@@ -1898,11 +1898,11 @@ GameObject:
   - component: {fileID: 352736919}
   - component: {fileID: 352736918}
   - component: {fileID: 352736917}
-  - component: {fileID: 352736916}
   - component: {fileID: 352736915}
+  - component: {fileID: 352736916}
   m_Layer: 0
-  m_Name: EnemyBush
-  m_TagString: EnemyBush
+  m_Name: EnemySoldierTop
+  m_TagString: EnemySoldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1967,18 +1967,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 352736914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20612a7fdb8b9f347a0a00c65d56abe4, type: 3}
+  m_Script: {fileID: 11500000, guid: a52ec391f511d76438cce25cbfbf0a44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  EnemyTurn: 0
-  direction: 1
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  enemy: {fileID: 0}
+  enemyScripts: {fileID: 0}
+  speed: 0
   movement: 0
   travelledX: 0
   travelledY: 0
-  travelledtotal: 0
-  moveX: 0
-  moveY: 0
+  travelledTotal: 0
+  myRigidbody: {fileID: 0}
+  velocity: {x: 0, y: 0}
+  oldpositionX: 0
+  oldpositionY: 0
+  direction: 0
 --- !u!50 &352736917
 Rigidbody2D:
   serializedVersion: 4
@@ -2846,11 +2853,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933bfbe1f32fc0e4e8789e2a02a73f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  enemy: {fileID: 0}
+  enemyScripts: {fileID: 0}
   speed: 0.1
   movement: 0
   travelledX: 0
   travelledY: 0
   travelledTotal: 0
+  myRigidbody: {fileID: 0}
+  velocity: {x: 0, y: 0}
+  oldpositionX: 0
+  oldpositionY: 0
 --- !u!95 &683220629
 Animator:
   serializedVersion: 3
@@ -7030,6 +7047,7 @@ GameObject:
   - component: {fileID: 2115839712}
   - component: {fileID: 2115839715}
   - component: {fileID: 2115839714}
+  - component: {fileID: 2115839718}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -7187,16 +7205,54 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115839711}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7df91e77f18ea34a9ae9375ec051caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  enemy: {fileID: 0}
+  enemyScripts: {fileID: 0}
   speed: 0.1
+  movement: 20
+  travelledX: 0
+  travelledY: 0
+  travelledTotal: 0
+  myRigidbody: {fileID: 0}
+  velocity: {x: 0, y: 0}
+  oldpositionX: 0
+  oldpositionY: 0
+--- !u!114 &2115839718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115839711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52ec391f511d76438cce25cbfbf0a44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  enemy: {fileID: 0}
+  enemyScripts: {fileID: 0}
+  speed: 0
   movement: 0
   travelledX: 0
   travelledY: 0
-  travelledtotal: 0
+  travelledTotal: 0
+  myRigidbody: {fileID: 0}
+  velocity: {x: 0, y: 0}
+  oldpositionX: 0
+  oldpositionY: 0
+  direction: 0
 --- !u!1 &2132182520
 GameObject:
   m_ObjectHideFlags: 0
