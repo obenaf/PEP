@@ -36,7 +36,8 @@ public class SoldierMovement : Movement
         float playerPosY = playerMovementScripts.getPositionY();
         float currentPosX = getPositionX();
         float currentPosY = getPositionY();
-
+        float movementX = playerPosX - currentPosX;
+        float movementY = playerPosY - currentPosY;
         if (levelManagerScripts.turnManager() == false)
         {
             
@@ -81,7 +82,23 @@ public class SoldierMovement : Movement
                 //MoveX = Input.GetAxisRaw("Horizontal");
                 //MoveY = Input.GetAxisRaw("Vertical");
                 //moveEnemy(MoveX, MoveY);
-                moveEnemy(playerPosX - currentPosX, playerPosY - currentPosY);
+                if (movementX > 0)
+                {
+                    MoveX = 1;
+                }
+                else
+                {
+                    MoveX = -1;
+                }
+                if (movementY > 0)
+                {
+                    MoveY = 1;
+                }
+                else
+                {
+                    MoveY = -1;
+                }
+                moveEnemy(MoveX, MoveY);
                 moveCounter = 1;
             }
             else
