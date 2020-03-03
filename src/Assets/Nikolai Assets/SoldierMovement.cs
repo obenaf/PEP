@@ -40,70 +40,89 @@ public class SoldierMovement : Movement
         float movementY = playerPosY - currentPosY;
         if (levelManagerScripts.turnManager() == false)
         {
-            
+
             if (moveCounter == 5)
             {
-                //changeTurn = Input.GetAxisRaw("ChangeTurn");
-                direction = Random.Range(1, 5);
+                if (Mathf.Pow(movementX, 2) + Mathf.Pow(movementY, 2) > 5)
+                {
+                    //changeTurn = Input.GetAxisRaw("ChangeTurn");
+                    direction = Random.Range(1, 5);
 
-                if (direction == 1)
-                {
-                    // Move Right
-                    MoveX = 1;
-                    MoveY = 0;
+                    if (direction == 1)
+                    {
+                        // Move Right
+                        MoveX = 1;
+                        MoveY = 0;
 
-                }
-                else if (direction == 2)
-                {
-                    // Move Up
-                    MoveX = 0;
-                    MoveY = 1;
-                }
-                else if (direction == 3)
-                {
-                    // Move Left
-                    MoveX = -1;
-                    MoveY = 0;
+                    }
+                    else if (direction == 2)
+                    {
+                        // Move Up
+                        MoveX = 0;
+                        MoveY = 1;
+                    }
+                    else if (direction == 3)
+                    {
+                        // Move Left
+                        MoveX = -1;
+                        MoveY = 0;
+                    }
+                    else
+                    {
+                        MoveX = 0;
+                        MoveY = -1;
+                    }
                 }
                 else
                 {
-                    MoveX = 0;
-                    MoveY = -1;
-                }
 
-                //if (EnemyTurn == true)
-                //{
-                //    moveEnemy(moveX, moveY);
-                //}
-                //if (changeTurn == 1)
-                //{
-                //    EnemyTurn = true;
-                // }
-                //MoveX = Input.GetAxisRaw("Horizontal");
-                //MoveY = Input.GetAxisRaw("Vertical");
-                //moveEnemy(MoveX, MoveY);
-                if (movementX > 0)
-                {
-                    MoveX = 1;
-                }
-                else
-                {
-                    MoveX = -1;
-                }
-                if (movementY > 0)
-                {
-                    MoveY = 1;
-                }
-                else
-                {
-                    MoveY = -1;
+                    //if (EnemyTurn == true)
+                    //{
+                    //    moveEnemy(moveX, moveY);
+                    //}
+                    //if (changeTurn == 1)
+                    //{
+                    //    EnemyTurn = true;
+                    // }
+                    //MoveX = Input.GetAxisRaw("Horizontal");
+                    //MoveY = Input.GetAxisRaw("Vertical");
+                    //moveEnemy(MoveX, MoveY);
+
+                    // Update enemy movement in X direction
+                    if (movementX > 0.3)
+                    {
+                        MoveX = 1;
+                    }
+                    else if (movementX < 0.3)
+                    {
+                        MoveX = -1;
+                    }
+                    else
+                    {
+                        MoveX = 0;
+                    }
+
+                    // Update enemy movement in Y direction
+                    if (movementY > 0.3)
+                    {
+                        MoveY = 1;
+                    }
+                    else if (movementY < 0.3)
+                    {
+                        MoveY = -1;
+                    }
+                    else
+                    {
+                        MoveY = 0;
+                    }
+                    
                 }
                 moveEnemy(MoveX, MoveY);
                 moveCounter = 1;
             }
             else
             {
-                
+
                 moveCounter++;
             }
             
