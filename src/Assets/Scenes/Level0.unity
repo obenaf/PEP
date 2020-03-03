@@ -1975,8 +1975,9 @@ GameObject:
   - component: {fileID: 352736918}
   - component: {fileID: 352736917}
   - component: {fileID: 352736915}
+  - component: {fileID: 352736921}
   m_Layer: 0
-  m_Name: EnemySoldierTop
+  m_Name: EnemySoldierTop(Spear)
   m_TagString: EnemySoldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2155,6 +2156,25 @@ MonoBehaviour:
   movement: 0
   level: 0
   experience: 0
+--- !u!95 &352736921
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352736914}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a0548cfb2338d44297110b1d53354a2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &356398827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +3272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c47fe11f67b45f419a94212e240c330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
 --- !u!114 &683220631
 MonoBehaviour:
   m_ObjectHideFlags: 0
