@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class EnemyMovement : Movement
 {
-    
-
-
-
-   
-    
     void Start()
     {
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
@@ -25,14 +19,7 @@ public class EnemyMovement : Movement
 
     void FixedUpdate()
     {
-        float MoveX, MoveY;
         
-        if (levelManagerScripts.turnManager() == false)
-        {
-                MoveX = Input.GetAxisRaw("Horizontal");
-                MoveY = Input.GetAxisRaw("Vertical");
-                moveEnemy(MoveX, MoveY);
-        }
         if (levelManagerScripts.turnManager() == true)//If not players turn, don't move. This prevents other characters from pushing this character
         {
             moveEnemy(0, 0);

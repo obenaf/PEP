@@ -29,8 +29,8 @@ public class Player : Character
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
 
-        enemyMovement = GameObject.FindGameObjectWithTag("Enemy");
-        enemyMovementScripts = enemyMovement.GetComponent<EnemyMovement>();
+        SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
+        enemyMovementScripts = SoldierMovement.GetComponent<SoldierMovement>();
     }
 
     

@@ -2921,7 +2921,7 @@ MonoBehaviour:
   enemyScripts: {fileID: 0}
   playerMovement: {fileID: 0}
   playerMovementScripts: {fileID: 0}
-  enemyMovement: {fileID: 0}
+  SoldierMovement: {fileID: 0}
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
@@ -7189,7 +7189,7 @@ MonoBehaviour:
   enemyScripts: {fileID: 0}
   playerMovement: {fileID: 0}
   playerMovementScripts: {fileID: 0}
-  enemyMovement: {fileID: 0}
+  SoldierMovement: {fileID: 0}
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}

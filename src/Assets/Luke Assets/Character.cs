@@ -17,8 +17,8 @@ public class Character : MonoBehaviour
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
 
-    public GameObject enemyMovement;
-    public EnemyMovement enemyMovementScripts;
+    public GameObject SoldierMovement;
+    public SoldierMovement enemyMovementScripts;
 
     public GameObject player;//Call methods from the Player.cs
     public Player playerScripts;
