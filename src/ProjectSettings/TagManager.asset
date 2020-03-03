@@ -18,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - FogOfWarMain
+  - FogOfWarSecondary
   - 
   - 
   - 
@@ -54,4 +54,7 @@ TagManager:
     locked: 0
   - name: 3
     uniqueID: 3892220889
+    locked: 0
+  - name: FogOfWar
+    uniqueID: 3827090747
     locked: 0
