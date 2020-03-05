@@ -10,11 +10,11 @@ public class PlayerMovement : Movement
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
         
-        PlayerMovement = GameObject.FindGameObjectWithTag("Player");
-        playerScripts = PlayerMovement.GetComponent<Player>();
+        playerMovement = GameObject.FindGameObjectWithTag("Player");
+        playerMovementScripts = playerMovement.GetComponent<Player>();
         
         myRigidbody = GetComponent<Rigidbody2D>();
-        movement = playerScripts.getMovement();
+        movement = playerMovementScripts.getMovement();
     }
 
 

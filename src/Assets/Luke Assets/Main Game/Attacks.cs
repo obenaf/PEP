@@ -30,5 +30,7 @@ public class Attacks : MonoBehaviour
         }
         return damage;
     }
+    
+
 
 }

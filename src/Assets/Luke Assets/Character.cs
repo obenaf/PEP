@@ -28,16 +28,15 @@ public class Character : MonoBehaviour
     public int attack;
     public int accuracy;
     public float range;
+    public bool rangedAttack;
     public float movement;
     public int level;
     public int experience;
 
 
-
-
     void Start()
     {
- 
+        
     }
 
 
