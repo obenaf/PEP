@@ -33,4 +33,7 @@ public class Enemy : Character
     public void damageEnemy(int damage){
         currentHealth = currentHealth - damage;
     }
+    public int getCurrentHealth(){
+        return currentHealth;
+    }
 }
