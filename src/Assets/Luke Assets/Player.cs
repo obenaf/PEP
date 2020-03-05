@@ -14,6 +14,7 @@ public class Player : Character
         accuracy = 50;
         movement = 5;
         range = 1;
+        rangedAttack = true;
     }
     void Start()
     {
@@ -66,5 +67,8 @@ public class Player : Character
     public void gainLevel()
     {
 
+    }
+     public void damagePlayer(int damage){
+        health = health - damage;
     }
 }

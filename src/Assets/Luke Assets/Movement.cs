@@ -7,8 +7,8 @@ public class Movement : MonoBehaviour
     public GameObject levelManager;//Call methods from the Level0Manager.cs
     public Level0Manager levelManagerScripts;
 
-    public GameObject PlayerMovement;//Call methods from the Player.cs
-    public Player playerScripts;
+    public GameObject playerMovement;//Call methods from the Player.cs
+    public Player playerMovementScripts;
 
     public GameObject enemy;//Call methods from the Player.cs
     public Enemy enemyScripts;
