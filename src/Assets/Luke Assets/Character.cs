@@ -24,7 +24,8 @@ public class Character : MonoBehaviour
     public Player playerScripts;
 
     [SerializeField]
-    public int health;
+    public int maxHealth;
+    public int currentHealth;
     public int attack;
     public int accuracy;
     public float range;

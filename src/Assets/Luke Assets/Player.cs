@@ -9,7 +9,7 @@ public class Player : Character
     
     void Awake()
     {
-        health = 10;
+        maxHealth = 10;
         attack = 5;
         accuracy = 50;
         movement = 5;
@@ -32,6 +32,8 @@ public class Player : Character
 
         SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
         enemyMovementScripts = SoldierMovement.GetComponent<SoldierMovement>();
+
+        currentHealth = maxHealth;
     }
 
     
@@ -69,6 +71,9 @@ public class Player : Character
 
     }
      public void damagePlayer(int damage){
-        health = health - damage;
+        currentHealth = currentHealth - damage;
+    }
+    public int getCurrentHealth(){
+        return currentHealth;
     }
 }

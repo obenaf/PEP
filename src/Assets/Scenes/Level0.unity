@@ -2048,8 +2048,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  PlayerMovement: {fileID: 0}
-  playerScripts: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
   speed: 0
@@ -2134,7 +2134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 352736914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0721539a0eb4194d951f893043feb77, type: 3}
+  m_Script: {fileID: 11500000, guid: d4b375045ec17bb488fb600728b24315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -2149,10 +2149,12 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
-  health: 0
+  maxHealth: 0
+  currentHealth: 0
   attack: 0
   accuracy: 0
   range: 0
+  rangedAttack: 0
   movement: 0
   level: 0
   experience: 0
@@ -3228,8 +3230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  PlayerMovement: {fileID: 0}
-  playerScripts: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
   speed: 0.1
@@ -3298,10 +3300,12 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
-  health: 0
+  maxHealth: 0
+  currentHealth: 0
   attack: 0
   accuracy: 0
   range: 0
+  rangedAttack: 0
   movement: 0
   level: 0
   experience: 0
@@ -7727,10 +7731,12 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
-  health: 0
+  maxHealth: 0
+  currentHealth: 0
   attack: 0
   accuracy: 0
   range: 0
+  rangedAttack: 0
   movement: 0
   level: 0
   experience: 0
@@ -7748,8 +7754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   levelManagerScripts: {fileID: 0}
-  PlayerMovement: {fileID: 0}
-  playerScripts: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
   enemy: {fileID: 0}
   enemyScripts: {fileID: 0}
   speed: 0
