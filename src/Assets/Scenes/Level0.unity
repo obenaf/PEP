@@ -561,7 +561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &146513039
 Camera:
   m_ObjectHideFlags: 0
@@ -2256,10 +2256,12 @@ MonoBehaviour:
   health: 0
   attack: 0
   accuracy: 0
+  armor: 0
   range: 0
   movement: 0
   level: 0
   experience: 0
+  isRanged: 0
 --- !u!95 &352736921
 Animator:
   serializedVersion: 3
@@ -2297,7 +2299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &356398828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,7 +2645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &446733838
 Camera:
   m_ObjectHideFlags: 0
@@ -3407,10 +3409,12 @@ MonoBehaviour:
   health: 0
   attack: 0
   accuracy: 0
+  armor: 0
   range: 0
   movement: 0
   level: 0
   experience: 0
+  isRanged: 0
 --- !u!1 &683990211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1223882001
 Transform:
   m_ObjectHideFlags: 0
@@ -5315,6 +5319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737780c5662368d4eb7836e4e8561e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArrowPrefab: {fileID: 8410003489273951889, guid: b16b9bbf6c9350548a7f785abd0f37cf,
+    type: 3}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
 --- !u!1 &1398318113
 GameObject:
   m_ObjectHideFlags: 0
@@ -7092,7 +7100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1638316806
 Transform:
   m_ObjectHideFlags: 0
@@ -8083,10 +8091,12 @@ MonoBehaviour:
   health: 0
   attack: 0
   accuracy: 0
+  armor: 0
   range: 0
   movement: 0
   level: 0
   experience: 0
+  isRanged: 0
 --- !u!114 &2115839718
 MonoBehaviour:
   m_ObjectHideFlags: 0

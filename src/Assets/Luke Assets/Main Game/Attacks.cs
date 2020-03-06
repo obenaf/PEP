@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Attacks : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject ArrowPrefab;
+    public GameObject playerMovement;
+    public PlayerMovement playerMovementScripts;
+
     void Start()
     {
-        
+        playerMovement = GameObject.FindGameObjectWithTag("Player");
+        playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
     }
 
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
         
@@ -29,6 +34,15 @@ public class Attacks : MonoBehaviour
             damage = 0;
         }
         return damage;
+    }
+    public int getRangeDamage(int attack, int accuracy)
+    {
+        return 0;
+    }
+    public void spawnArrow()
+    {
+        GameObject a = Instantiate(ArrowPrefab) as GameObject;
+        a.transform.position = new Vector2(playerMovementScripts.getPositionX(), playerMovementScripts.getPositionY());
     }
 
 }
