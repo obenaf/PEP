@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     public Level0Manager levelManagerScripts;
 
     public GameObject attackOptions;//Call methods from the Level0Manager.cs
-    public Attacks attackScripts;
+    public Attack attackScripts;
 
     public GameObject enemy;
     public Enemy enemyScripts;

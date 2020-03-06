@@ -5,7 +5,8 @@ using UnityEngine;
 public class Player : Character
 {
 
-    
+    public Enemy closestEnemy = null;
+    public Enemy[] allEnemies;
     
     void Awake()
     {
@@ -22,7 +23,7 @@ public class Player : Character
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
 
         attackOptions = GameObject.FindGameObjectWithTag("Attacks");
-        attackScripts = attackOptions.GetComponent<Attacks>();
+        attackScripts = attackOptions.GetComponent<Attack>();
         
         enemy = GameObject.FindGameObjectWithTag("Enemy");
         enemyScripts = enemy.GetComponent<Enemy>();
@@ -32,6 +33,8 @@ public class Player : Character
 
         SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
         enemyMovementScripts = SoldierMovement.GetComponent<SoldierMovement>();
+
+        allEnemies = GameObject.FindObjectsOfType<Enemy>();
 
         currentHealth = maxHealth;
     }
@@ -44,12 +47,16 @@ public class Player : Character
         if (levelManagerScripts.turnManager() == true){
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
-                if (attackPossible(range) == true){
-                    int damage;
-                    damage = attackScripts.getMeleeDamage(attack, accuracy);
-                    enemyScripts.damageEnemy(damage);
-                    attackInput = 0;
-                    levelManagerScripts.changeTurn();
+                foreach (Enemy currentEnemy in allEnemies){
+                    enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
+                    enemyScripts = currentEnemy.GetComponent<Enemy>();
+                    if (attackPossible(range) == true){
+                        int damage;
+                        damage = attackScripts.getMeleeDamage(attack, accuracy);
+                        enemyScripts.damageEnemy(damage);
+                        attackInput = 0;
+                        levelManagerScripts.changeTurn();
+                    }
                 }
             }
         }
