@@ -24,6 +24,7 @@ public class Enemy : Character
         {
             Destroy(gameObject);
             playerScripts.gainExperience(experience);
+            playerScripts.findEnemies();
         }
     }
     public float getMovement(){

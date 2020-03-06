@@ -23,10 +23,14 @@ public class Character : MonoBehaviour
     public GameObject player;//Call methods from the Player.cs
     public Player playerScripts;
 
+    public Enemy closestEnemy = null;
+    public Enemy[] allEnemies;
+
     [SerializeField]
     public int health;
     public int attack;
     public int accuracy;
+    public int armor;
     public float range;
     public float movement;
     public int level;

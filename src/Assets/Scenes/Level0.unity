@@ -2079,7 +2079,7 @@ GameObject:
   - component: {fileID: 352736915}
   - component: {fileID: 352736921}
   m_Layer: 0
-  m_Name: EnemySoldierTop(Spear)
+  m_Name: Enemy2
   m_TagString: EnemySoldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 352736914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0721539a0eb4194d951f893043feb77, type: 3}
+  m_Script: {fileID: 11500000, guid: d4b375045ec17bb488fb600728b24315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -2251,6 +2251,8 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
+  closestEnemy: {fileID: 0}
+  allEnemies: []
   health: 0
   attack: 0
   accuracy: 0
@@ -3400,6 +3402,8 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
+  closestEnemy: {fileID: 0}
+  allEnemies: []
   health: 0
   attack: 0
   accuracy: 0
@@ -7932,7 +7936,7 @@ GameObject:
   - component: {fileID: 2115839715}
   - component: {fileID: 2115839714}
   m_Layer: 0
-  m_Name: EnemySoldierBottom
+  m_Name: Enemy1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8074,6 +8078,8 @@ MonoBehaviour:
   enemyMovementScripts: {fileID: 0}
   player: {fileID: 0}
   playerScripts: {fileID: 0}
+  closestEnemy: {fileID: 0}
+  allEnemies: []
   health: 0
   attack: 0
   accuracy: 0

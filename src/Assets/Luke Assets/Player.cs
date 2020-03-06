@@ -5,15 +5,19 @@ using UnityEngine;
 public class Player : Character
 {
 
-    
-    
+    private int nextLevel;
+    private int currentLevel;
+
     void Awake()
     {
         health = 10;
         attack = 5;
         accuracy = 50;
         movement = 5;
+        armor = 0;
         range = 1;
+        experience = 0;
+        nextLevel = currentLevel * 100;
     }
     void Start()
     {
@@ -24,13 +28,12 @@ public class Player : Character
         attackScripts = attackOptions.GetComponent<Attacks>();
         
         enemy = GameObject.FindGameObjectWithTag("Enemy");
-        enemyScripts = enemy.GetComponent<Enemy>();
+        SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
+        allEnemies = GameObject.FindObjectsOfType<Enemy>();
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
-
-        SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
-        enemyMovementScripts = SoldierMovement.GetComponent<SoldierMovement>();
+        
     }
 
     
@@ -41,30 +44,47 @@ public class Player : Character
         if (levelManagerScripts.turnManager() == true){
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
-                if (attackPossible(range) == true){
-                    int damage;
-                    damage = attackScripts.getMeleeDamage(attack, accuracy);
-                    enemyScripts.damageEnemy(damage);
-                    attackInput = 0;
-                    levelManagerScripts.changeTurn();
+                foreach (Enemy currentEnemy in allEnemies)
+                {                
+                    enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
+                    enemyScripts = currentEnemy.GetComponent<Enemy>();
+                    if (attackPossible(range) == true)
+                    {
+                        int damage;
+                        damage = attackScripts.getMeleeDamage(attack, accuracy);
+                        enemyScripts.damageEnemy(damage);
+                        attackInput = 0;
+                        levelManagerScripts.changeTurn();
+                    }
                 }
             }
         }
     }
 
-    public float getMovement(){
+    public float getMovement()
+    {
         return movement;
     }
-    protected override bool attackPossible(float range){
+    protected override bool attackPossible(float range)
+    {
         return base.attackPossible(range);
-    
     }
     public void gainExperience(int newExp)
     {
         experience = experience + newExp;
+        if (experience > nextLevel)
+        {
+            gainLevel();
+        }
     }
     public void gainLevel()
     {
-
+        currentLevel++;
+        health = health + 5;
+        armor = armor + 2;
+    }
+    public void findEnemies()
+    {
+        allEnemies = GameObject.FindObjectsOfType<Enemy>();
     }
 }
