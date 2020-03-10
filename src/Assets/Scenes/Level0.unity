@@ -4607,11 +4607,11 @@ GameObject:
   - component: {fileID: 1615263297}
   m_Layer: 0
   m_Name: InventoryMenu
-  m_TagString: Untagged
+  m_TagString: InventoryMenu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1615263297
 Transform:
   m_ObjectHideFlags: 0

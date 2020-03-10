@@ -9,6 +9,8 @@ public class Inventory : MonoBehaviour
     public Item[] itemList = new Item[20];
     public InventorySlot[] inventorySlots = new InventorySlot[20];
 
+    public object ItemContainer { get; internal set; }
+
     void Awake()
     {
         if(instance==null)

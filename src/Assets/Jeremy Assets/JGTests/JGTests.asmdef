@@ -1,0 +1,9 @@
+﻿{
+    "name": "JGTests",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
