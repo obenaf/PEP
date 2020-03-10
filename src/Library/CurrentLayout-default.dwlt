@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,9 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1352
     height: 628
-  m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 12002, y: 8042}
+  m_MinSize: {x: 677, y: 321}
+  m_MaxSize: {x: 12002, y: 8021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 60
 <<<<<<< HEAD
 =======
@@ -63,6 +64,9 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+  controlID: 64
+>>>>>>> parent of d823aaab... inventory code
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -78,20 +82,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 927
+    x: 1060
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
     width: 425
+=======
+    width: 292
+>>>>>>> parent of d823aaab... inventory code
     height: 628
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
 <<<<<<< HEAD
 =======
@@ -136,6 +144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 309
     height: 350
 <<<<<<< HEAD
@@ -148,11 +157,15 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    width: 263
+    height: 357
+>>>>>>> parent of d823aaab... inventory code
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -174,17 +187,23 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
     y: 350
     width: 927
     height: 278
+=======
+    y: 357
+    width: 1060
+    height: 271
+>>>>>>> parent of d823aaab... inventory code
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 1
   m_LastSelected: 0
 <<<<<<< HEAD
@@ -227,6 +246,7 @@ MonoBehaviour:
     y: 0
     width: 1352
     height: 678
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 300}
 <<<<<<< HEAD
 =======
@@ -239,6 +259,9 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+  m_MinSize: {x: 875, y: 371}
+>>>>>>> parent of d823aaab... inventory code
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -302,10 +325,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 927
+    width: 1060
     height: 628
-  m_MinSize: {x: 402, y: 342}
-  m_MaxSize: {x: 8002, y: 8042}
+  m_MinSize: {x: 402, y: 321}
+  m_MaxSize: {x: 8002, y: 8021}
   vertical: 1
   controlID: 65
 <<<<<<< HEAD
@@ -341,8 +364,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 927
-    height: 350
+    width: 1060
+    height: 357
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
@@ -376,8 +399,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 309
+    x: 263
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,8 +426,17 @@ MonoBehaviour:
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
   m_ActualView: {fileID: 17}
+=======
+    width: 797
+    height: 357
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+>>>>>>> parent of d823aaab... inventory code
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
+<<<<<<< HEAD
   - {fileID: 18}
   - {fileID: 13}
 <<<<<<< HEAD
@@ -415,6 +448,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
+=======
+>>>>>>> parent of d823aaab... inventory code
   - {fileID: 12}
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
   m_Selected: 0
@@ -427,6 +462,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +564,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> parent of d823aaab... inventory code
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -546,7 +584,7 @@ MonoBehaviour:
     width: 973
     height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,6 +606,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 422.59796
     width: 926
     height: 257
@@ -583,6 +622,11 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    y: 429.5258
+    width: 1059
+    height: 250
+>>>>>>> parent of d823aaab... inventory code
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -597,6 +641,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,11 +669,19 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    - Assets/Jeremy Assets/Inventory
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Jeremy Assets/Inventory
+>>>>>>> parent of d823aaab... inventory code
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jeremy\OneDrive\Documents\GitHub\PEP\src
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 193.14366}
     m_SelectedIDs: 86390000
     m_LastClickedID: 14726
@@ -645,6 +698,12 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    scrollPos: {x: 0, y: 75.03911}
+    m_SelectedIDs: ec360000
+    m_LastClickedID: 14060
+    m_ExpandedIDs: 00000000e6360000e8360000ea360000ec360000ee360000f0360000f2360000f4360000f6360000f8360000fa360000fc360000fe36000000370000023700000437000006370000083700000a3700000c3700000e37000010370000123700001437000016370000183700001a3700001c3700001e37000020370000223700002437000026370000283700002a3700002c3700006c37000000ca9a3b
+>>>>>>> parent of d823aaab... inventory code
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +770,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -728,7 +787,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -739,6 +798,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 260
 <<<<<<< HEAD
 =======
@@ -750,6 +810,10 @@ MonoBehaviour:
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
 --- !u!114 &15
+=======
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
+>>>>>>> parent of d823aaab... inventory code
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,9 +834,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 927.3403
+    x: 1059.9589
     y: 72.24743
-    width: 423
+    width: 290
     height: 607
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -787,7 +851,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -810,6 +874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.24743
+<<<<<<< HEAD
     width: 308
     height: 329
 <<<<<<< HEAD
@@ -824,6 +889,10 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    width: 262
+    height: 336
+>>>>>>> parent of d823aaab... inventory code
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -831,8 +900,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 7a350000
       m_LastClickedID: 13690
+=======
+      m_SelectedIDs: 94350000
+      m_LastClickedID: 13716
+>>>>>>> parent of d823aaab... inventory code
       m_ExpandedIDs: 6efbffff723500007a350000
 =======
       m_SelectedIDs: 4e690000
@@ -883,8 +957,12 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
   m_WindowGUID: 1d760115295314e43b604755d667f150
+<<<<<<< HEAD
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
 --- !u!114 &17
+=======
+--- !u!114 &16
+>>>>>>> parent of d823aaab... inventory code
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -905,8 +983,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 308.7835
+    x: 263.25775
     y: 72.24743
+<<<<<<< HEAD
     width: 616
     height: 329
 <<<<<<< HEAD
@@ -921,6 +1000,10 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    width: 795
+    height: 336
+>>>>>>> parent of d823aaab... inventory code
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 5cd25f7c3600dfe488151ac5c2a17117
@@ -1047,7 +1130,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1068,8 +1151,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 308.7835
+    x: 263.25775
     y: 72.24743
+<<<<<<< HEAD
     width: 616
     height: 329
 <<<<<<< HEAD
@@ -1084,6 +1168,10 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    width: 795
+    height: 336
+>>>>>>> parent of d823aaab... inventory code
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -1091,6 +1179,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1193,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 616, y: 308}
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+  m_TargetSize: {x: 795, y: 315}
+>>>>>>> parent of d823aaab... inventory code
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1117,6 +1209,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -304.82477
     m_HBaseRangeMax: 304.82477
     m_VBaseRangeMin: -152.41238
@@ -1133,6 +1226,12 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    m_HBaseRangeMin: -393.4021
+    m_HBaseRangeMax: 393.4021
+    m_VBaseRangeMin: -155.8763
+    m_VBaseRangeMax: 155.8763
+>>>>>>> parent of d823aaab... inventory code
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1150,9 +1249,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 616
-      height: 308
+      width: 795
+      height: 315
     m_Scale: {x: 1, y: 1}
+<<<<<<< HEAD
     m_Translation: {x: 308, y: 154}
 <<<<<<< HEAD
 =======
@@ -1166,18 +1266,22 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    m_Translation: {x: 397.5, y: 157.5}
+>>>>>>> parent of d823aaab... inventory code
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -308
-      y: -154
-      width: 616
-      height: 308
+      x: -397.5
+      y: -157.5
+      width: 795
+      height: 315
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 622.4166, y: 332.42706}
 <<<<<<< HEAD
 =======
@@ -1194,12 +1298,15 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+  m_LastWindowPixelSize: {x: 803.2812, y: 339.5}
+>>>>>>> parent of d823aaab... inventory code
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1221,6 +1328,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 422.59796
     width: 926
     height: 257
@@ -1236,4 +1344,9 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+    y: 429.5258
+    width: 1059
+    height: 250
+>>>>>>> parent of d823aaab... inventory code
   m_ViewDataDictionary: {fileID: 0}

@@ -1,2 +1,0 @@
-C:\Users\Jeremy\OneDrive\Documents\GitHub\PEP\src\obj\Debug\JGTests.csprojAssemblyReference.cache
-C:\Users\Jeremy\OneDrive\Documents\GitHub\PEP\src\obj\Debug\JGTests.csproj.CoreCompileInputs.cache

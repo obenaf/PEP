@@ -9,7 +9,6 @@ TagManager:
   - Enemy
   - Attacks
   - EnemySoldier
-  - InventoryMenu
   layers:
   - Default
   - TransparentFX
