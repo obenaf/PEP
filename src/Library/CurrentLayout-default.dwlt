@@ -59,9 +59,6 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 564
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -93,8 +90,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     width: 425
 =======
     width: 292
@@ -122,6 +122,7 @@ MonoBehaviour:
   - {fileID: 12}
   m_Selected: 1
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
     width: 414
     height: 947
@@ -135,6 +136,8 @@ MonoBehaviour:
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -161,9 +164,6 @@ MonoBehaviour:
 =======
     width: 374
     height: 573
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -205,8 +205,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     y: 350
     width: 927
     height: 278
@@ -225,8 +228,6 @@ MonoBehaviour:
   m_LastSelected: 0
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 6ea436c6... Range Stuff
     y: 573
     width: 1506
     height: 374
@@ -284,9 +285,6 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_MinSize: {x: 875, y: 542}
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -376,9 +374,6 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 565
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -419,9 +414,6 @@ MonoBehaviour:
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 566
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -450,23 +442,21 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     width: 618
     height: 350
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 6ea436c6... Range Stuff
     width: 1132
     height: 573
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -491,6 +481,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 12}
 =======
 >>>>>>> parent of 6ea436c6... Range Stuff
@@ -501,6 +492,11 @@ MonoBehaviour:
 >>>>>>> parent of d823aaab... inventory code
   - {fileID: 12}
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+  - {fileID: 12}
+=======
+>>>>>>> parent of 6ea436c6... Range Stuff
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -516,8 +512,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -575,8 +574,6 @@ MonoBehaviour:
     m_SelectedLayerIndex: 0
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 6ea436c6... Range Stuff
   m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -599,9 +596,6 @@ MonoBehaviour:
     m_PrefName: Preview_TilemapBrushInspector
   m_Palette: {fileID: 3181600056531849759, guid: 36705364c921ea945a30d285f4749738,
     type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -666,9 +660,6 @@ MonoBehaviour:
     y: 646
     width: 1505
     height: 353
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -702,8 +693,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     - Assets/Jeremy Assets/JGTests
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -717,6 +711,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
     - Assets/Scenes
   m_ViewMode: 1
@@ -740,6 +735,8 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Nikolai Assets
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\leryssel\Documents\GitHub\PEP\src
   m_LockTracker:
@@ -757,9 +754,6 @@ MonoBehaviour:
     m_SelectedIDs: 94380000
     m_LastClickedID: 14484
     m_ExpandedIDs: ffffffff00000000423800004438000046380000483800004a3800004c3800004e38000050380000523800005438000056380000583800005a3800005c3800005e38000060380000623800006438000066380000683800006a3800006c3800006e38000070380000723800007438000076380000783800007a3800007c3800007e3800008038000082380000843800008638000000ca9a3b
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -806,10 +800,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     m_ExpandedIDs: 00000000e6360000e8360000ea360000ec360000ee360000f0360000f2360000f4360000f6360000f8360000fa360000fc360000fe36000000370000023700000437000006370000083700000a3700000c3700000e37000010370000123700001437000016370000183700001a3700001c3700001e37000020370000223700002437000026370000283700002a3700002c370000
 =======
     m_ExpandedIDs: ffffffff00000000423800004438000046380000483800004a3800004c3800004e38000050380000523800005438000056380000583800005a3800005c3800005e38000060380000623800006438000066380000683800006a3800006c3800006e38000070380000723800007438000076380000783800007a3800007c3800007e38000080380000823800008438000086380000
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
     m_ExpandedIDs: ffffffff00000000423800004438000046380000483800004a3800004c3800004e38000050380000523800005438000056380000583800005a3800005c3800005e38000060380000623800006438000066380000683800006a3800006c3800006e38000070380000723800007438000076380000783800007a3800007c3800007e38000080380000823800008438000086380000
 >>>>>>> parent of 6ea436c6... Range Stuff
@@ -819,6 +817,8 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000008e35000090350000923500009435000096350000983500009a3500009c3500009e350000a0350000a2350000a4350000a6350000a8350000aa350000ac350000ae350000b0350000b2350000b4350000b6350000b8350000ba350000bc350000be350000c0350000c2350000c4350000c6350000c8350000ca350000cc350000ce350000d0350000d235000000ca9a3b
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -878,9 +878,6 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
   m_DirectoriesAreaWidth: 115
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -959,9 +956,6 @@ MonoBehaviour:
     y: 73
     width: 373
     height: 552
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -984,6 +978,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
       m_SelectedIDs: 7a350000
       m_LastClickedID: 13690
 =======
@@ -996,6 +993,7 @@ MonoBehaviour:
       m_LastClickedID: 26958
       m_ExpandedIDs: 9eecffffd6ecffff38fbffff4e690000f6690000
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
       m_SelectedIDs: 4e690000
       m_LastClickedID: 26958
@@ -1011,6 +1009,8 @@ MonoBehaviour:
       m_LastClickedID: 20742
       m_ExpandedIDs: 88faffffb04f0000ea500000
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1036,10 +1036,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_WindowGUID: 1d760115295314e43b604755d667f150
 =======
   m_WindowGUID: 831d115995288cc45addd83c8f376d6c
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
   m_WindowGUID: 831d115995288cc45addd83c8f376d6c
 >>>>>>> parent of 6ea436c6... Range Stuff
@@ -1047,6 +1051,8 @@ MonoBehaviour:
   m_WindowGUID: 1d760115295314e43b604755d667f150
 <<<<<<< HEAD
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
 --- !u!114 &17
 =======
 --- !u!114 &16
@@ -1083,9 +1089,6 @@ MonoBehaviour:
     y: 73
     width: 1130
     height: 552
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -1114,6 +1117,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     m_Target: {x: 1.3840553, y: 0.8896097, z: -1605.0764}
     speed: 2
     m_Value: {x: 1.3840553, y: 0.8896097, z: -1605.0764}
@@ -1122,6 +1128,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.05797426, y: -0.48388582, z: -1.5117247}
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
     m_Target: {x: -0.07185786, y: -0.51657945, z: -1.5508319}
     speed: 2
@@ -1137,6 +1144,8 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.8086997, y: 0.07456089, z: -1.3014784}
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1190,6 +1199,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
     m_Target: 9.890943
     speed: 2
     m_Value: 9.890943
@@ -1198,6 +1210,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 10.877213
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
     m_Target: 10.387738
     speed: 2
@@ -1213,6 +1226,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 4.200823
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1270,9 +1285,6 @@ MonoBehaviour:
     y: 73
     width: 1130
     height: 552
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -1298,10 +1310,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_TargetSize: {x: 616, y: 308}
 =======
   m_TargetSize: {x: 1130, y: 531}
 >>>>>>> parent of 6ea436c6... Range Stuff
+<<<<<<< HEAD
 =======
   m_TargetSize: {x: 1130, y: 531}
 >>>>>>> parent of 6ea436c6... Range Stuff
@@ -1314,6 +1330,8 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 1130, y: 532}
 >>>>>>> parent of e3f16644... switchScreen/reordering
+=======
+>>>>>>> parent of 73e94517... Revert to Luke last commit
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1339,9 +1357,6 @@ MonoBehaviour:
     m_HBaseRangeMax: 565
     m_VBaseRangeMin: -265.5
     m_VBaseRangeMax: 265.5
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -1386,9 +1401,6 @@ MonoBehaviour:
       height: 531
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 565, y: 265.5}
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -1422,9 +1434,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1130, y: 552}
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
@@ -1472,9 +1481,6 @@ MonoBehaviour:
     y: 646
     width: 1505
     height: 353
-<<<<<<< HEAD
->>>>>>> parent of 6ea436c6... Range Stuff
-=======
 >>>>>>> parent of 6ea436c6... Range Stuff
 =======
 >>>>>>> parent of e9094977... Revert to Luke Range Stuff
