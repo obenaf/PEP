@@ -28,7 +28,6 @@ public class Level0Manager : MonoBehaviour
         
     }
     public void changeTurn(){
-        
         playerTurn = !playerTurn;
     }
     public bool turnManager(){// gives state of combat to other scripts
