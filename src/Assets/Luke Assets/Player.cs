@@ -7,6 +7,8 @@ public class Player : Character
 
     private int nextLevel;
     private int currentLevel;
+    
+
 
     void Awake()
     {
@@ -15,9 +17,10 @@ public class Player : Character
         accuracy = 50;
         movement = 5;
         armor = 0;
-        range = 1;
+        range = 4;
         experience = 0;
         nextLevel = currentLevel * 100;
+        isRanged = false;
     }
     void Start()
     {
@@ -33,6 +36,8 @@ public class Player : Character
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+
+        
         
     }
 
@@ -45,16 +50,36 @@ public class Player : Character
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
                 foreach (Enemy currentEnemy in allEnemies)
-                {                
-                    enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
-                    enemyScripts = currentEnemy.GetComponent<Enemy>();
-                    if (attackPossible(range) == true)
+                {
+                    if (currentEnemy != null)
                     {
-                        int damage;
-                        damage = attackScripts.getMeleeDamage(attack, accuracy);
-                        enemyScripts.damageEnemy(damage);
-                        attackInput = 0;
-                        levelManagerScripts.changeTurn();
+                        enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
+                        enemyScripts = currentEnemy.GetComponent<Enemy>();
+                        if (isRanged == true)
+                        {
+                            if (attackPossible(range) == true)
+                            {
+                                levelManagerScripts.changeTurn();
+                                attackScripts.spawnArrow();
+                                int damage;
+                                damage = attackScripts.getRangeDamage(attack, accuracy);
+                                enemyScripts.damageEnemy(damage);
+                                attackInput = 0;
+                                break;
+                            }
+                        }
+                        if (isRanged == false)
+                        {
+                            if (attackPossible(range) == true)
+                            {
+                                int damage;
+                                damage = attackScripts.getMeleeDamage(attack, accuracy);
+                                enemyScripts.damageEnemy(damage);
+                                attackInput = 0;
+                                levelManagerScripts.changeTurn();
+                                break;
+                            }
+                        }
                     }
                 }
             }
@@ -87,4 +112,6 @@ public class Player : Character
     {
         allEnemies = GameObject.FindObjectsOfType<Enemy>();
     }
+    
 }
+

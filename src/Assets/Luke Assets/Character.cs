@@ -26,6 +26,10 @@ public class Character : MonoBehaviour
     public Enemy closestEnemy = null;
     public Enemy[] allEnemies;
 
+ 
+
+    
+
     [SerializeField]
     public int health;
     public int attack;
@@ -35,6 +39,7 @@ public class Character : MonoBehaviour
     public float movement;
     public int level;
     public int experience;
+    public bool isRanged;
 
 
 
