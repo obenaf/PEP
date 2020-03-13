@@ -15,7 +15,7 @@ public class Player : Character
         accuracy = 50;
         movement = 5;
         armor = 0;
-        range = 4;
+        range = 1;
         experience = 0;
         nextLevel = currentLevel * 100;
         isRanged = false;
@@ -41,7 +41,7 @@ public class Player : Character
     void FixedUpdate()
     {
         float attackInput;
-
+        //Look to simplify these if statements
         if (levelManagerScripts.turnManager() == true){
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
@@ -51,30 +51,24 @@ public class Player : Character
                     {
                         enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
                         enemyScripts = currentEnemy.GetComponent<Enemy>();
-                        if (isRanged == true)
+                        if ((isRanged == true) && (attackPossible(range) == true))
                         {
-                            if (attackPossible(range) == true)
-                            {
-                                levelManagerScripts.changeTurn();
-                                attackScripts.spawnArrow();
-                                int damage;
-                                damage = attackScripts.getRangeDamage(attack, accuracy);
-                                enemyScripts.damageEnemy(damage);
-                                attackInput = 0;
-                                break;
-                            }
+                            levelManagerScripts.changeTurn();
+                            attackScripts.spawnArrow();
+                            int damage;
+                            damage = attackScripts.getRangeDamage(attack, accuracy);
+                            enemyScripts.damageEnemy(damage);
+                            attackInput = 0;
+                            break;
                         }
-                        if (isRanged == false)
+                        if ((isRanged == false) && (attackPossible(range) == true))
                         {
-                            if (attackPossible(range) == true)
-                            {
-                                int damage;
-                                damage = attackScripts.getMeleeDamage(attack, accuracy);
-                                enemyScripts.damageEnemy(damage);
-                                attackInput = 0;
-                                levelManagerScripts.changeTurn();
-                                break;
-                            }
+                            int damage;
+                            damage = attackScripts.getMeleeDamage(attack, accuracy);
+                            enemyScripts.damageEnemy(damage);
+                            attackInput = 0;
+                            levelManagerScripts.changeTurn();
+                            break;
                         }
                     }
                 }

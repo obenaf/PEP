@@ -13,6 +13,7 @@ public class Enemy : Character
     }
     void Start()
     {
+        //Set variables to current Player object
         player = GameObject.FindGameObjectWithTag("Player");
         playerScripts = player.GetComponent<Player>();
     }
@@ -22,6 +23,7 @@ public class Enemy : Character
     {
         if (health <= 0)
         {
+            //Move death results to seperate function
             Destroy(gameObject);
             playerScripts.gainExperience(experience);
             playerScripts.findEnemies();
@@ -30,7 +32,7 @@ public class Enemy : Character
     public float getMovement(){
         return movement;
     }
-    public void damageEnemy(int damage){
+    public void damageEnemy(int damage){//Other objects can call this to lower this enemies health
         health = health - damage;
     }
 }

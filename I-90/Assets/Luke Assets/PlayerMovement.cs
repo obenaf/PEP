@@ -7,14 +7,14 @@ public class PlayerMovement : Movement
     void Start()
     {   
         
-        levelManager = GameObject.FindGameObjectWithTag("level0Manager");
+        levelManager = GameObject.FindGameObjectWithTag("level0Manager");//Set level manager to current levelManager object
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
         
-        PlayerMovement = GameObject.FindGameObjectWithTag("Player");
+        PlayerMovement = GameObject.FindGameObjectWithTag("Player");//Set playerMovement scripts to current player object
         playerScripts = PlayerMovement.GetComponent<Player>();
         
         myRigidbody = GetComponent<Rigidbody2D>();
-        movement = playerScripts.getMovement();
+        movement = playerScripts.getMovement();// Get movement attribute from Player class
     }
 
 
@@ -36,7 +36,7 @@ public class PlayerMovement : Movement
         
         travelledTotal = getMovement(travelledTotal);
         
-        if (travelledTotal >= movement){
+        if (travelledTotal >= movement){// Once the player has travelled a certain amount, end their turn
             levelManagerScripts.changeTurn();
             travelledTotal = 0;
         }
@@ -48,6 +48,7 @@ public class PlayerMovement : Movement
             myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
     }
 
+    //Allows other objects to get this objects position
     public float getPositionX(){
         float myPositionX = myRigidbody.position.x;
         return myPositionX;
