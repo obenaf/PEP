@@ -7,8 +7,6 @@ public class Player : Character
 
     private int nextLevel;
     private int currentLevel;
-    
-
 
     void Awake()
     {
@@ -36,9 +34,7 @@ public class Player : Character
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
-
-        
-        
+  
     }
 
     
