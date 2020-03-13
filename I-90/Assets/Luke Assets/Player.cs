@@ -28,8 +28,8 @@ public class Player : Character
         attackOptions = GameObject.FindGameObjectWithTag("Attacks");
         attackScripts = attackOptions.GetComponent<Attacks>();
         
-        enemy = GameObject.FindGameObjectWithTag("Enemy");
-        SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
+        //enemy = GameObject.FindGameObjectWithTag("Enemy");
+        //SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
         allEnemies = GameObject.FindObjectsOfType<Enemy>();
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
@@ -80,6 +80,10 @@ public class Player : Character
                 }
             }
         }
+        if (health <= 0)
+        {
+            playerDies();
+        }
     }
 
     public float getMovement()
@@ -108,6 +112,14 @@ public class Player : Character
     {
         allEnemies = GameObject.FindObjectsOfType<Enemy>();
     }
-    
+    public void damagePlayer(int damage)
+    {
+        health = health - damage;
+    }
+    public void playerDies()
+    {
+
+    }
+
 }
 

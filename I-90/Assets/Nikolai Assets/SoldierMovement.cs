@@ -20,11 +20,14 @@ public class SoldierMovement : Movement
         //PlayerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
 
-        enemy = GameObject.FindGameObjectWithTag("Enemy");
-        enemyScripts = enemy.GetComponent<Enemy>();
+        allEnemies = GameObject.FindObjectsOfType<Enemy>();//changed - allEnemies is inherited from Movement class
+        foreach (Enemy currentEnemy in allEnemies)
+        {
+            enemyScripts = currentEnemy.GetComponent<Enemy>();//changed
+        }
 
         myRigidbody = GetComponent<Rigidbody2D>();
-        movement = enemyScripts.getMovement();
+        movement = enemyScripts.getMovement();//changed
     }
 
 

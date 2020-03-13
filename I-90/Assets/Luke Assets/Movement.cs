@@ -13,6 +13,9 @@ public class Movement : MonoBehaviour
     public GameObject enemy;//Call methods from the Player.cs
     public Enemy enemyScripts;
 
+    public Enemy closestEnemy = null;
+    public Enemy[] allEnemies;
+
     public float speed;
     public float movement, travelledX, travelledY, travelledTotal;
 
