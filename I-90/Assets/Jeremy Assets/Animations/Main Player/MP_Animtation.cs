@@ -29,4 +29,10 @@ public class MP_Animtation : MonoBehaviour
 
         }
     }
+    public void Reset()
+    {
+        Mainanim.SetFloat("MoveX",0);//stops movement
+        Mainanim.SetFloat("MoveY",0);//sets the MoveX for animation
+        Mainanim.SetFloat("Attack",0);//sets the MoveX for animation
+    }
 }
