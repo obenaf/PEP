@@ -19,20 +19,29 @@ public class MP_Animtation : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (levelManagerScripts.turnManager() == true)//Check if it is player turn
         {
             Mainanim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));//sets the MoveX for animation
             Mainanim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));//sets the MoveX for animation
             Mainanim.SetFloat("Attack", Input.GetAxisRaw("Fire1"));//sets the MoveX for animation
-
+         
         }
+
+    }
+    public void enemyAnimate(float MoveX,float MoveY,float Attack)
+    {
+        Mainanim.SetFloat("MoveX", MoveX);//stops movement
+        
+        Mainanim.SetFloat("MoveY", MoveY);//sets the MoveX for animation
+        Mainanim.SetFloat("Attack", Attack);//sets the MoveX for animation
     }
     public void Reset()
     {
         Mainanim.SetFloat("MoveX",0);//stops movement
         Mainanim.SetFloat("MoveY",0);//sets the MoveX for animation
         Mainanim.SetFloat("Attack",0);//sets the MoveX for animation
+       
     }
 }

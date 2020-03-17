@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactable_item : MonoBehaviour
+public class Interactable_item : InventorySlot
 {
-    public virtual void Interact()
-    {
+    public Item item;
 
+    public  void Interact()
+    {
+        
     }
 
 }

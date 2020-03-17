@@ -16,6 +16,8 @@ public class Item : ScriptableObject
     public int Defence = 0;
     public int Health = 0;
     public int Accuracy = 0;
-
-    
+    [SerializeField] private GameObject ammunitionPrefab = null;
+    public GameObject AmmunitionPrefab => ammunitionPrefab;
+    public enum Rarity {Default,Common,uncommon, Rare,Legendary, Epic }
+    public Rarity Rare = Rarity.Default;
 }
