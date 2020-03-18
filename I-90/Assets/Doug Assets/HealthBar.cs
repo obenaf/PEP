@@ -9,11 +9,13 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public Player _Player;
+    public Enemy _Enemy;
     public Image foregroundImage;
     
     private void Start()
     {
         foregroundImage.fillAmount = _Player.getHealth();
+        foregroundImage.fillAmount = _Enemy.getHealth();
         //_Player.damagePlayer(1);
     }
 }

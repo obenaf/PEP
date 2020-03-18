@@ -35,4 +35,9 @@ public class Enemy : Character
     public void damageEnemy(int damage){//Other objects can call this to lower this enemies health
         health = health - damage;
     }
+    public int getHealth()
+    {
+        return health;
+    }
+
 }
