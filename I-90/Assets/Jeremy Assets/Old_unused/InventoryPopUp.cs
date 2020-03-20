@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,4 +52,4 @@ public GameObject PauseScreen;
     public void exitInventoryButton()
     { currentstate = MenuStates.mainScreen; }
 }
-
+*/

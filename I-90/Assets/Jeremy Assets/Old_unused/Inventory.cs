@@ -1,59 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/*
+using DapperDino.Events.CustomEvents;
 using UnityEngine;
+using System;
 
-public class Inventory : MonoBehaviour
+
+namespace DapperDino.Items
 {
-    public static Inventory instance;
+    [CreateAssetMenu(fileName = "New Inventory", menuName = "Items/Inventory")]
 
-    public Item[] itemList = new Item[20];
-    public InventorySlot[] inventorySlots = new InventorySlot[20];
 
-    void Awake()
+    public class Inventory : ScriptableObject
     {
-        if(instance==null)
-        {
-            instance = this;
-        }
-        else if (instance!=this)
-        {
-            Destroy(this);
-        }
-        DontDestroyOnLoad(this);
+        [SerializeField] private VoidEvent onInventoryItemsUpdated = null;
+        public ItemContainer ItemContainer { get; } = new ItemContainer(20);
+        public void OnEnable() => ItemContainer.OnItemsUpdated += onInventoryItemsUpdated.Raise;
+
+        public void OnDisable() => ItemContainer.OnItemsUpdated -= onInventoryItemsUpdated.Raise;
+
     }
 
-    void Start()
-    {
-        UpdateSlotUI();   
-    }
-
-    private bool Add(Item item)
-    {
-        for (int i = 0; i < itemList.Length; i++)
-        {
-            if (itemList[i] == null)
-            {
-                itemList[i] = item;
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public void UpdateSlotUI()
-    {
-        for (int i = 0; i < inventorySlots.Length; i++)
-        {
-            inventorySlots[i].UpdateSlot();
-        }
-    }
-    public void AddItem(Item item)
-    {
-        bool hasAdded = Add(item);
-
-        if (hasAdded)
-        {
-            UpdateSlotUI();
-        }
-    }
-}
+}*/
