@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Attacks
   - level0Manager
+  - Item
   layers:
   - Default
   - TransparentFX

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -113,6 +114,11 @@ public class Player : Character
     public void playerDies()
     {
 
+    }
+
+    public int getHealth()
+    {
+        return health;
     }
 
 }
