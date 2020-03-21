@@ -8,7 +8,7 @@ public class Enemy : Character
     {
         health = 10;
         attack = 2;
-        movement = 1;
+        movement = 3;
         experience = 10;
     }
     void Start()
