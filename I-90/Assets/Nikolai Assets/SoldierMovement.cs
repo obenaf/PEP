@@ -44,24 +44,21 @@ public class SoldierMovement : Movement
         if (levelManagerScripts.turnManager() == false)
         {
             travelledTotal = getMovement(travelledTotal);
-            //changeTurn = Input.GetAxisRaw("ChangeTurn");
-            if (travelledTotal %2 == 0)
+            if (travelledTotal %2 >= 1)
             {
                 changeDir = true;
                 direction = Random.Range(1, 9);
-                //moveUpdateCounter = 0;
             }
             else
             {
                 changeDir = false;
             }
-            // Move only every 12 frames (assuming 60)
+            // Move only every 5 frames (assuming 60)
             if (moveCounter == 5)
             {
                 // Player is more than 5 units away so move in a random direction
                 if (Mathf.Pow(movementX, 2) + Mathf.Pow(movementY, 2) > 5)
                 {
-                    //changeTurn = Input.GetAxisRaw("ChangeTurn");
                     /*if (moveUpdateCounter % 60 == 1)
                     {
                         direction = Random.Range(1, 5);
@@ -69,34 +66,42 @@ public class SoldierMovement : Movement
                     }*/
                     switch (direction)
                     {
+                        // Right
                         case 1:
                             MoveX = 1;
                             MoveY = 0;
                             break;
+                        // Up
                         case 2:
                             MoveX = 0;
                             MoveY = 1;
                             break;
+                        // Left
                         case 3:
                             MoveX = -1;
                             MoveY = 0;
                             break;
+                        // Down
                         case 4:
                             MoveX = 0;
                             MoveY = -1;
                             break;
+                        // Up right
                         case 5:
                             MoveX = 1;
                             MoveY = 1;
                             break;
+                        // Up left
                         case 6:
                             MoveX = -1;
                             MoveY = 1;
                             break;
+                        // Down left
                         case 7:
                             MoveX = -1;
                             MoveY = -1;
                             break;
+                        // Down right
                         case 8:
                             MoveX = 1;
                             MoveY = -1;
@@ -106,29 +111,6 @@ public class SoldierMovement : Movement
                             MoveY = 0;
                             break;
                     }
-                    // Move Right
-                    /*if (direction == 1)
-                    {
-                        MoveX = 1;
-                        MoveY = 0;
-                    }
-                    else if (direction == 2)
-                    {
-                        // Move Up
-                        MoveX = 0;
-                        MoveY = 1;
-                    }
-                    else if (direction == 3)
-                    {
-                        // Move Left
-                        MoveX = -1;
-                        MoveY = 0;
-                    }
-                    else
-                    {
-                        MoveX = 0;
-                        MoveY = -1;
-                    }*/
                 }
                 // Player is within 5 units so move towards them
                 else
