@@ -70,7 +70,7 @@ public class InventoryObject : ScriptableObject
     [System.Serializable]
     public class Inventory
     {
-        public InventorySlot[] Items = new InventorySlot[28];
+        public InventorySlot[] Items = new InventorySlot[20];
     }
     [System.Serializable]
     public class InventorySlot

@@ -7,6 +7,7 @@ public class EquipmentObject : ItemObject
 {
     public void Awake()
     {
-        type = ItemType.Equipment;
+        type = ItemType.Default;
+               
     }
 }

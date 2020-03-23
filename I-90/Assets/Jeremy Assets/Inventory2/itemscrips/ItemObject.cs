@@ -5,7 +5,12 @@ using UnityEngine;
 public enum ItemType
 {
     Food,
-    Equipment,
+    Helmet,
+    Armor,
+    Leggings,
+    Weapon,
+    Shield,
+    Boots,
     Default
 }
 
@@ -15,16 +20,19 @@ public enum Attributes
     Health,
     Defence,
     Strength,
-    Range,
+   
 }
 public abstract class ItemObject : ScriptableObject
 {
     public int Id;
     public Sprite uiDisplay;
     public ItemType type;
+    public int range;
+    public int price;
     [TextArea(15, 20)]
     public string description;
     public ItemBuff[] buffs;
+    
 
     public Item CreateItem()
     {
@@ -61,7 +69,7 @@ public class ItemBuff
     public int value;
     public int min;
     public int max;
-    public int range;
+
     public ItemBuff(int _min, int _max)
     {
         min = _min;
