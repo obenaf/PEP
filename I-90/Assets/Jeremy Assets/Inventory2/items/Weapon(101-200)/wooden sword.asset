@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd752108638fe047b8c90eb661be92e, type: 3}
   m_Name: wooden sword
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 101
   uiDisplay: {fileID: 21300000, guid: c6208a525ffe10e4e801772ed41acc87, type: 3}
-  type: 1
+  type: 7
+  range: 0
+  price: 0
   description: 
-  Range: 0
   buffs:
   - attribute: 0
     value: 0
-    min: 0
-    max: 0
-    range: 0
+    min: 1
+    max: 1

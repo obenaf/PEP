@@ -26,8 +26,11 @@ public class Pickupitem : MonoBehaviour
             {
                 Item _item = new Item(item.item);
                 Debug.Log(_item.Id);
-                inventory.AddItem(_item, 1);
-                Destroy(collision.gameObject);
+            if(inventory.Inventoryfull()==true)//checks to see if inventory is full
+            { inventory.AddItem(_item, 1);
+               Destroy(collision.gameObject);
+            }
+    
             }
         }
 
