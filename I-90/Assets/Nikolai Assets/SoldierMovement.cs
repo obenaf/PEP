@@ -8,7 +8,6 @@ public class SoldierMovement : Movement
     public PlayerMovement playerMovementScripts;
     public int direction;
     public int moveCounter = 1;
-    //public int moveUpdateCounter = 0;
     public bool changeDir = false;
     void Start()
     {
@@ -34,7 +33,7 @@ public class SoldierMovement : Movement
     void FixedUpdate()
     {
         float MoveX, MoveY;
-        
+
         float playerPosX = playerMovementScripts.getPositionX();
         float playerPosY = playerMovementScripts.getPositionY();
         float currentPosX = getPositionX();
@@ -44,13 +43,14 @@ public class SoldierMovement : Movement
         if (levelManagerScripts.turnManager() == false)
         {
             travelledTotal = getMovement(travelledTotal);
-            if (travelledTotal %2 >= 1)
+            if ((travelledTotal % 2 >= 0.95) && (travelledTotal % 2 <= 1.05) || (travelledTotal == 0))
             {
                 changeDir = true;
                 direction = Random.Range(1, 9);
             }
             else
             {
+                //direction = Random.Range(1, 9);
                 changeDir = false;
             }
             // Move only every 5 frames (assuming 60)
@@ -59,11 +59,7 @@ public class SoldierMovement : Movement
                 // Player is more than 5 units away so move in a random direction
                 if (Mathf.Pow(movementX, 2) + Mathf.Pow(movementY, 2) > 5)
                 {
-                    /*if (moveUpdateCounter % 60 == 1)
-                    {
-                        direction = Random.Range(1, 5);
-                        moveUpdateCounter = 0;
-                    }*/
+
                     switch (direction)
                     {
                         // Right
@@ -115,20 +111,6 @@ public class SoldierMovement : Movement
                 // Player is within 5 units so move towards them
                 else
                 {
-
-                    //if (EnemyTurn == true)
-                    //{
-                    //    moveEnemy(moveX, moveY);
-                    //}
-                    //if (changeTurn == 1)
-                    //{
-                    //    EnemyTurn = true;
-                    // }
-                    //MoveX = Input.GetAxisRaw("Horizontal");
-                    //MoveY = Input.GetAxisRaw("Vertical");
-                    //moveEnemy(MoveX, MoveY);
-
-
                     // Update enemy movement in X direction
                     if (movementX > 0.3)
                     {
@@ -157,24 +139,22 @@ public class SoldierMovement : Movement
                         MoveY = 0;
                     }
 
-                    if ((movementX < 0.3) && (movementY <0.3) )
+                    if ((movementX < 0.3) && (movementY < 0.3))
                     {
                         MoveY = 0;
                         MoveX = 0;
                         travelledTotal++;
                     }
-                    
+
                 }
                 moveEnemy(MoveX, MoveY);
                 moveCounter = 1;
-                //moveUpdateCounter++;
             }
             else
             {
-                //moveUpdateCounter++;
                 moveCounter++;
             }
-            
+
         }
         if (levelManagerScripts.turnManager() == true)//If not players turn, don't move. This prevents other characters from pushing this character
         {
@@ -193,7 +173,7 @@ public class SoldierMovement : Movement
 
     void moveEnemy(float directionX, float directionY)
     {
-        velocity = new Vector2(5*directionX, 5*directionY);
+        velocity = new Vector2(2 * directionX, 2 * directionY);
         myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
     }
 
@@ -213,5 +193,5 @@ public class SoldierMovement : Movement
     {
         return base.getMovement(travelledTotal);
     }
-    
+
 }
