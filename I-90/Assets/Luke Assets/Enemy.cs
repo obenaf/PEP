@@ -41,4 +41,14 @@ public class Enemy : Character
         return currentHealth;
     }
 
+    public void attackPlayer()
+    {
+        /*int damage;
+        damage = attackScripts.getMeleeDamage(attack, accuracy);
+        enemyScripts.damageEnemy(damage);
+        attackInput = 0;
+        levelManagerScripts.changeTurn();
+        break;*/
+    }
+
 }

@@ -15,18 +15,26 @@ MonoBehaviour:
   database: {fileID: 11400000, guid: d4d763314f19ea7429157099b2d4c9ca, type: 2}
   Container:
     Items:
-    - ID: 0
+    - ID: 1
       item:
-        Name: 
-        Id: 0
-        buffs: []
-      amount: 0
-    - ID: 0
+        Name: Basic Health Potion
+        Id: 1
+        buffs:
+        - attribute: 1
+          value: 10
+          min: 10
+          max: 10
+      amount: 1
+    - ID: 101
       item:
-        Name: 
-        Id: 0
-        buffs: []
-      amount: 0
+        Name: wooden sword
+        Id: 101
+        buffs:
+        - attribute: 0
+          value: 1
+          min: 1
+          max: 1
+      amount: 1
     - ID: 0
       item:
         Name: 
