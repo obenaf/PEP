@@ -28,7 +28,8 @@ public class Character : MonoBehaviour
 
 
     [SerializeField]
-    public int health;
+    public int maxHealth;
+    public int currentHealth;
     public int attack;
     public int accuracy;
     public int armor;

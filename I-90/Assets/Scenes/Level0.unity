@@ -508,7 +508,8 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  health: 0
+  maxHealth: 0
+  currentHealth: 0
   attack: 0
   accuracy: 0
   armor: 0
@@ -1137,7 +1138,8 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  health: 0
+  maxHealth: 0
+  currentHealth: 0
   attack: 0
   accuracy: 0
   armor: 0

@@ -6,7 +6,7 @@ public class Enemy : Character
 {
     void Awake()
     {
-        health = 10;
+        maxHealth = 10;
         attack = 2;
         movement = 3;
         experience = 10;
@@ -16,12 +16,13 @@ public class Enemy : Character
         //Set variables to current Player object
         player = GameObject.FindGameObjectWithTag("Player");
         playerScripts = player.GetComponent<Player>();
+        currentHealth = maxHealth;
     }
 
    
     void FixedUpdate()
     {
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             //Move death results to seperate function
             Destroy(gameObject);
@@ -33,11 +34,11 @@ public class Enemy : Character
         return movement;
     }
     public void damageEnemy(int damage){//Other objects can call this to lower this enemies health
-        health = health - damage;
+        currentHealth = currentHealth - damage;
     }
     public int getHealth()
     {
-        return health;
+        return currentHealth;
     }
 
 }

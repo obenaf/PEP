@@ -11,7 +11,7 @@ public class Player : Character
 
     void Awake()
     {
-        health = 10;
+        maxHealth = 10;
         attack = 5;
         accuracy = 50;
         movement = 5;
@@ -35,6 +35,8 @@ public class Player : Character
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+
+        currentHealth = maxHealth;
   
     }
 
@@ -75,7 +77,7 @@ public class Player : Character
                 }
             }
         }
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             playerDies();
         }
@@ -100,7 +102,7 @@ public class Player : Character
     public void gainLevel()
     {
         currentLevel++;
-        health = health + 5;
+        maxHealth = maxHealth + 5;
         armor = armor + 2;
     }
     public void findEnemies()
@@ -109,7 +111,7 @@ public class Player : Character
     }
     public void damagePlayer(int damage)
     {
-        health = health - damage;
+        currentHealth = currentHealth - damage;
     }
     public void playerDies()
     {
@@ -118,7 +120,7 @@ public class Player : Character
 
     public int getHealth()
     {
-        return health;
+        return currentHealth;
     }
 
 }
