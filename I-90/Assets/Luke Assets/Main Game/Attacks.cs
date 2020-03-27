@@ -37,7 +37,18 @@ public class Attacks : MonoBehaviour
     }
     public int getRangeDamage(int attack, int accuracy)
     {
-        return 0;
+        int damage;
+        int hitOrMiss = Random.Range(1, 100);
+
+        if (hitOrMiss <= accuracy)
+        {
+            damage = Random.Range(1, attack);
+        }
+        else
+        {
+            damage = 0;
+        }
+        return damage;
     }
     public void spawnArrow() // Spawns arrow at player's current position. Needs to be updated to be able to spawn arrow at enemy's position as well
     {

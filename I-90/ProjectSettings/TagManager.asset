@@ -7,6 +7,7 @@ TagManager:
   - Attacks
   - level0Manager
   - Item
+  - Enemy
   layers:
   - Default
   - TransparentFX

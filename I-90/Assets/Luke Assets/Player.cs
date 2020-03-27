@@ -16,10 +16,10 @@ public class Player : Character
         accuracy = 50;
         movement = 5;
         armor = 0;
-        range = 1;
+        range = 3;
         experience = 0;
         nextLevel = currentLevel * 100;
-        isRanged = false;
+        isRanged = true;
     }
     void Start()
     {
@@ -55,7 +55,7 @@ public class Player : Character
                         enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
                         enemyScripts = currentEnemy.GetComponent<Enemy>();
                         if ((isRanged == true) && (attackPossible(range) == true))
-                        {
+                        {                                        
                             levelManagerScripts.changeTurn();
                             attackScripts.spawnArrow();
                             int damage;
