@@ -5,25 +5,30 @@ using UnityEngine;
 public class Missle : Movement
 {
     private new Rigidbody2D myRigidbody;
-    public new float speed = 1.0f;
+    private new float speed = 1.0f;
 
     public GameObject SoldierMovement;//Used for SoldierMovement scripts
     public SoldierMovement enemyMovementScripts;
+    public SoldierMovement closestEnemyMovementScripts;
+
+    public GameObject playerMovement;
+    public PlayerMovement playerMovementScripts;
 
     void Start()
     {
         myRigidbody = this.GetComponent<Rigidbody2D>();
         allEnemies = GameObject.FindObjectsOfType<Enemy>();
-        findClosestEnemy();
-        
+
+        PlayerMovement = GameObject.FindGameObjectWithTag("Player");//Set playerMovement scripts to current player object
+        playerMovementScripts = PlayerMovement.GetComponent<PlayerMovement>();
     }
 
     void FixedUpdate()
     {
-        enemyScripts = closestEnemy.GetComponent<Enemy>();
-        enemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
-        float enemyPosX = enemyMovementScripts.getPositionX();
-        float enemyPosY = enemyMovementScripts.getPositionY();
+        findClosestEnemy();
+        closestEnemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
+        float enemyPosX = closestEnemyMovementScripts.getPositionX();
+        float enemyPosY = closestEnemyMovementScripts.getPositionY();
         float currentPosX = getPositionX();
         float currentPosY = getPositionY();
 
@@ -70,22 +75,26 @@ public class Missle : Movement
                 }
                 else//determine if current enemy in loop is closer than 'closestEnemy'
                 {
-                    float currentPosX, currentPosY, closestPosX, closestPosY, closestTotal, currentTotal;
+                    float currentPosX, currentPosY, closestPosX, closestPosY, closestTotal, currentTotal, myPositionX, myPositionY;
+                    closestTotal = 0f;
+                    currentTotal = 0f;
+                    myPositionX = playerMovementScripts.getPositionX();
+                    myPositionY = playerMovementScripts.getPositionY();
 
-                    enemyScripts = currentEnemy.GetComponent<Enemy>();
+
                     enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
                     currentPosX = enemyMovementScripts.getPositionX();
                     currentPosY = enemyMovementScripts.getPositionY();
+                
+                    closestEnemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
+                    closestPosX = closestEnemyMovementScripts.getPositionX();
+                    closestPosY = closestEnemyMovementScripts.getPositionY();
 
-                    enemyScripts = closestEnemy.GetComponent<Enemy>();
-                    enemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
-                    closestPosX = enemyMovementScripts.getPositionX();
-                    closestPosY = enemyMovementScripts.getPositionY();
-
-                    closestTotal = Mathf.Sqrt((closestPosX * closestPosX) + (closestPosY * closestPosY));
-                    currentTotal = Mathf.Sqrt((currentPosX * currentPosX) + (currentPosY * currentPosY));
-
-                    if (currentTotal <= closestTotal)
+                    closestTotal = Mathf.Sqrt(((closestPosX-myPositionX) * (closestPosX - myPositionX)) + ((closestPosY - myPositionY) * (closestPosY - myPositionY)));
+                    currentTotal = Mathf.Sqrt(((currentPosX-myPositionX) * (currentPosX - myPositionX)) + ((currentPosY - myPositionY) * (currentPosY - myPositionY)));
+                    Debug.Log("Closest Total is " + closestTotal);
+                    Debug.Log("CurrentTotal is " + currentTotal);
+                    if (currentTotal < closestTotal)
                     {
                         Debug.Log("Changing closest enemy");
                         closestEnemy = currentEnemy;

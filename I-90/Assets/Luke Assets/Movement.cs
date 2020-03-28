@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
 
     public GameObject PlayerMovement;//Call methods from the Player.cs
     public Player playerScripts;
-
+    
     public Enemy enemyScripts;
     public Enemy closestEnemy = null;// will be used for determining closes enemy when attacking
     public Enemy[] allEnemies;

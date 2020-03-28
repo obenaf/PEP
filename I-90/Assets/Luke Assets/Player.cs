@@ -55,13 +55,13 @@ public class Player : Character
                         enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
                         enemyScripts = currentEnemy.GetComponent<Enemy>();
                         if ((isRanged == true) && (attackPossible(range) == true))
-                        {                                        
+                        {
+                            attackInput = 0;
                             levelManagerScripts.changeTurn();
                             attackScripts.spawnArrow();
                             int damage;
                             damage = attackScripts.getRangeDamage(attack, accuracy);
-                            enemyScripts.damageEnemy(damage);
-                            attackInput = 0;
+                            enemyScripts.damageEnemy(damage);                            
                             break;
                         }
                         if ((isRanged == false) && (attackPossible(range) == true))
