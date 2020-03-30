@@ -15,10 +15,11 @@ public class SoldierAttack : Enemy {
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
-        playerAttack = playerMovement.GetComponent<Player>();
+        playerScripts = playerMovement.GetComponent<Player>();
 
-        //enemyMovementScripts = enemy.GetComponent<SoldierMovement>();
+        enemyMovementScripts = gameObject.GetComponent<SoldierMovement>();
         //enemyScripts = enemy.GetComponent<Enemy>();
+
 
         attackOptions = GameObject.FindGameObjectWithTag("Attacks");
         attackScripts = attackOptions.GetComponent<Attacks>();
@@ -32,16 +33,38 @@ public class SoldierAttack : Enemy {
             if (attackPossible(range) == true)
             {
                 //int damage;
-                //damage = attackScripts.getMeleeDamage(attack, accuracy);
-                attackPlayer();
-                Debug.Log("attacking player");
                 levelManagerScripts.changeTurn();
+                //damage = attackScripts.getMeleeDamage(attack, accuracy);
+                Debug.Log("attacking player");
+                attackPlayer();
+                
+                
             }
         }
     }
 
     protected override bool attackPossible(float range)
     {
+        /*float enemyX, enemyY, playerX, playerY;
+        playerX = playerMovementScripts.getPositionX();
+        playerY = playerMovementScripts.getPositionY();
+        enemyX = enemyMovementScripts.getPositionX();
+        enemyY = enemyMovementScripts.getPositionY();
+
+        float a, b, c; //pythagorean variables
+        a = Mathf.Abs(playerX - enemyX);
+        b = Mathf.Abs(playerY - enemyY);
+        c = Mathf.Sqrt((a * a) + (b * b));
+
+        if (c <= range)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }*/
+        //return GameObject.attackPossible();
         return base.attackPossible(range);
     }
 
