@@ -5,7 +5,7 @@ using UnityEngine;
 public class Missle : Movement
 {
     private new Rigidbody2D myRigidbody;
-    private new float speed = 1.0f;
+    //private new float speed = 1.0f;
 
     public GameObject SoldierMovement;//Used for SoldierMovement scripts
     public SoldierMovement enemyMovementScripts;
@@ -14,6 +14,8 @@ public class Missle : Movement
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
 
+    float movementX, movementY;
+
     void Start()
     {
         myRigidbody = this.GetComponent<Rigidbody2D>();
@@ -21,6 +23,8 @@ public class Missle : Movement
 
         PlayerMovement = GameObject.FindGameObjectWithTag("Player");//Set playerMovement scripts to current player object
         playerMovementScripts = PlayerMovement.GetComponent<PlayerMovement>();
+
+        
     }
 
     void FixedUpdate()
@@ -32,14 +36,19 @@ public class Missle : Movement
         float currentPosX = getPositionX();
         float currentPosY = getPositionY();
 
-        float movementX = enemyPosX - currentPosX;
-        float movementY = enemyPosY - currentPosY;
+        movementX = enemyPosX - currentPosX;
+        movementY = enemyPosY - currentPosY;
         moveArrow(movementX, movementY);
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Enemy")
+        if (col.gameObject.tag == "Player")
+        {
+            
+        }
+        else
         {
             Destroy(gameObject);
         }
@@ -92,11 +101,10 @@ public class Missle : Movement
 
                     closestTotal = Mathf.Sqrt(((closestPosX-myPositionX) * (closestPosX - myPositionX)) + ((closestPosY - myPositionY) * (closestPosY - myPositionY)));
                     currentTotal = Mathf.Sqrt(((currentPosX-myPositionX) * (currentPosX - myPositionX)) + ((currentPosY - myPositionY) * (currentPosY - myPositionY)));
-                    Debug.Log("Closest Total is " + closestTotal);
-                    Debug.Log("CurrentTotal is " + currentTotal);
+                    
                     if (currentTotal < closestTotal)
                     {
-                        Debug.Log("Changing closest enemy");
+                        
                         closestEnemy = currentEnemy;
                     }
                 }

@@ -9,6 +9,8 @@ public class Player : Character
     private int nextLevel;
     private int currentLevel;
 
+    public SoldierMovement closestEnemyMovementScripts;
+
     void Awake()
     {
         maxHealth = 10;
@@ -48,33 +50,28 @@ public class Player : Character
         if (levelManagerScripts.turnManager() == true){
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
-                foreach (Enemy currentEnemy in allEnemies)
+                findClosestEnemy();
+                enemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
+                enemyScripts = closestEnemy.GetComponent<Enemy>(); 
+
+
+                if ((isRanged == true) && (attackPossible(range) == true))
                 {
-                    if (currentEnemy != null)
-                    {
-                        enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
-                        enemyScripts = currentEnemy.GetComponent<Enemy>();
-                        if ((isRanged == true) && (attackPossible(range) == true))
-                        {
-                            attackInput = 0;
-                            levelManagerScripts.changeTurn();
-                            attackScripts.spawnArrow();
-                            int damage;
-                            damage = attackScripts.getRangeDamage(attack, accuracy);
-                            enemyScripts.damageEnemy(damage);                            
-                            break;
-                        }
-                        if ((isRanged == false) && (attackPossible(range) == true))
-                        {
-                            int damage;
-                            damage = attackScripts.getMeleeDamage(attack, accuracy);
-                            enemyScripts.damageEnemy(damage);
-                            attackInput = 0;
-                            levelManagerScripts.changeTurn();
-                            break;
-                        }
-                    }
+                    attackInput = 0;
+                    levelManagerScripts.changeTurn();
+                    attackScripts.spawnArrow();
+                    int damage;
+                    damage = attackScripts.getRangeDamage(attack, accuracy);
+                    enemyScripts.damageEnemy(damage);                            
                 }
+                if ((isRanged == false) && (attackPossible(range) == true))
+                {
+                    int damage;
+                    damage = attackScripts.getMeleeDamage(attack, accuracy);
+                    enemyScripts.damageEnemy(damage);
+                    attackInput = 0;
+                    levelManagerScripts.changeTurn();
+                }             
             }
         }
         if (currentHealth <= 0)
@@ -122,6 +119,43 @@ public class Player : Character
     {
         return currentHealth;
     }
+    public void findClosestEnemy()
+    {
+        foreach (Enemy currentEnemy in allEnemies)
+        {
+            if (currentEnemy != null)
+            {
+                if (closestEnemy == null)
+                {
+                    closestEnemy = currentEnemy;
+                }
+                else//determine if current enemy in loop is closer than 'closestEnemy'
+                {
+                    float currentPosX, currentPosY, closestPosX, closestPosY, closestTotal, currentTotal, myPositionX, myPositionY;
+                    closestTotal = 0f;
+                    currentTotal = 0f;
+                    myPositionX = playerMovementScripts.getPositionX();
+                    myPositionY = playerMovementScripts.getPositionY();
 
+                    enemyMovementScripts = currentEnemy.GetComponent<SoldierMovement>();
+                    currentPosX = enemyMovementScripts.getPositionX();
+                    currentPosY = enemyMovementScripts.getPositionY();
+                
+                    closestEnemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
+                    closestPosX = closestEnemyMovementScripts.getPositionX();
+                    closestPosY = closestEnemyMovementScripts.getPositionY();
+
+                    closestTotal = Mathf.Sqrt(((closestPosX-myPositionX) * (closestPosX - myPositionX)) + ((closestPosY - myPositionY) * (closestPosY - myPositionY)));
+                    currentTotal = Mathf.Sqrt(((currentPosX-myPositionX) * (currentPosX - myPositionX)) + ((currentPosY - myPositionY) * (currentPosY - myPositionY)));
+                    
+                    if (currentTotal < closestTotal)
+                    {                        
+                        closestEnemy = currentEnemy;
+
+                    }
+                }
+            }
+        }
+    }    
 }
 

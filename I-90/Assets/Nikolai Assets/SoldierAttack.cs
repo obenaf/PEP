@@ -11,7 +11,7 @@ public class SoldierAttack : Enemy {
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
 
         //enemy = GameObject.FindGameObjectWithTag("Enemy");
-        SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
+        //SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
 
         playerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
@@ -31,9 +31,10 @@ public class SoldierAttack : Enemy {
         {
             if (attackPossible(range) == true)
             {
-                int damage;
-                damage = attackScripts.getMeleeDamage(attack, accuracy);
-                playerAttack.damagePlayer(damage);
+                //int damage;
+                //damage = attackScripts.getMeleeDamage(attack, accuracy);
+                attackPlayer();
+                Debug.Log("attacking player");
                 levelManagerScripts.changeTurn();
             }
         }
@@ -42,6 +43,10 @@ public class SoldierAttack : Enemy {
     protected override bool attackPossible(float range)
     {
         return base.attackPossible(range);
+    }
+
+    protected override void attackPlayer(){
+        base.attackPlayer();
     }
 
     /*public void attackPlayer() { 

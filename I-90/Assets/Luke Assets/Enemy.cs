@@ -10,6 +10,7 @@ public class Enemy : Character
         attack = 2;
         movement = 3;
         experience = 10;
+        accuracy = 50;
     }
     void Start()
     {
@@ -17,6 +18,9 @@ public class Enemy : Character
         player = GameObject.FindGameObjectWithTag("Player");
         playerScripts = player.GetComponent<Player>();
         currentHealth = maxHealth;
+
+        attackOptions = GameObject.FindGameObjectWithTag("Attacks");
+        attackScripts = attackOptions.GetComponent<Attacks>();
     }
 
    
@@ -41,14 +45,15 @@ public class Enemy : Character
         return currentHealth;
     }
 
-    public void attackPlayer()
+    protected virtual void attackPlayer()
     {
-        /*int damage;
+        int damage;
         damage = attackScripts.getMeleeDamage(attack, accuracy);
-        enemyScripts.damageEnemy(damage);
-        attackInput = 0;
-        levelManagerScripts.changeTurn();
-        break;*/
+        playerScripts.damagePlayer(damage);
+    }
+    protected override bool attackPossible(float range)
+    {
+        return base.attackPossible(range);
     }
 
 }
