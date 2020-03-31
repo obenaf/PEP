@@ -35,7 +35,7 @@ public class SoldierAttack : Enemy {
                 //int damage;
                 levelManagerScripts.changeEnemyTurn();
                 //damage = attackScripts.getMeleeDamage(attack, accuracy);
-                Debug.Log("attacking player");
+                //Debug.Log("attacking player");
                 attackPlayer();                
                 
             }

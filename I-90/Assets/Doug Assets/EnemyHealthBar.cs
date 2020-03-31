@@ -20,6 +20,6 @@ public class EnemyHealthBar : MonoBehaviour
     {
         Health = _Enemy.getHealth();
         foregroundImage.fillAmount = Health / 10f;
-        Debug.Log(Health.ToString());
+        //Debug.Log(Health.ToString());
     }
 }

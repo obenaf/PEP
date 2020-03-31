@@ -63,5 +63,9 @@ public class PlayerMovement : Movement
     {
         return base.getMovement(travelledTotal);
     }
+    public void resetTravelledTotal()
+    {
+        
+    }
 
 }

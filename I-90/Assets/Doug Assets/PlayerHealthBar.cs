@@ -23,6 +23,6 @@ public class PlayerHealthBar : MonoBehaviour
     {
         Health = _Player.getHealth();
         foregroundImage.fillAmount = Health / 10f;
-        Debug.Log(Health.ToString());
+        //Debug.Log(Health.ToString());
     }
 }

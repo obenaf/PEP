@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Missle : Movement
 {
-    private new Rigidbody2D myRigidbody;
+    //private new Rigidbody2D myRigidbody;
     //private new float speed = 1.0f;
 
     public GameObject SoldierMovement;//Used for SoldierMovement scripts
@@ -14,8 +14,10 @@ public class Missle : Movement
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
 
-    //public GameObject levelManager;//Call methods from the Level0Manager.cs
-    //public Level0Manager levelManagerScripts;
+    public GameObject attackOptions;//Call methods from the Level0Manager.cs
+    public Attacks attackScripts;
+
+    public bool succesfulHit;
 
     float movementX, movementY;
 
@@ -29,7 +31,12 @@ public class Missle : Movement
 
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
         levelManagerScripts = levelManager.GetComponent<Level0Manager>();
-        
+
+        attackOptions = GameObject.FindGameObjectWithTag("Attacks");
+        attackScripts = attackOptions.GetComponent<Attacks>();
+
+        succesfulHit = false;
+
     }
 
     void FixedUpdate()
@@ -43,7 +50,9 @@ public class Missle : Movement
 
         movementX = enemyPosX - currentPosX;
         movementY = enemyPosY - currentPosY;
-        moveArrow(movementX, movementY);
+        if (succesfulHit == false){
+            moveArrow(movementX, movementY);
+        }
     }
 
 
@@ -53,10 +62,14 @@ public class Missle : Movement
         {
             
         }
+        else if(col.gameObject.tag == "Enemy"){
+            gameObject.transform.position = new Vector2(10000,10000);
+            succesfulHit = true;
+        }
         else
         {
-            Destroy(gameObject);
-            levelManagerScripts.changeTurn();
+            Destroy(gameObject);   
+            //levelManagerScripts.changeTurn();     
         }
 
     }
@@ -77,6 +90,17 @@ public class Missle : Movement
     {
         float myPositionY = myRigidbody.position.y;
         return myPositionY;
+    }
+    public bool wasHitSuccesful()
+    {
+        if (succesfulHit == true){
+            levelManagerScripts.changeTurn();
+        }
+        bool hit = false;
+        hit = succesfulHit;
+        succesfulHit = false;
+        return hit;        
+        Destroy(gameObject);
     }
     public void findClosestEnemy()
     {

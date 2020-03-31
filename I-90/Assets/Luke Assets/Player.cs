@@ -8,6 +8,7 @@ public class Player : Character
 
     private int nextLevel;
     private int currentLevel;
+    public bool allowAttack = true;
 
     public SoldierMovement closestEnemyMovementScripts;
 
@@ -18,7 +19,7 @@ public class Player : Character
         accuracy = 50;
         movement = 5;
         armor = 0;
-        range = 3;
+        range = 2;
         experience = 0;
         nextLevel = currentLevel * 100;
         isRanged = true;
@@ -47,35 +48,47 @@ public class Player : Character
     {
         float attackInput;
         //Look to simplify these if statements
-        if (levelManagerScripts.turnManager() == true){
+        if (levelManagerScripts.turnManager() == true && allowAttack == true){
             attackInput = Input.GetAxisRaw("Fire1");
             if (attackInput == 1){
+                allowAttack = false;
+                attackInput = 0;
                 findClosestEnemy();
                 enemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
                 enemyScripts = closestEnemy.GetComponent<Enemy>(); 
 
                 if ((isRanged == true) && (attackPossible(range) == true))
                 {
-                    attackInput = 0;
-                    levelManagerScripts.changeTurn();
-                    attackScripts.spawnArrow();
-                    int damage;
-                    damage = attackScripts.getRangeDamage(attack, accuracy);
-                    enemyScripts.damageEnemy(damage);                            
+                    
+                    attackScripts.spawnArrow();    
+                    missles = GameObject.FindGameObjectWithTag("Missle");
+                    missleScripts = missles.GetComponent<Missle>(); 
+                    //levelManagerScripts.changeTurn();             
+                                             
                 }
                 if ((isRanged == false) && (attackPossible(range) == true))
                 {
                     int damage;
                     damage = attackScripts.getMeleeDamage(attack, accuracy);
                     enemyScripts.damageEnemy(damage);
-                    attackInput = 0;
-                    levelManagerScripts.changeTurn();
-                }             
+                    levelManagerScripts.changeTurn();                    
+                } 
+                StartCoroutine(changeAllowAttack());            
             }
+            
         }
         if (currentHealth <= 0)
         {
             playerDies();
+        }
+        if (missleScripts.wasHitSuccesful() == true)
+        {
+            int damage;
+            damage = attackScripts.getRangeDamage(attack, accuracy);
+            enemyScripts.damageEnemy(damage); 
+            Destroy(missles);
+            missles = null;
+            missleScripts = null; 
         }
     }
 
@@ -108,6 +121,7 @@ public class Player : Character
     public void damagePlayer(int damage)
     {
         currentHealth = currentHealth - damage;
+        Debug.Log("Player Damaged");
     }
     public void playerDies()
     {
@@ -117,6 +131,11 @@ public class Player : Character
     public int getHealth()
     {
         return currentHealth;
+    }
+    IEnumerator changeAllowAttack(){
+        yield return new WaitForSeconds(1);
+        allowAttack = true;
+        Debug.Log("Changed allowAttack");
     }
     public void findClosestEnemy()
     {
@@ -150,7 +169,6 @@ public class Player : Character
                     if (currentTotal < closestTotal)
                     {                        
                         closestEnemy = currentEnemy;
-
                     }
                 }
             }

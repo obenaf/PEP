@@ -31,11 +31,13 @@ public class Level0Manager : MonoBehaviour
     {
         playerTurn = false;
         enemyTurn = true;
+        //Debug.Log("Ended Player turn");
     }
     public void changeEnemyTurn()
     {
         enemyTurn = false;
         playerTurn = true;
+        //Debug.Log("Ended Enemy Turn");
     }
 
     public bool turnManager(){//Gives state of combat to other scripts

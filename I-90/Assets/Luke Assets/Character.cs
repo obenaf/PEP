@@ -11,6 +11,8 @@ public class Character : MonoBehaviour
     public GameObject attackOptions;//Call methods from the Level0Manager.cs
     public Attacks attackScripts;
 
+    public GameObject missles;
+    public Missle missleScripts;
 
     public GameObject playerMovement;//Used for PlayerMovement scripts
     public PlayerMovement playerMovementScripts;
@@ -25,8 +27,6 @@ public class Character : MonoBehaviour
     public Enemy[] allEnemies;// There will be multiple Emeny Objects at any time. This array will be used to store all the objects at any given point
     public Enemy enemyScripts;
 
-
-
     [SerializeField]
     public int maxHealth;
     public int currentHealth;
@@ -38,8 +38,6 @@ public class Character : MonoBehaviour
     public int level;
     public int experience;
     public bool isRanged;// Will be used to differentiate between melee and ranged attacks
-
-
 
 
     void Start()
