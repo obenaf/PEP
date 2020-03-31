@@ -13,6 +13,13 @@ public class EnemySpawner : MonoBehaviour
     private float _timeSinceLastSpawn;
     private Random _random;
 
+    public void Construct(Object enemyPrefab, float spawnRate, int radius)
+    {
+        Enemy1 = enemyPrefab;
+        _spawnRate = spawnRate;
+        _radius = radius;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
