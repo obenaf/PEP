@@ -9,20 +9,32 @@ using UnityEngine.UI;
 // Adds health bars to characters that spwan (watch later): https://www.youtube.com/watch?v=kQqqo_9FfsU
 public class PlayerHealthBar : MonoBehaviour
 {
-    public Player _Player;
-    public Image foregroundImage;
-    float Health;
+    private HealthFill healthfill;
+
+    private void Awake()
+    {
+        //healthfill = new HealthFill();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        HealthFill();
+        healthfill.changeHealthFill();
     }
 
-    public void HealthFill()
-    {
-        Health = _Player.getHealth();
-        foregroundImage.fillAmount = Health / 10f;
-        Debug.Log(Health.ToString());
-    }
 }
+
+public class HealthFill
+    {
+        public Player _Player;
+        public Image foregroundImage;
+        float Health;
+
+        public void changeHealthFill()
+        {
+            Health = _Player.getHealth();
+            foregroundImage.fillAmount = Health / 10f;
+            Debug.Log(Health.ToString());
+        }
+        
+    }
