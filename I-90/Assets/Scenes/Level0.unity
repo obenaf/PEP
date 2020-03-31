@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 87484418}
   - component: {fileID: 87484417}
   - component: {fileID: 87484420}
+  - component: {fileID: 87484421}
   m_Layer: 0
   m_Name: Level0Manager
   m_TagString: level0Manager
@@ -473,6 +474,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &87484421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87484415}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43712cbfe33f44245bfd072ad860ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 8516049510492984469, guid: 0b0f232e8711cc34ebbc5890d14b9121, type: 3}
+  _spawnRate: 1
+  _radius: 1
 --- !u!1 &104573805
 GameObject:
   m_ObjectHideFlags: 0
