@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 899
+=======
+  controlID: 36
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -70,9 +74,13 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 14}
+=======
+  m_ActualView: {fileID: 15}
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -92,13 +100,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 380
     height: 573
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+    width: 378
+    height: 537
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -111,23 +127,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 573
     width: 1529
     height: 374
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
+=======
+    y: 537
+    width: 1528
+    height: 410
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 14}
+  - {fileID: 19}
+  - {fileID: 12}
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +245,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 930
+=======
+  controlID: 107
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +274,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 931
+=======
+  controlID: 108
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,18 +296,420 @@ MonoBehaviour:
     serializedVersion: 2
     x: 380
     y: 0
+<<<<<<< HEAD
     width: 1149
     height: 573
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    width: 1150
+    height: 537
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+<<<<<<< HEAD
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
+=======
+  - {fileID: 18}
+  - {fileID: 13}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 610
+    width: 1527
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 391
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes: ef00000050000000
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes: 2000000020000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 319
+    splitSize: 6
+    xOffset: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    newResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: 1000
+      uniqueId: '[I-90][suite]'
+      name: I-90
+      fullName: I-90
+      resultStatus: 1
+      duration: 0.0644476
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1009
+      uniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 0.029798
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[I-90][suite]'
+    - id: 1001
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Doug_HealthTestScript][suite]
+      name: Doug_HealthTestScript
+      fullName: Doug_HealthTestScript
+      resultStatus: 1
+      duration: 0.027064
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1002
+      uniqueId: Assembly-CSharp-Editor.dll/Doug_HealthTestScript/[Assembly-CSharp-Editor][Doug_HealthTestScript.PlayerHealthReduces]
+      name: PlayerHealthReduces
+      fullName: Doug_HealthTestScript.PlayerHealthReduces
+      resultStatus: 1
+      duration: 0.0063604
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Doug_HealthTestScript][suite]
+    - id: 1003
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Nikolai_EnemyPatrolTest][suite]
+      name: Nikolai_EnemyPatrolTest
+      fullName: Nikolai_EnemyPatrolTest
+      resultStatus: 2
+      duration: 0.0565749
+      messages: One or more child tests had errors
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1004
+      uniqueId: Assembly-CSharp-Editor.dll/Nikolai_EnemyPatrolTest/[Assembly-CSharp-Editor][Nikolai_EnemyPatrolTest.EnemyPatrolTest]
+      name: EnemyPatrolTest
+      fullName: Nikolai_EnemyPatrolTest.EnemyPatrolTest
+      resultStatus: 2
+      duration: 0.0315992
+      messages: 'System.ArgumentException : The Object you want to instantiate is
+        null.'
+      output: 
+      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg,
+        System.String message) [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+        \r\n  at Nikolai_EnemyPatrolTest.EnemyPatrolTest () [0x00001] in C:\\Users\\Dougb\\OneDrive\\Documents\\GitHub\\PEP\\I-90\\Assets\\Editor\\Nikolai_EnemyPatrolTest.cs:15
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Nikolai_EnemyPatrolTest][suite]
+    - id: 1005
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Richard_Test][suite]
+      name: Richard_Test
+      fullName: Richard_Test
+      resultStatus: 1
+      duration: 0.0173386
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1006
+      uniqueId: Assembly-CSharp-Editor.dll/Richard_Test/[Assembly-CSharp-Editor][Richard_Test.Richard_Environment_Test]
+      name: Richard_Environment_Test
+      fullName: Richard_Test.Richard_Environment_Test
+      resultStatus: 1
+      duration: 0.0108297
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][Richard_Test][suite]
+    - id: 1010
+      uniqueId: Assembly-CSharp-Editor.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.0461151
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1007
+      uniqueId: Assembly-CSharp-Editor.dll/Tests/[Assembly-CSharp-Editor][Tests.EnemySpawnTests][suite]
+      name: EnemySpawnTests
+      fullName: Tests.EnemySpawnTests
+      resultStatus: 1
+      duration: 0.0412336
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Tests][suite]
+    - id: 1008
+      uniqueId: Assembly-CSharp-Editor.dll/Tests/EnemySpawnTests/[Assembly-CSharp-Editor][Tests.EnemySpawnTests._Instantiates_GameObject_From_Prefab]
+      name: _Instantiates_GameObject_From_Prefab
+      fullName: Tests.EnemySpawnTests._Instantiates_GameObject_From_Prefab
+      resultStatus: 1
+      duration: 0.0354682
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Assembly-CSharp-Editor.dll/Tests/[Assembly-CSharp-Editor][Tests.EnemySpawnTests][suite]
+    - id: 1014
+      uniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.0591912
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[I-90][suite]'
+    - id: 1015
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.0394259
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: '[C:/Users/Dougb/OneDrive/Documents/GitHub/PEP/I-90/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1011
+      uniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+      name: NewTestScript
+      fullName: Tests.NewTestScript
+      resultStatus: 1
+      duration: 0.0344613
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.NewTestScriptSimplePasses]
+      name: NewTestScriptSimplePasses
+      fullName: Tests.NewTestScript.NewTestScriptSimplePasses
+      resultStatus: 1
+      duration: 0.000528
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1013
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.NewTestScriptWithEnumeratorPasses]
+      name: NewTestScriptWithEnumeratorPasses
+      fullName: Tests.NewTestScript.NewTestScriptWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0257786
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    m_ResultText: PlayerHealthReduces (0.006s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: bc396bca
+      m_LastClickedID: -898942532
+      m_ExpandedIDs: 6e377fc65ac4dfd93d81ebef17427702b7dea91c8359db4120feac4a240850527dc7445efdfe0373ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,7 +735,7 @@ MonoBehaviour:
     width: 973
     height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,9 +785,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 62370000
     m_LastClickedID: 14178
     m_ExpandedIDs: 000000003e37000040370000423700004437000046370000483700004a3700004c3700004e37000050370000523700005437000056370000583700005c3700005e37000060370000623700006437000000ca9a3b
+=======
+    m_SelectedIDs: 66370000
+    m_LastClickedID: 14182
+    m_ExpandedIDs: 0000000026370000283700002a3700002c3700002e37000030370000323700003437000036370000383700003a3700003c3700003e37000040370000423700004437000046370000483700004a3700004c3700004e3700005037000000ca9a3b
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +821,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000003e37000040370000423700004437000046370000483700004a3700004c3700004e37000050370000523700005437000056370000583700005c3700005e370000603700006437000000ca9a3b
+=======
+    m_ExpandedIDs: 0000000026370000283700002a3700002c3700002e37000030370000323700003437000036370000383700003a3700003c3700003e37000040370000423700004437000046370000483700004a3700004c3700004e37000050370000
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,8 +850,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+=======
+    m_SelectedInstanceIDs: 14320000
+    m_LastClickedInstanceID: 12820
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -434,8 +885,13 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
+=======
+  m_DirectoriesAreaWidth: 172
+--- !u!114 &15
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -473,7 +929,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -502,9 +958,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 0c350000
       m_LastClickedID: 13580
       m_ExpandedIDs: 4efbffffc8340000
+=======
+      m_SelectedIDs: 14320000
+      m_LastClickedID: 0
+      m_ExpandedIDs: cad4ffff90edffff3ceeffffeeeeffffaeefffff5af0ffff58f9ffff6cfbffff
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -527,8 +989,13 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: 8a67e56f1cf90844b854e1bbb9e5b8ab
 --- !u!114 &16
+=======
+  m_WindowGUID: 0cf201ad9c362d94db55a5365c21abef
+--- !u!114 &17
+>>>>>>> 6b4f18f9a025d428396e625ba5738fa591469e7c
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,7 +1110,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -732,7 +1199,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
