@@ -16508,11 +16508,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918361452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13997c8e54bdb184f8554e2d096ec8b0, type: 3}
+  m_Script: {fileID: 11500000, guid: b63b80ccda6832e40ac1224b7328b812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _Player: {fileID: 502700740}
-  _Enemy: {fileID: 0}
   foregroundImage: {fileID: 1297209226}
 --- !u!1 &1935919818
 GameObject:
@@ -16562,6 +16561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Player: {fileID: 502700740}
   _Enemy: {fileID: 0}
+  enemy_H: 0
+  player_H: 0
+  Total_H: 10
   foregroundImage: {fileID: 0}
 --- !u!1 &2097229952
 GameObject:

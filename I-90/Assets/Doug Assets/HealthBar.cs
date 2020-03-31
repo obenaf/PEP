@@ -10,26 +10,33 @@ public class HealthBar : MonoBehaviour
 {
     public Player _Player;
     public Enemy _Enemy;
-    int enemy_H, player_H, Total_H = 10;
+
+    float enemy_H, player_H, Total_H = 10f;
     public Image foregroundImage;
     
     //Fills healthbar at start
-    private void Start()
+    private void start()
     {
-        foregroundImage.fillAmount = _Player.getHealth();
-        foregroundImage.fillAmount = _Enemy.getHealth();
+        enemy_H = _Enemy.getHealth() / 15f;
+        //player_H = _Player.getHealth() / Total_H;
+
+        //foregroundImage.fillAmount = .5f;
+        //foregroundImage.fillAmount = enemy_H;
+
+
     }
 
     // update to change healthbar
     private void FixedUpdate()
     {
-        foregroundImage.fillAmount = enemy_H;
+        foregroundImage.fillAmount -= 1.0f / 1000;
+        //foregroundImage.fillAmount = enemy_H;
         //foregroundImage.fillAmount = _Enemy.getHealth();
     }
 
     private void PercentHealth()
     {
-        enemy_H = _Enemy.getHealth() / Total_H;
-        player_H = _Player.getHealth() / Total_H;
+        //enemy_H = _Enemy.getHealth() / Total_H;
+        //player_H = _Player.getHealth() / Total_H;
     } 
 }
