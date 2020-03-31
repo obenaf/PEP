@@ -69,7 +69,7 @@ public class SoldierMovement : Movement
         float movementX = playerPosX - currentPosX;
         float movementY = playerPosY - currentPosY;
         // false = enemy turn
-        if (levelManagerScripts.turnManager() == false)
+        if (levelManagerScripts.turnManagerEnemy() == true)
         {
             // Get the total amount the enemy has moved so far this turn
             travelledTotal = getMovement(travelledTotal);
@@ -112,7 +112,7 @@ public class SoldierMovement : Movement
             }
 
         }
-        if (levelManagerScripts.turnManager() == true)//If not players turn, don't move. This prevents other characters from pushing this character
+        if (levelManagerScripts.turnManagerEnemy() == false)//If not players turn, don't move. This prevents other characters from pushing this character
         {
             moveEnemy(0, 0);
         }
@@ -121,7 +121,7 @@ public class SoldierMovement : Movement
 
         if (travelledTotal >= movement)
         {
-            levelManagerScripts.changeTurn();
+            levelManagerScripts.changeEnemyTurn();
             //moveSelected = false;
             travelledTotal = 0;
         }

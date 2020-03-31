@@ -316,6 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTurn: 1
+  enemyTurn: 0
 --- !u!114 &87484418
 MonoBehaviour:
   m_ObjectHideFlags: 0

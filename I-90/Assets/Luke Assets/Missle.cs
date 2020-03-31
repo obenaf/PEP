@@ -14,6 +14,9 @@ public class Missle : Movement
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
 
+    //public GameObject levelManager;//Call methods from the Level0Manager.cs
+    //public Level0Manager levelManagerScripts;
+
     float movementX, movementY;
 
     void Start()
@@ -24,6 +27,8 @@ public class Missle : Movement
         PlayerMovement = GameObject.FindGameObjectWithTag("Player");//Set playerMovement scripts to current player object
         playerMovementScripts = PlayerMovement.GetComponent<PlayerMovement>();
 
+        levelManager = GameObject.FindGameObjectWithTag("level0Manager");
+        levelManagerScripts = levelManager.GetComponent<Level0Manager>();
         
     }
 
@@ -51,6 +56,7 @@ public class Missle : Movement
         else
         {
             Destroy(gameObject);
+            levelManagerScripts.changeTurn();
         }
 
     }

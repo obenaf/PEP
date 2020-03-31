@@ -54,7 +54,6 @@ public class Player : Character
                 enemyMovementScripts = closestEnemy.GetComponent<SoldierMovement>();
                 enemyScripts = closestEnemy.GetComponent<Enemy>(); 
 
-
                 if ((isRanged == true) && (attackPossible(range) == true))
                 {
                     attackInput = 0;

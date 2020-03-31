@@ -9,7 +9,7 @@ public class Enemy : Character
         maxHealth = 10;
         attack = 2;
         movement = 3;
-        range = 2;
+        range = 1;
         experience = 10;
         accuracy = 50;
     }

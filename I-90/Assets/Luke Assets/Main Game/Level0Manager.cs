@@ -9,6 +9,7 @@ public class Level0Manager : MonoBehaviour
 
     [SerializeField]
     public bool playerTurn = true;//True is player's turn, false is enemy's turn
+    public bool enemyTurn = false;
 
     void Awake()
     {
@@ -26,12 +27,27 @@ public class Level0Manager : MonoBehaviour
     {
         
     }
-    public void changeTurn(){//Allows objects to change the turn
-        
-        playerTurn = !playerTurn;
+    public void changeTurn()//Allows objects to change the turn   
+    {
+        playerTurn = false;
+        enemyTurn = true;
     }
+    public void changeEnemyTurn()
+    {
+        enemyTurn = false;
+        playerTurn = true;
+    }
+
     public bool turnManager(){//Gives state of combat to other scripts
         if (playerTurn == true){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public bool turnManagerEnemy(){//Gives state of combat to other scripts
+        if (enemyTurn == true){
             return true;
         }
         else{

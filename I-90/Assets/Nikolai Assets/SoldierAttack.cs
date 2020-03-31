@@ -28,16 +28,15 @@ public class SoldierAttack : Enemy {
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (levelManagerScripts.turnManager() == false)
+        if (levelManagerScripts.turnManagerEnemy() == true)
         {
             if (attackPossible(range) == true)
             {
                 //int damage;
-                levelManagerScripts.changeTurn();
+                levelManagerScripts.changeEnemyTurn();
                 //damage = attackScripts.getMeleeDamage(attack, accuracy);
                 Debug.Log("attacking player");
-                attackPlayer();
-                
+                attackPlayer();                
                 
             }
         }
