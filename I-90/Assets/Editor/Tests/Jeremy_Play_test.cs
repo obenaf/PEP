@@ -20,9 +20,17 @@ namespace Tests
         [UnityTest]
         public IEnumerator NewTestScriptWithEnumeratorPasses()
         {
+            SetupScene();
+            
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             yield return null;
+        }
+        void SetupScene()
+        {
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Item"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Player"));
+
         }
     }
 }
