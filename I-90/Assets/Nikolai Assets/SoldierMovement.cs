@@ -128,7 +128,7 @@ public class SoldierMovement : Movement
 
     }
 
-    void moveEnemy(float directionX, float directionY)
+    public void moveEnemy(float directionX, float directionY)
     {
         velocity = new Vector2(speedModifier * directionX, speedModifier * directionY);
         myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);

@@ -8,7 +8,7 @@ using NSubstitute;
 
 namespace Tests
 {
-    public class EnemySpawnTests
+    public class Nikolai_EnemySpawnTests
     {
         //public object NSubstitute { get; private set; }
 
@@ -27,7 +27,7 @@ namespace Tests
 
             Assert.AreEqual(enemyPrefab, prefabOfTheSpawnedEnemy);
         }
-        /*
+        
         [UnityTest]
         public IEnumerator _Instantiates_GameObject_At_Random_position()
         {
@@ -36,16 +36,16 @@ namespace Tests
             enemySpawner.Construct(enemyPrefab, 0, 1);
             var random = NSubstitute.Substitute.For<System.Random>();
             random.Next(Arg.Any<int>(), Arg.Any<int>()).Returns(270);
-            enemySpawner.Random = random;
+            //enemySpawner.Random = random;
 
             yield return null;
 
             var spawnedEnemy = GameObject.FindWithTag("Enemy");
-            var expectedPosition = new Vector3(0, -1, 0);
+            var expectedPosition = new Vector3(1.80847f, -2.5956f, 0);
 
             Assert.AreEqual(expectedPosition, spawnedEnemy.transform.position);
 
-        }*/
+        }
 
 
         [TearDown]
