@@ -12,36 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab5cf599a010b884db0afbded8f2f1e7, type: 3}
   m_Name: Equipment
   m_EditorClassIdentifier: 
-  database: {fileID: 0}
+  database: {fileID: 11400000, guid: d4d763314f19ea7429157099b2d4c9ca, type: 2}
+  type: 1
   Container:
-    Items:
-    - ID: -1
+    Slots:
+    - AllowedItems: 02000000
+      item:
+        Name: test
+        Id: 1
+        buffs:
+        - attribute: 0
+          value: 5
+          min: 0
+          max: 0
+      amount: 1
+    - AllowedItems: 06000000
       item:
         Name: 
-        Id: 0
-        buffs: []
+        Id: -1
+        buffs:
+        - attribute: 2
+          value: 10
+          min: 0
+          max: 0
       amount: 0
-    - ID: -1
+    - AllowedItems: 03000000
       item:
         Name: 
-        Id: 0
-        buffs: []
+        Id: -1
+        buffs:
+        - attribute: 0
+          value: 5
+          min: 0
+          max: 0
       amount: 0
-    - ID: -1
+    - AllowedItems: 030000000400000001000000
       item:
         Name: 
-        Id: 0
-        buffs: []
+        Id: -1
+        buffs:
+        - attribute: 4
+          value: 2
+          min: 0
+          max: 0
       amount: 0
-    - ID: -1
+    - AllowedItems: 05000000
       item:
         Name: 
-        Id: 0
-        buffs: []
-      amount: 0
-    - ID: -1
-      item:
-        Name: 
-        Id: 0
-        buffs: []
+        Id: -1
+        buffs:
+        - attribute: 3
+          value: 10
+          min: 0
+          max: 0
       amount: 0

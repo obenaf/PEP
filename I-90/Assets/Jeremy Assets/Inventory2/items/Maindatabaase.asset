@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc295a87ea852b4aba252de963e37fd, type: 3}
   m_Name: Maindatabaase
   m_EditorClassIdentifier: 
-  Items:
+  ItemObjects:
   - {fileID: 11400000, guid: 200a3ccf30c970e4c98eee31b1d019e3, type: 2}
+  - {fileID: 11400000, guid: b154a5743f1a68c4c9907315400358f0, type: 2}
   - {fileID: 11400000, guid: 03eea5a6de4623c4dbf372365825c580, type: 2}
   - {fileID: 11400000, guid: 90b86b3e87d3a60418c6738930abf704, type: 2}
+  - {fileID: 11400000, guid: 36f08dfec496c6a47bad73aab69cf2c8, type: 2}
   - {fileID: 11400000, guid: da3d393a1dda10d4884de5d157d2e774, type: 2}
+  - {fileID: 11400000, guid: 6c9b04c3ccf83e243900b739f6ee2884, type: 2}

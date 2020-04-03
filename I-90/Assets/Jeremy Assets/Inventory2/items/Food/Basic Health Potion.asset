@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e549e22eaa599734a802b0b189452d0e, type: 3}
   m_Name: Basic Health Potion
   m_EditorClassIdentifier: 
-  Id: 1
   uiDisplay: {fileID: 21300000, guid: 0616664157ec05d499ba78e9b943165c, type: 3}
+  stackable: 1
   type: 0
-  range: 0
-  price: 0
   description: Heals 10 health
-  buffs:
-  - attribute: 1
-    value: 10
-    min: 10
-    max: 10
+  data:
+    Name: Health Potion
+    Id: 0
+    buffs:
+    - attribute: 1
+      value: 10
+      min: 10
+      max: 10

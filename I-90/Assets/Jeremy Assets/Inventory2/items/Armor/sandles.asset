@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6dce63e5a0c9c46837e8393afbf059, type: 3}
+  m_Name: sandles
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 0}
+  stackable: 0
+  type: 5
+  description: 
+  data:
+    Name: Sandles
+    Id: 1
+    buffs:
+    - attribute: 0
+      value: 1
+      min: 1
+      max: 1
