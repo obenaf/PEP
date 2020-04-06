@@ -25,13 +25,17 @@ public class SoldierMovement : Movement
     public int currentWaypoint = 1;
     void Start()
     {
-        levelManager = GameObject.FindGameObjectWithTag("level0Manager");
-        levelManagerScripts = levelManager.GetComponent<Level0Manager>();
+        if (levelManager = GameObject.FindGameObjectWithTag("level0Manager"))
+        {
+            levelManagerScripts = levelManager.GetComponent<Level0Manager>();
+        }
 
         //playerScript = Player.GetComponent<>;
-        playerMovement = GameObject.FindGameObjectWithTag("Player");
-        //PlayerMovement = GameObject.FindGameObjectWithTag("Player");
-        playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+        if (playerMovement = GameObject.FindGameObjectWithTag("Player"))
+        {
+            //PlayerMovement = GameObject.FindGameObjectWithTag("Player");
+            playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+        }
 
         allEnemies = GameObject.FindObjectsOfType<Enemy>();//changed - allEnemies is inherited from Movement class
         foreach (Enemy currentEnemy in allEnemies)

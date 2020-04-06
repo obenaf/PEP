@@ -7,22 +7,28 @@ public class SoldierAttack : Enemy {
     // Start is called before the first frame update
     void Start()
     {
-        levelManager = GameObject.FindGameObjectWithTag("level0Manager");
-        levelManagerScripts = levelManager.GetComponent<Level0Manager>();
+        if (levelManager = GameObject.FindGameObjectWithTag("level0Manager"))
+        {
+            levelManagerScripts = levelManager.GetComponent<Level0Manager>();
+        }
 
         //enemy = GameObject.FindGameObjectWithTag("Enemy");
         //SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
 
-        playerMovement = GameObject.FindGameObjectWithTag("Player");
-        playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
-        playerScripts = playerMovement.GetComponent<Player>();
+        if (playerMovement = GameObject.FindGameObjectWithTag("Player"))
+        {
+            playerMovementScripts = playerMovement.GetComponent<PlayerMovement>();
+            playerScripts = playerMovement.GetComponent<Player>();
+        }
 
         enemyMovementScripts = gameObject.GetComponent<SoldierMovement>();
         //enemyScripts = enemy.GetComponent<Enemy>();
 
 
-        attackOptions = GameObject.FindGameObjectWithTag("Attacks");
-        attackScripts = attackOptions.GetComponent<Attacks>();
+        if (attackOptions = GameObject.FindGameObjectWithTag("Attacks"))
+        {
+            attackScripts = attackOptions.GetComponent<Attacks>();
+        }
     }
 
     // Update is called once per frame

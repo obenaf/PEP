@@ -16,12 +16,16 @@ public class Enemy : Character
     void Start()
     {
         //Set variables to current Player object
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerScripts = player.GetComponent<Player>();
+        if (player = GameObject.FindGameObjectWithTag("Player"))
+        {
+            playerScripts = player.GetComponent<Player>();
+        }
         currentHealth = maxHealth;
 
-        attackOptions = GameObject.FindGameObjectWithTag("Attacks");
-        attackScripts = attackOptions.GetComponent<Attacks>();
+        if (attackOptions = GameObject.FindGameObjectWithTag("Attacks"))
+        {
+            attackScripts = attackOptions.GetComponent<Attacks>();
+        }
     }
 
    
