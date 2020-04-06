@@ -32,7 +32,7 @@ public class Richard_Test : MonoBehaviour
 
     bool Object_Check(string scene_name, int item_count, int enemy_count)
     {
-        EditorSceneManager.OpenScene(scene_name);
+        SceneManager.LoadScene(scene_name);
         if(GameObject.FindGameObjectsWithTag("item").Length == item_count)
         {
             if(GameObject.FindGameObjectsWithTag("enemy").Length == enemy_count)
