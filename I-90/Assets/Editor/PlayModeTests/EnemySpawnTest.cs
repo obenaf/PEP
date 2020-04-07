@@ -27,7 +27,37 @@ namespace NikolaiTests
             }
         }
 
-        
+        // Spawn an enemy at a specific location and check that it spawned there
+        [UnityTest]
+        public IEnumerator _1SpawnEnemyAtLocation()
+        {
+
+            SetupScene();
+            var enemy = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/EnemyTest"));
+            var pos = new Vector3(0.5f, 0.5f, 0);
+            enemy.transform.position = pos;
+            //if ()
+            //{
+            yield return new WaitForSeconds(1);
+            Assert.AreEqual(pos, enemy.transform.position);
+            //}
+        }
+
+        // Spawn an enemy at a specific location that is blocked by a rock and check it didn't spawn there
+        [UnityTest]
+        public IEnumerator _1SpawnEnemyAtForbiddenArea()
+        {
+
+            SetupScene();
+            var enemy = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/EnemyTest"));
+            var pos = new Vector3(1, 1, 0);
+            enemy.transform.position = pos;
+            //if ()
+            //{
+            yield return new WaitForSeconds(1);
+            Assert.AreNotEqual(pos, enemy.transform.position);
+            //}
+        }
 
         // Tests for whether the game can spawn 100 enemies and measure frame rate
         [UnityTest]
@@ -61,8 +91,10 @@ namespace NikolaiTests
             //Assert.Pass();
         }
 
+
+
         // Tests for whether the game can spawn endless enemies (100 million) and not crash
-        [UnityTest]
+        /*[UnityTest]
         public IEnumerator _3SpawnOneThousandEnemies()
         {
             SetupScene();
@@ -92,7 +124,7 @@ namespace NikolaiTests
                     Assert.Pass();
                 }
             }
-        }
+        }*/
 
         void SetupScene()
         {
