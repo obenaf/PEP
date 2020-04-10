@@ -7,11 +7,11 @@ public class Enemy : Character
     void Awake()
     {
         maxHealth = 10;
-        attack = 2;
+        attack = 1;
         movement = 3;
-        range = 1;
+        range = 1.0f;
         experience = 10;
-        accuracy = 50;
+        accuracy = 100;
     }
     void Start()
     {

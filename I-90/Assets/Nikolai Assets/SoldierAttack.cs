@@ -39,11 +39,14 @@ public class SoldierAttack : Enemy {
             if (attackPossible(range) == true)
             {
                 //int damage;
-                levelManagerScripts.changeEnemyTurn();
+                enemyMovementScripts.attack();
+                //levelManagerScripts.changeEnemyTurn();
+                Debug.Log("Player Attacked");
                 //damage = attackScripts.getMeleeDamage(attack, accuracy);
                 //Debug.Log("attacking player");
-                attackPlayer();                
-                
+                attackPlayer();
+                //enemyMovementScripts.finishMove();
+                //enemyMovementScripts.endTurn();
             }
         }
     }

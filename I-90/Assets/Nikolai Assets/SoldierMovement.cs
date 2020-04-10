@@ -23,6 +23,8 @@ public class SoldierMovement : Movement
     public float waypoint3y;
     public float MoveX, MoveY;
     public int currentWaypoint = 1;
+    public bool enemyTurn = false;
+    public static bool doneMoving = false;
     void Start()
     {
         if (levelManager = GameObject.FindGameObjectWithTag("level0Manager"))
@@ -118,6 +120,7 @@ public class SoldierMovement : Movement
         }
         if (levelManagerScripts.turnManagerEnemy() == false)//If not players turn, don't move. This prevents other characters from pushing this character
         {
+            travelledTotal = 0;
             moveEnemy(0, 0);
         }
 
@@ -126,6 +129,7 @@ public class SoldierMovement : Movement
         if (travelledTotal >= movement)
         {
             levelManagerScripts.changeEnemyTurn();
+            //endTurn();
             //moveSelected = false;
             travelledTotal = 0;
         }
@@ -348,6 +352,57 @@ public class SoldierMovement : Movement
     protected override float getMovement(float travelledTotal)
     {
         return base.getMovement(travelledTotal);
+    }
+
+
+    public void attack()
+    {
+        travelledTotal++;
+    }
+
+    // Code EnemyTurnManager not currently working properly
+    
+    public bool getEnemyTurn()
+    {
+        if (enemyTurn == true)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public bool getEnemyDoneMoving()
+    {
+        if (doneMoving == true)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void finishMove()
+    {
+        doneMoving = true;
+    }
+
+    public void startTurn()
+    {
+        doneMoving = false;
+        Debug.Log("Enemy turn started");
+        enemyTurn = true;
+    }
+
+    public void endTurn()
+    {
+        doneMoving = true;
+        Debug.Log("Enemy turn ended");
+        enemyTurn = false;
     }
 
 }
