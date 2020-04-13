@@ -357,7 +357,9 @@ public class SoldierMovement : Movement
 
     public void attack()
     {
-        travelledTotal++;
+        travelledTotal = 0;
+        levelManagerScripts.changeEnemyTurn();
+        //travelledTotal++;
     }
 
     // Code EnemyTurnManager not currently working properly

@@ -31,6 +31,7 @@ public class PlayerMovement : Movement
 
         if (levelManagerScripts.turnManager() == false)//If not players turn, don't move. This prevents other characters from pushing this character
         {
+            travelledTotal = 0;
             movePlayer(0, 0);
         }
         

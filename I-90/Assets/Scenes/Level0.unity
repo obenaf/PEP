@@ -565,6 +565,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: currentHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: attack
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: accuracy
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: movement
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: experience
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8516049510492984458, guid: 0b0f232e8711cc34ebbc5890d14b9121,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,13 +1393,13 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  maxHealth: 0
-  currentHealth: 0
-  attack: 0
-  accuracy: 0
+  maxHealth: 10
+  currentHealth: 10
+  attack: 5
+  accuracy: 100
   armor: 0
-  range: 0
-  movement: 0
+  range: 2
+  movement: 3
   level: 0
   experience: 0
   isRanged: 0
@@ -16453,6 +16493,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: currentHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: attack
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: accuracy
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: movement
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: experience
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8516049510492984458, guid: 0b0f232e8711cc34ebbc5890d14b9121,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17253,6 +17333,46 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: currentHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: attack
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: accuracy
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: range
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: movement
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516049510492984456, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: experience
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8516049510492984458, guid: 0b0f232e8711cc34ebbc5890d14b9121,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17317,6 +17437,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: currentHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: attack
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: accuracy
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630020645807764931, guid: 0b0f232e8711cc34ebbc5890d14b9121,
+        type: 3}
+      propertyPath: movement
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8516049510449545416, guid: 0b0f232e8711cc34ebbc5890d14b9121, type: 3}
