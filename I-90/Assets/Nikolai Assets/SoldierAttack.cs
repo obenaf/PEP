@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class SoldierAttack : Enemy {
     public Player playerAttack;
+    void Awake()
+    {
+        maxHealth = 10;
+        currentHealth = 10;
+        attack = 3;
+        movement = 3;
+        range = 0.7f;
+        experience = 10;
+        accuracy = 100;
+    }
     // Start is called before the first frame update
     void Start()
     {

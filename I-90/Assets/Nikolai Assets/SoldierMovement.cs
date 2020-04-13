@@ -9,7 +9,7 @@ public class SoldierMovement : Movement
     public float[,] waypoints;
     public int direction;
     public int moveCounter = 1;
-    private float speedModifier = 2;
+    private float speedModifier = 5;
     // A flag to show that the direction changed, only for the inspector
     public bool changeDir = false;
     // Set whether the enemy is to patrol or move randomly
@@ -46,7 +46,7 @@ public class SoldierMovement : Movement
         }
 
         myRigidbody = GetComponent<Rigidbody2D>();
-        movement = enemyScripts.getMovement();//changed
+        
 
         waypoints = new float[3, 2];
         waypoints[0,0] = getPositionX();
@@ -61,6 +61,10 @@ public class SoldierMovement : Movement
         waypoint2y = waypoints[1, 1];
         waypoint3x = waypoints[2, 0];
         waypoint3y = waypoints[2, 1];
+        movement = enemyScripts.getMovement();//changed
+
+        oldpositionX = myRigidbody.position.x;
+        oldpositionY = myRigidbody.position.y;
     }
 
 
@@ -77,21 +81,26 @@ public class SoldierMovement : Movement
         // false = enemy turn
         if (levelManagerScripts.turnManagerEnemy() == true)
         {
+            Debug.Log("Entered Enemy Movement Function");
             // Get the total amount the enemy has moved so far this turn
             travelledTotal = getMovement(travelledTotal);
+            Debug.Log("TravelledTotal " + travelledTotal);
             // Set the direction for the enemy to move via moveRandom, approx every 1 unit, potentially change it
             if (((travelledTotal % 2 >= 0.95) && (travelledTotal % 2 <= 1.05) && changeDir == false) || (travelledTotal == 0) && !patrol)
             {
+                Debug.Log("Change Dir True");
                 changeDir = true;
                 direction = Random.Range(1, 9);
             }
             else
             {
+                Debug.Log("Change Dir False");
                 changeDir = false;
             }
             // Move only every 5 frames (assuming 60 fps)
             if (moveCounter == 5)
             {
+                Debug.Log("Movement Counter reached 5");
                 // Player is more than 5 units away so move in a random direction or patrol
                 if (Mathf.Pow(movementX, 2) + Mathf.Pow(movementY, 2) > 5)
                 {
@@ -125,9 +134,12 @@ public class SoldierMovement : Movement
         }
 
         //travelledTotal = getMovement(travelledTotal);
-
+        //Debug.Log("TravelledTotal " + travelledTotal);
         if (travelledTotal >= movement)
         {
+            Debug.Log("Enemy Turn Ending");
+            Debug.Log("TravelledTotal "+ travelledTotal);
+            //Debug.Log("Movement " + movement);
             levelManagerScripts.changeEnemyTurn();
             //endTurn();
             //moveSelected = false;
@@ -351,12 +363,21 @@ public class SoldierMovement : Movement
 
     protected override float getMovement(float travelledTotal)
     {
+        /*float travelledX, travelledY;
+        travelledX = Mathf.Abs(myRigidbody.position.x - oldpositionX);
+        travelledY = Mathf.Abs(myRigidbody.position.y - oldpositionY);
+
+        oldpositionX = myRigidbody.position.x;
+        oldpositionY = myRigidbody.position.y;
+
+        return travelledY + travelledX + travelledTotal;*/
         return base.getMovement(travelledTotal);
     }
 
 
     public void attack()
     {
+        Debug.Log("Enemy Attack Function Called");
         travelledTotal = 0;
         levelManagerScripts.changeEnemyTurn();
         //travelledTotal++;
@@ -364,7 +385,7 @@ public class SoldierMovement : Movement
 
     // Code EnemyTurnManager not currently working properly
     
-    public bool getEnemyTurn()
+    /*public bool getEnemyTurn()
     {
         if (enemyTurn == true)
         {
@@ -405,6 +426,6 @@ public class SoldierMovement : Movement
         doneMoving = true;
         Debug.Log("Enemy turn ended");
         enemyTurn = false;
-    }
+    }*/
 
 }

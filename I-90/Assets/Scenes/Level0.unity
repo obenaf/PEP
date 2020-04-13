@@ -505,12 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de739e9ed971c1e44ac7c55fc9a0c68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
-  enemyMovementScripts: {fileID: 0}
-  levelManagerScripts: {fileID: 0}
-  enemyScripts: {fileID: 0}
-  closestEnemy: {fileID: 0}
-  allEnemies: []
 --- !u!1 &104573805
 GameObject:
   m_ObjectHideFlags: 0

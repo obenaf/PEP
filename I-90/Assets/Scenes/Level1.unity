@@ -3595,7 +3595,7 @@ MonoBehaviour:
   movement: 5
   level: 0
   experience: 0
-  isRanged: 1
+  isRanged: 0
   allowAttack: 1
   closestEnemyMovementScripts: {fileID: 0}
 --- !u!114 &502700741

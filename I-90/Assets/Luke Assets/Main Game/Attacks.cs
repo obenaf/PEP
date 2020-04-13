@@ -28,10 +28,12 @@ public class Attacks : MonoBehaviour
         if (hitOrMiss <= accuracy)
         {
             damage = Random.Range(1, attack);
+            Debug.Log("Melee Attack Hit");
         }
         else
         {
             damage = 0;
+            Debug.Log("Melee Attack Missed");
         }
         return damage;
     }
@@ -43,10 +45,12 @@ public class Attacks : MonoBehaviour
         if (hitOrMiss <= accuracy)
         {
             damage = Random.Range(1, attack);
+            Debug.Log("Ranged Attack Hit");
         }
         else
         {
             damage = 0;
+            Debug.Log("Ranged Attack Missed");
         }
         return damage;
     }
