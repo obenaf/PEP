@@ -63,7 +63,7 @@ public class Player : Character
                     attackScripts.spawnArrow();    
                     missles = GameObject.FindGameObjectWithTag("Missle");
                     missleScripts = missles.GetComponent<Missle>(); 
-                    //levelManagerScripts.changeTurn();             
+                    levelManagerScripts.changeTurn();             
                                              
                 }
                 if ((isRanged == false) && (attackPossible(range) == true))
@@ -112,7 +112,7 @@ public class Player : Character
     {
         currentLevel++;
         maxHealth = maxHealth + 5;
-        currentHealth = maxHealth;
+        currentHealth = currentHealth +5;
         attack++;
         armor = armor + 2;
     }

@@ -11,7 +11,7 @@ public class Enemy : Character
         //movement = 3;
         //range = 1.0f;
         experience = 10;
-        accuracy = 100;
+        //accuracy = 100;
     }
     void Start()
     {
