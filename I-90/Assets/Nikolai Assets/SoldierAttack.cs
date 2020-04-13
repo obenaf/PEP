@@ -8,11 +8,11 @@ public class SoldierAttack : Enemy {
     {
         maxHealth = 10;
         currentHealth = 10;
-        attack = 3;
+        attack = 2;
         movement = 3;
         range = 0.7f;
         experience = 10;
-        accuracy = 100;
+        accuracy = 50;
     }
     // Start is called before the first frame update
     void Start()
