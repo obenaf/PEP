@@ -93,14 +93,14 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  maxHealth: 0
-  currentHealth: 0
-  attack: 0
-  accuracy: 0
+  maxHealth: 10
+  currentHealth: 10
+  attack: 3
+  accuracy: 80
   armor: 0
-  range: 0
-  movement: 0
-  level: 0
+  range: 2
+  movement: 5
+  level: 1
   experience: 0
   isRanged: 0
   allowAttack: 1

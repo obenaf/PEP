@@ -14,11 +14,11 @@ public class Player : Character
 
     void Awake()
     {
-        maxHealth = 10;
-        attack = 5;
-        accuracy = 50;
+        //maxHealth = 10;
+        //attack = 5;
+        //accuracy = 50;
         movement = 5;
-        armor = 0;
+        //armor = 0;
         range = 2;
         experience = 0;
         nextLevel = currentLevel * 100;
@@ -112,6 +112,8 @@ public class Player : Character
     {
         currentLevel++;
         maxHealth = maxHealth + 5;
+        currentHealth = maxHealth;
+        attack++;
         armor = armor + 2;
     }
     public void findEnemies()

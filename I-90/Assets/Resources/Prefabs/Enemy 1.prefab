@@ -295,13 +295,13 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  maxHealth: 0
-  currentHealth: 0
-  attack: 0
-  accuracy: 0
+  maxHealth: 5
+  currentHealth: 5
+  attack: 1
+  accuracy: 50
   armor: 0
-  range: 0
-  movement: 0
+  range: 1
+  movement: 3
   level: 0
   experience: 0
   isRanged: 0
@@ -449,13 +449,13 @@ MonoBehaviour:
   closestEnemy: {fileID: 0}
   allEnemies: []
   enemyScripts: {fileID: 0}
-  maxHealth: 0
-  currentHealth: 0
-  attack: 0
-  accuracy: 0
+  maxHealth: 5
+  currentHealth: 5
+  attack: 1
+  accuracy: 50
   armor: 0
-  range: 0
-  movement: 0
+  range: 1
+  movement: 3
   level: 0
   experience: 0
   isRanged: 0
