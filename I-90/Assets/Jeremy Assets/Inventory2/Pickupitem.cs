@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pickupitem : MonoBehaviour
+public class Pickupitem : Character
 {
     public InventoryObject inventory;
     public InventoryObject equipment;
     public Attribute[] Stats;
+    
 
     private void Start()
     {
@@ -19,6 +20,10 @@ public class Pickupitem : MonoBehaviour
         {
             equipment.GetSlots[i].OnBeforeUpdate += OnBeforeSlotUpdate;
             equipment.GetSlots[i].OnAfterUpdate += OnAfterSlotUpdate;
+        }
+        if (player = GameObject.FindGameObjectWithTag("Player"))
+        {
+            playerScripts = player.GetComponent<Player>();
         }
     }
     // Start is called before the first frame update
@@ -39,6 +44,8 @@ public class Pickupitem : MonoBehaviour
                     {
                         if (Stats[j].type == _slot.item.buffs[i].attribute)
                             Stats[j].value.RemoveModifier(_slot.item.buffs[i]);
+                            
+                        
                     }
                 }
 
@@ -65,7 +72,10 @@ public class Pickupitem : MonoBehaviour
                     for (int j = 0; j < Stats.Length; j++)
                     {
                         if (Stats[j].type == _slot.item.buffs[i].attribute)
+                        {
                             Stats[j].value.AddModifier(_slot.item.buffs[i]);
+                            
+                        }
                     }
                 }
 
@@ -79,6 +89,20 @@ public class Pickupitem : MonoBehaviour
     public void AttributeModified(Attribute attribute)
     {
         Debug.Log(string.Concat(attribute.type, " was updated! Value is now ", attribute.value.ModifiedValue));
+        if (attribute.type.Equals(armor))
+        { playerScripts.armor = attribute.value.ModifiedValue;
+            armor = attribute.value.ModifiedValue;
+        }
+        if (attribute.type.Equals(accuracy))
+        { playerScripts.accuracy = attribute.value.ModifiedValue;
+        accuracy= attribute.value.ModifiedValue;
+        }
+        if (attribute.type.Equals(range))
+        { playerScripts.range = attribute.value.ModifiedValue;
+            range= attribute.value.ModifiedValue;
+        }
+        
+
     }
 
 
@@ -101,6 +125,7 @@ public class Pickupitem : MonoBehaviour
             }
         }
     }
+
 }
 
 [System.Serializable]

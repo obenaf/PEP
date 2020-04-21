@@ -23,8 +23,8 @@ MonoBehaviour:
         buffs:
         - attribute: 0
           value: 5
-          min: 0
-          max: 0
+          min: 4
+          max: 4
       amount: 1
     - AllowedItems: 06000000
       item:
