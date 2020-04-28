@@ -1,4 +1,4 @@
-﻿/*using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +10,28 @@ public class EnemyMovementTurnManager : MonoBehaviour
     public Enemy enemyScripts;
     public Enemy closestEnemy = null;// will be used for determining closes enemy when attacking
     public Enemy[] allEnemies;
-    public static EnemyMovementTurnManager _instance;
+
+    // Code Reuse of instantiation of Singleton pattern
+    // Came from StackExchange https://gamedev.stackexchange.com/questions/116009/in-unity-how-do-i-correctly-implement-the-singleton-pattern 
+    // Required changing variable names of class given
+    // Falls under the Creative Commons license https://stackoverflow.com/legal/terms-of-service/public
+    // Commercial use is allowed
+    private static EnemyMovementTurnManager _instance;
     //public bool enemyTurn = false;
+
+    public static EnemyMovementTurnManager Instance { get { return _instance; } }
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +67,7 @@ public class EnemyMovementTurnManager : MonoBehaviour
                     
                     _instance = this;
                 }
-                else if ((_instance == this) && (enemyMovementScripts.getEnemyTurn() == false) )
+                /*else if ((_instance == this) && (enemyMovementScripts.getEnemyTurn() == false) )
                 {
                     Debug.Log("instance not null");
                     enemyMovementScripts.startTurn();
@@ -60,10 +80,9 @@ public class EnemyMovementTurnManager : MonoBehaviour
                     //{
                     //    enemyMovementScripts.startTurn();
                     //}
-                }
+                }*/
                 //}
             }
         }
     }
 }
-*/

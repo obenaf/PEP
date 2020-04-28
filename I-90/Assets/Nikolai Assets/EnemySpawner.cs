@@ -36,7 +36,9 @@ public class EnemySpawner : MonoBehaviour
 
         if (_timeSinceLastSpawn >= _spawnRate)
         {
-            var enemy = PrefabUtility.InstantiatePrefab(Enemy1) as GameObject;
+            // Prototype pattern that clones Enemy 1 instead of creating a new object every time
+            GameObject enemy = Instantiate(Enemy1) as GameObject;
+            //var enemy = PrefabUtility.InstantiatePrefab(Enemy1) as GameObject;
 
             var degrees = _random.Next(0, 361);
 
