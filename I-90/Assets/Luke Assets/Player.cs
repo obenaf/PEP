@@ -59,8 +59,7 @@ public class Player : Character
 
                 if ((isRanged == true) && (attackPossible(range) == true))
                 {
-                    
-                    attackScripts.spawnArrow();    
+                    attackScripts.spawnArrow();   
                     missles = GameObject.FindGameObjectWithTag("Missle");
                     missleScripts = missles.GetComponent<Missle>(); 
                     levelManagerScripts.changeTurn();             
@@ -123,7 +122,7 @@ public class Player : Character
     public void damagePlayer(int damage)
     {
         currentHealth = currentHealth - damage;
-        Debug.Log("Player Damaged");
+       // Debug.Log("Player Damaged");
     }
     public void playerDies()
     {
@@ -137,7 +136,7 @@ public class Player : Character
     IEnumerator changeAllowAttack(){
         yield return new WaitForSeconds(1);
         allowAttack = true;
-        Debug.Log("Changed allowAttack");
+        //Debug.Log("Changed allowAttack");
     }
     public void findClosestEnemy()
     {

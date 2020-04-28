@@ -6,6 +6,7 @@ public class Attacks : MonoBehaviour
 {
 
     public GameObject ArrowPrefab;
+    //public GameObject Arrow2;
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
 
@@ -28,12 +29,12 @@ public class Attacks : MonoBehaviour
         if (hitOrMiss <= accuracy)
         {
             damage = Random.Range(1, attack);
-            Debug.Log("Melee Attack Hit");
+            //Debug.Log("Melee Attack Hit");
         }
         else
         {
             damage = 0;
-            Debug.Log("Melee Attack Missed");
+            //Debug.Log("Melee Attack Missed");
         }
         return damage;
     }
@@ -45,19 +46,35 @@ public class Attacks : MonoBehaviour
         if (hitOrMiss <= accuracy)
         {
             damage = Random.Range(1, attack);
-            Debug.Log("Ranged Attack Hit");
+            //Debug.Log("Ranged Attack Hit");
         }
         else
         {
             damage = 0;
-            Debug.Log("Ranged Attack Missed");
+            //Debug.Log("Ranged Attack Missed");
         }
         return damage;
     }
+    /*public void spawnArrow() // Spawns arrow at player's current position. Needs to be updated to be able to spawn arrow at enemy's position as well
+    {
+        GameObject a = Instantiate(ArrowPrefab) as GameObject;
+        a.transform.position = new Vector2(playerMovementScripts.getPositionX(), playerMovementScripts.getPositionY());
+    }*/
     public void spawnArrow() // Spawns arrow at player's current position. Needs to be updated to be able to spawn arrow at enemy's position as well
     {
         GameObject a = Instantiate(ArrowPrefab) as GameObject;
         a.transform.position = new Vector2(playerMovementScripts.getPositionX(), playerMovementScripts.getPositionY());
+        Missle test = Missle.getInstance();
+        if (test == null){
+            Debug.Log("there is no missile");
+            //GameObject a = Instantiate(ArrowPrefab) as GameObject;
+            //a.transform.position = new Vector2(playerMovementScripts.getPositionX(), playerMovementScripts.getPositionY());
+        }
+        else{
+            Debug.Log("There is already a missle");
+        }
+        //GameObject a = Instantiate(ArrowPrefab) as GameObject;
+        //a.transform.position = new Vector2(playerMovementScripts.getPositionX(), playerMovementScripts.getPositionY());
+        
     }
-
 }

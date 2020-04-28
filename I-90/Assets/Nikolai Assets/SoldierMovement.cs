@@ -81,26 +81,26 @@ public class SoldierMovement : Movement
         // false = enemy turn
         if (levelManagerScripts.turnManagerEnemy() == true)
         {
-            Debug.Log("Entered Enemy Movement Function");
+            //Debug.Log("Entered Enemy Movement Function");
             // Get the total amount the enemy has moved so far this turn
             travelledTotal = getMovement(travelledTotal);
-            Debug.Log("TravelledTotal " + travelledTotal);
+            //Debug.Log("TravelledTotal " + travelledTotal);
             // Set the direction for the enemy to move via moveRandom, approx every 1 unit, potentially change it
             if (((travelledTotal % 2 >= 0.95) && (travelledTotal % 2 <= 1.05) && changeDir == false) || (travelledTotal == 0) && !patrol)
             {
-                Debug.Log("Change Dir True");
+                //Debug.Log("Change Dir True");
                 changeDir = true;
                 direction = Random.Range(1, 9);
             }
             else
             {
-                Debug.Log("Change Dir False");
+                //Debug.Log("Change Dir False");
                 changeDir = false;
             }
             // Move only every 5 frames (assuming 60 fps)
             if (moveCounter == 5)
             {
-                Debug.Log("Movement Counter reached 5");
+                //Debug.Log("Movement Counter reached 5");
                 // Player is more than 5 units away so move in a random direction or patrol
                 if (Mathf.Pow(movementX, 2) + Mathf.Pow(movementY, 2) > 5)
                 {
@@ -137,8 +137,8 @@ public class SoldierMovement : Movement
         //Debug.Log("TravelledTotal " + travelledTotal);
         if (travelledTotal >= movement)
         {
-            Debug.Log("Enemy Turn Ending");
-            Debug.Log("TravelledTotal "+ travelledTotal);
+            //Debug.Log("Enemy Turn Ending");
+            //Debug.Log("TravelledTotal "+ travelledTotal);
             //Debug.Log("Movement " + movement);
             levelManagerScripts.changeEnemyTurn();
             //endTurn();
@@ -377,7 +377,7 @@ public class SoldierMovement : Movement
 
     public void attack()
     {
-        Debug.Log("Enemy Attack Function Called");
+        //Debug.Log("Enemy Attack Function Called");
         travelledTotal = 0;
         levelManagerScripts.changeEnemyTurn();
         //travelledTotal++;

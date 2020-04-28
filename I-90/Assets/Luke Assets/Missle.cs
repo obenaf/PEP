@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class Missle : Movement
 {
-    //private new Rigidbody2D myRigidbody;
-    //private new float speed = 1.0f;
+    private static Missle uniqueInstance;
+    private Missle(){}
+    public static Missle getInstance(){
+        Debug.Log("Creating Missle");
+        if (uniqueInstance == null){
+            //Debug.Log("unique instance is null");
+            uniqueInstance = new Missle();
+        }
+        else{
+            //Debug.Log("unique instance is not null");
+        }
+        
+        return uniqueInstance;
+    }
 
     public GameObject SoldierMovement;//Used for SoldierMovement scripts
     public SoldierMovement enemyMovementScripts;
@@ -34,7 +46,7 @@ public class Missle : Movement
 
         attackOptions = GameObject.FindGameObjectWithTag("Attacks");
         attackScripts = attackOptions.GetComponent<Attacks>();
-
+        
         succesfulHit = false;
 
     }

@@ -44,7 +44,7 @@ public class Enemy : Character
     }
     public void damageEnemy(int damage){//Other objects can call this to lower this enemies health
         currentHealth = currentHealth - damage;
-        Debug.Log("Enemy Damaged");
+        //Debug.Log("Enemy Damaged");
     }
     public int getHealth()
     {
