@@ -38,7 +38,7 @@ public class Missle : Movement
         myRigidbody = this.GetComponent<Rigidbody2D>();
         allEnemies = GameObject.FindObjectsOfType<Enemy>();
 
-        PlayerMovement = GameObject.FindGameObjectWithTag("Player");//Set playerMovement scripts to current player object
+        PlayerMovement = GameObject.FindGameObjectWithTag("Player");
         playerMovementScripts = PlayerMovement.GetComponent<PlayerMovement>();
 
         levelManager = GameObject.FindGameObjectWithTag("level0Manager");
@@ -67,7 +67,7 @@ public class Missle : Movement
         }
     }
 
-
+    //determines if it collided with an enemy or something else. 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player")
@@ -103,6 +103,8 @@ public class Missle : Movement
         float myPositionY = myRigidbody.position.y;
         return myPositionY;
     }
+
+    //used by other scripts to know if the missle hit an emeny or somethign else. 
     public bool wasHitSuccesful()
     {
         if (succesfulHit == true){

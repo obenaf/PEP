@@ -1,0 +1,7 @@
+Arrow Prefab is in Luke's Assets.
+
+It is used by the player when performing a range attack. It spawns at the player location in the Attack script when SpawnArrow() is called. It then flies toward the nearest enemy. 
+
+It needs to be "Is Trigger" to detect collisions with the enemy. 
+
+All code used by the Arrow can be found in the Missle script. 
