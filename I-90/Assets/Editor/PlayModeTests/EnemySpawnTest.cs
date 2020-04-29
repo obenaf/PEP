@@ -43,7 +43,7 @@ namespace NikolaiTests
             //}
         }
 
-        // Spawn an enemy at a specific location that is blocked by a rock and check it didn't spawn there
+        // Spawn an enemy at a specific location that is blocked by a rock collider and check it didn't spawn there
         [UnityTest]
         public IEnumerator _1SpawnEnemyAtForbiddenArea()
         {
@@ -60,6 +60,7 @@ namespace NikolaiTests
         }
 
         // Tests for whether the game can spawn 100 enemies and measure frame rate
+        // Fail if below 60 fps
         [UnityTest]
         public IEnumerator _2SpawnOneHundredEnemies()
         {
@@ -71,12 +72,13 @@ namespace NikolaiTests
                 for (int j = 0; j < 100; j++)
                 {
                     MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/EnemyTest"));
-                    yield return new WaitForSeconds(0.1f);
+                    Debug.Log(T);
+                    yield return new WaitForSeconds(0.01f);
                 }
                 T = 1 / Time.deltaTime;
                 Debug.Log(T);
                 yield return new WaitForSeconds(1);
-                if (T < 15)
+                if (T < 60)
                 {
                     Debug.Log((i + 1) * 100);
                     if (i < 10) Assert.Fail();
