@@ -2,28 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// SoldierAttack handles attacking of the player for all enemies
 public class SoldierAttack : Enemy {
     public Player playerAttack;
     void Awake()
     {
-        maxHealth = 10;
+        /*maxHealth = 10;
         currentHealth = 10;
         attack = 2;
         movement = 3;
         range = 0.7f;
         experience = 10;
-        accuracy = 50;
+        accuracy = 50;*/
     }
     // Start is called before the first frame update
     void Start()
     {
+        // Enclosing the FineGameObject methods in an if statement will stop a flood of errors
+        // popping up if it can't find the object. Was useful when developing and searching for errors in console.
         if (levelManager = GameObject.FindGameObjectWithTag("level0Manager"))
         {
             levelManagerScripts = levelManager.GetComponent<Level0Manager>();
         }
-
-        //enemy = GameObject.FindGameObjectWithTag("Enemy");
-        //SoldierMovement = GameObject.FindGameObjectWithTag("Enemy");
 
         if (playerMovement = GameObject.FindGameObjectWithTag("Player"))
         {
@@ -44,8 +44,10 @@ public class SoldierAttack : Enemy {
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Checks if it is the enemy's turn
         if (levelManagerScripts.turnManagerEnemy() == true)
         {
+            // Check if the enemy is in attack range of the player and attacks if so
             if (attackPossible(range) == true)
             {
                 //int damage;

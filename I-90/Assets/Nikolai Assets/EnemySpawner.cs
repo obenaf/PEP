@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using Random = System.Random;
 
+// Spawns a new enemy every _spawnRate seconds within a circle _radius long around (0, 0)
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private Object Enemy1;
@@ -38,17 +39,20 @@ public class EnemySpawner : MonoBehaviour
         {
             // Prototype pattern that clones Enemy 1 instead of creating a new object every time
             GameObject enemy = Instantiate(Enemy1) as GameObject;
+            // None pattern version
             //var enemy = PrefabUtility.InstantiatePrefab(Enemy1) as GameObject;
 
             var degrees = _random.Next(0, 361);
+            var pos = _random.Next(0, _radius);
 
-            var x = _radius * Mathf.Cos(degrees * Mathf.Deg2Rad);
+            // Math to obtain X Component
+            var x = pos * Mathf.Cos(degrees * Mathf.Deg2Rad);
             if (Mathf.Abs(x) < 0.01f)
             {
                 x = 0;
             }
-
-            var y = _radius * Mathf.Sin(degrees * Mathf.Deg2Rad);
+            // Math to obtain Y Component
+            var y = pos * Mathf.Sin(degrees * Mathf.Deg2Rad);
             if (Mathf.Abs(x) < 0.01f)
             {
                 y = 0;

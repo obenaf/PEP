@@ -3829,6 +3829,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b9eaeb52b9af2469138b95c5986693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  levelManagerScripts: {fileID: 0}
+  attackOptions: {fileID: 0}
+  attackScripts: {fileID: 0}
+  missles: {fileID: 0}
+  missleScripts: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerMovementScripts: {fileID: 0}
+  SoldierMovement: {fileID: 0}
+  enemyMovementScripts: {fileID: 0}
+  player: {fileID: 0}
+  playerScripts: {fileID: 0}
+  closestEnemy: {fileID: 0}
+  allEnemies: []
+  enemyScripts: {fileID: 0}
+  maxHealth: 0
+  currentHealth: 0
+  attack: 0
+  accuracy: 0
+  armor: 0
+  range: 0
+  movement: 0
+  level: 0
+  experience: 0
+  isRanged: 0
   inventory: {fileID: 11400000, guid: d5c0c3b409844c74ba95f115c249e667, type: 2}
   equipment: {fileID: 11400000, guid: 8d1732bd9ccbf9940b625aea778017b7, type: 2}
   Stats:
@@ -24153,7 +24178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1497154703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25050,6 +25075,16 @@ PrefabInstance:
       propertyPath: level
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3346808483835143812, guid: 64d7ab6759866ea45ad77a4c5bbbdc64,
+        type: 3}
+      propertyPath: maxHealth
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346808483835143812, guid: 64d7ab6759866ea45ad77a4c5bbbdc64,
+        type: 3}
+      propertyPath: currentHealth
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3346808483835143814, guid: 64d7ab6759866ea45ad77a4c5bbbdc64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25292,6 +25327,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5875919582677279072, guid: 17f5b25a7d78e2a46af0bb75cb8c967f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875919582677279072, guid: 17f5b25a7d78e2a46af0bb75cb8c967f,
+        type: 3}
+      propertyPath: _radius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875919582677279072, guid: 17f5b25a7d78e2a46af0bb75cb8c967f,
+        type: 3}
+      propertyPath: _spawnRate
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5875919582677279077, guid: 17f5b25a7d78e2a46af0bb75cb8c967f,
         type: 3}
       propertyPath: m_LocalPosition.x
