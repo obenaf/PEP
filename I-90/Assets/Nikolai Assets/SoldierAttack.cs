@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // SoldierAttack handles attacking of the player for all enemies
-public class SoldierAttack : Enemy {
+public class SoldierAttack : Enemy
+{
     public Player playerAttack;
     void Awake()
     {
-        /*maxHealth = 10;
+        maxHealth = 10;
         currentHealth = 10;
         attack = 2;
         movement = 3;
         range = 0.7f;
         experience = 10;
-        accuracy = 50;*/
+        accuracy = 50;
     }
     // Start is called before the first frame update
     void Start()
@@ -88,7 +89,8 @@ public class SoldierAttack : Enemy {
         return base.attackPossible(range);
     }
 
-    protected override void attackPlayer(){
+    protected override void attackPlayer()
+    {
         base.attackPlayer();
     }
 

@@ -10,7 +10,7 @@ public class SoldierMovement : Movement
     // Use methods from the playerMovement class 
     public GameObject playerMovement;
     public PlayerMovement playerMovementScripts;
-    
+
     public float[,] waypoints;
     public int direction;
     public int moveCounter = 1;
@@ -28,8 +28,8 @@ public class SoldierMovement : Movement
     public float waypoint3y;
     public float MoveX, MoveY;
     public int currentWaypoint = 1;
-    public bool enemyTurn = false;
-    public static bool doneMoving = false;
+    //public bool enemyTurn = false;
+    //public static bool doneMoving = false;
 
     void Start()
     {
@@ -54,16 +54,16 @@ public class SoldierMovement : Movement
         }
 
         myRigidbody = GetComponent<Rigidbody2D>();
-        
+
         // Set waypoint positions. The waypoints creates a three point patrol pattern that
         // the enemy will path through repeatedly. Can use for guarding a certain area.
         waypoints = new float[3, 2];
-        waypoints[0,0] = getPositionX();
-        waypoints[0,1] = getPositionY();
-        waypoints[1,0] = getPositionX()+1;
-        waypoints[1,1] = getPositionY();
-        waypoints[2,0] = getPositionX()+1;
-        waypoints[2,1] = getPositionY()+1;
+        waypoints[0, 0] = getPositionX();
+        waypoints[0, 1] = getPositionY();
+        waypoints[1, 0] = getPositionX() + 1;
+        waypoints[1, 1] = getPositionY();
+        waypoints[2, 0] = getPositionX() + 1;
+        waypoints[2, 1] = getPositionY() + 1;
         waypoint1x = waypoints[0, 0];
         waypoint1y = waypoints[0, 1];
         waypoint2x = waypoints[1, 0];
@@ -94,6 +94,9 @@ public class SoldierMovement : Movement
         // Determine the X and Y components of the distance between the player and enemy
         float movementX = playerPosX - currentPosX;
         float movementY = playerPosY - currentPosY;
+
+
+
         // Obtain whose turn it is from the turnManager in level0Manager
         // false = enemy turn
         if (levelManagerScripts.turnManagerEnemy() == true)
