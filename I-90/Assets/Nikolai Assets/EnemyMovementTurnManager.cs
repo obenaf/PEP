@@ -52,6 +52,11 @@ public class EnemyMovementTurnManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        manageEnemyTurn();
+    }
+
+    void manageEnemyTurn()
+    {
         if (levelManagerScripts.turnManagerEnemy() == true)
         {
             //Debug.Log("It's the Enemy's Turn");
@@ -64,7 +69,7 @@ public class EnemyMovementTurnManager : MonoBehaviour
                     //if (enemyMovementScripts.getEnemyTurn() == true)
                     //{
                     //Debug.Log("Started enemy turn");
-                    
+
                     _instance = this;
                 }
                 /*else if ((_instance == this) && (enemyMovementScripts.getEnemyTurn() == false) )

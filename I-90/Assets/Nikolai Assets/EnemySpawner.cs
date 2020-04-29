@@ -30,6 +30,11 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        spawnEnemy();
+    }
+
+    void spawnEnemy()
+    {
         if (_random == null)
         {
             _random = new Random();
@@ -66,5 +71,4 @@ public class EnemySpawner : MonoBehaviour
 
         _timeSinceLastSpawn += Time.deltaTime;
     }
-
 }
