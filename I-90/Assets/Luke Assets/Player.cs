@@ -122,7 +122,9 @@ public class Player : Character
     public void damagePlayer(int damage)
     {
         currentHealth = currentHealth - damage;
-       // Debug.Log("Player Damaged");
+        // Debug.Log("Player Damaged");
+        Debug.Log("Damage = "+ damage);
+        //Debug.Log("Player Attack);
     }
     public void playerDies()
     {

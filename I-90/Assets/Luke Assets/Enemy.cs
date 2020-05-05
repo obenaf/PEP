@@ -6,12 +6,12 @@ public class Enemy : Character
 {
     void Awake()
     {
-        maxHealth = 10;
-        attack = 1;
+        //maxHealth = 10;
+       // attack = 1;
         movement = 3;
         range = 0.7f;
         experience = 10;
-        accuracy = 50;
+        //accuracy = 50;
     }
     void Start()
     {
@@ -50,11 +50,17 @@ public class Enemy : Character
     {
         return currentHealth;
     }
+    public int getMaxHealth()
+    {
+        return maxHealth;
+    }
+
 
     protected virtual void attackPlayer()
     {
         int damage;
         damage = attackScripts.getMeleeDamage(attack, accuracy);
+        Debug.Log("Enemy attack is "+ attack);
         playerScripts.damagePlayer(damage);
     }
     protected override bool attackPossible(float range)

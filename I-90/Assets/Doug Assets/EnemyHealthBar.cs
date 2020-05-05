@@ -9,6 +9,7 @@ public class EnemyHealthBar : MonoBehaviour
     public Enemy _Enemy;
     public Image foregroundImage;
     float Health;
+    float MaxHealth;
 
     // Update is called once per frame
     void Update()
@@ -18,8 +19,9 @@ public class EnemyHealthBar : MonoBehaviour
 
     public void HealthFill()
     {
+        MaxHealth = _Enemy.getMaxHealth();
         Health = _Enemy.getHealth();
-        foregroundImage.fillAmount = Health / 10f;
+        foregroundImage.fillAmount = Health / MaxHealth;
         //Debug.Log(Health.ToString());
     }
 }
