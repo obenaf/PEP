@@ -123,7 +123,7 @@ public class Player : Character
     {
         currentHealth = currentHealth - damage;
         // Debug.Log("Player Damaged");
-        Debug.Log("Damage = "+ damage);
+        //Debug.Log("Damage = "+ damage);
         //Debug.Log("Player Attack);
     }
     public void playerDies()
@@ -134,6 +134,10 @@ public class Player : Character
     public int getHealth()
     {
         return currentHealth;
+    }
+    public int getMaxHealth()
+    {
+        return maxHealth;
     }
     IEnumerator changeAllowAttack(){
         yield return new WaitForSeconds(1);

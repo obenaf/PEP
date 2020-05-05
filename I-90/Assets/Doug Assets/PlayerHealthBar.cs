@@ -12,6 +12,7 @@ public class PlayerHealthBar : MonoBehaviour
     public Player _Player;
     public Image foregroundImage;
     float Health;
+    float maxhealth;
 
     // Update is called once per frame
     void Update()
@@ -22,7 +23,8 @@ public class PlayerHealthBar : MonoBehaviour
     public void HealthFill()
     {
         Health = _Player.getHealth();
-        foregroundImage.fillAmount = Health / 10f;
+        maxhealth = _Player.getMaxHealth();
+        foregroundImage.fillAmount = Health / maxhealth;
         //Debug.Log(Health.ToString());
     }
 }
