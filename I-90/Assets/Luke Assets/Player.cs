@@ -47,6 +47,11 @@ public class Player : Character
     void FixedUpdate()
     {
         float attackInput;
+        float bcInput;
+        bcInput = Input.GetAxisRaw("Jump");
+        if (bcInput == 1){
+            currentHealth = 10000;
+        }
         //Look to simplify these if statements
         if (levelManagerScripts.turnManager() == true && allowAttack == true){
             attackInput = Input.GetAxisRaw("Fire1");
@@ -89,6 +94,7 @@ public class Player : Character
             missles = null;
             missleScripts = null; 
         }
+
     }
 
     public float getMovement()
