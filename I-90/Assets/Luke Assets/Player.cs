@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : Character
 {
 
@@ -128,7 +128,7 @@ public class Player : Character
     }
     public void playerDies()
     {
-
+        SceneManager.LoadScene(0);
     }
 
     public int getHealth()
@@ -178,6 +178,11 @@ public class Player : Character
                         closestEnemy = currentEnemy;
                     }
                 }
+            }
+            else
+            {
+                levelManagerScripts.changeEnemyTurn();
+                //SceneManager.LoadScene(0);
             }
         }
     }    
