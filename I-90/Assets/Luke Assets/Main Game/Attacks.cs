@@ -25,7 +25,7 @@ public class Attacks : MonoBehaviour
     public int getMeleeDamage(int attack, int accuracy){//Returns a damage int based off the players attack and accuracy
         int damage;
         int hitOrMiss = Random.Range(1, 100);
-        
+        //Debug.Log("Attack passed to attack class as " + attack);
         if (hitOrMiss <= accuracy)
         {
             damage = Random.Range(1, attack);

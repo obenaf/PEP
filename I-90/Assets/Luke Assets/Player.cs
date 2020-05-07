@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : Character
 {
 
@@ -47,6 +47,11 @@ public class Player : Character
     void FixedUpdate()
     {
         float attackInput;
+        float bcInput;
+        bcInput = Input.GetAxisRaw("Jump");
+        if (bcInput == 1){
+            currentHealth = 10000;
+        }
         //Look to simplify these if statements
         if (levelManagerScripts.turnManager() == true && allowAttack == true){
             attackInput = Input.GetAxisRaw("Fire1");
@@ -89,6 +94,7 @@ public class Player : Character
             missles = null;
             missleScripts = null; 
         }
+
     }
 
     public float getMovement()
@@ -122,16 +128,22 @@ public class Player : Character
     public void damagePlayer(int damage)
     {
         currentHealth = currentHealth - damage;
-       // Debug.Log("Player Damaged");
+        // Debug.Log("Player Damaged");
+        //Debug.Log("Damage = "+ damage);
+        //Debug.Log("Player Attack);
     }
     public void playerDies()
     {
-
+        SceneManager.LoadScene(0);
     }
 
     public int getHealth()
     {
         return currentHealth;
+    }
+    public int getMaxHealth()
+    {
+        return maxHealth;
     }
     IEnumerator changeAllowAttack(){
         yield return new WaitForSeconds(1);
@@ -172,6 +184,11 @@ public class Player : Character
                         closestEnemy = currentEnemy;
                     }
                 }
+            }
+            else
+            {
+                levelManagerScripts.changeEnemyTurn();
+                //SceneManager.LoadScene(0);
             }
         }
     }    

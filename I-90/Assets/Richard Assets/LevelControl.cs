@@ -7,7 +7,10 @@ public class LevelControl : MonoBehaviour
 {
     public int index;
     void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player")) {
+        Debug.Log("Exit triggered");
+        Debug.Log(index);
+        if (other.CompareTag("Player")) {
+            Debug.Log("Enter next scene load");
             SceneManager.LoadScene(index);
         }
     }
