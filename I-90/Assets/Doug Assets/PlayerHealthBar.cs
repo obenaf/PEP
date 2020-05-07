@@ -25,4 +25,7 @@ public class PlayerHealthBar : MonoBehaviour
         foregroundImage.fillAmount = Health / 10f;
         //Debug.Log(Health.ToString());
     }
+
+    public void damage()
+    {}
 }
